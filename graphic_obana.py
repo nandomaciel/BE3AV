@@ -42,7 +42,7 @@ class Application:
         
         # Nome do arquivo smi
         self.nome_smi = Label(self.segundo_container,text="Arquivo SMI", font=self.fontePadrao)
-        self.nome_smi.pack(side=LEFT)
+        self.nome_smi.pack(side=TOP)
 
         # Entrada do arquivo smi
         self.name_file_smi = Entry(self.segundo_container)
@@ -52,7 +52,7 @@ class Application:
     
         # Nome do arquivo vina
         self.name_vina = Label(self.terceiro_container, text="Vina config", font=self.fontePadrao)
-        self.name_vina.pack(side=LEFT)
+        self.name_vina.pack(side=TOP)
         
         # Entrada do arquivo vina config
         self.name_file_vina = Entry(self.terceiro_container)
@@ -62,7 +62,7 @@ class Application:
         
         # Nome do arquivo de saida
         self.name_out = Label(self.quinto_conteiner, text="File output", font=self.fontePadrao)
-        self.name_out.pack(side=LEFT)
+        self.name_out.pack(side=TOP)
 
         # Entrada para o arquivo de saida
         self.name_file_out = Entry(self.quinto_conteiner)
@@ -76,7 +76,7 @@ class Application:
         self.autenticar["font"] = ("Calibri", "8")
         self.autenticar["width"] = 12
         self.autenticar["command"] = self.open_files
-        self.autenticar.pack()
+        self.autenticar.pack(side=BOTTOM)
   
         self.mensagem = Label(self.quarto_container, text="", font=self.fontePadrao)
         self.mensagem.pack()
@@ -110,6 +110,10 @@ class Application:
         
         output_file.close()
         input_file.close()
+        exit()
+
 root = Tk()
+root.title("ObaVina")
+root.geometry("300x300+100+100")
 Application(root)
 root.mainloop()
