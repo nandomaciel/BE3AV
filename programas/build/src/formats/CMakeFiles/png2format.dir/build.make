@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/fernando/Documentos/BE3AV/openbabel-2.4.1
+CMAKE_SOURCE_DIR = /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/fernando/Documentos/BE3AV/build
+CMAKE_BINARY_DIR = /home/fernando/Documentos/BE3AV/programas/build
 
 # Include any dependencies generated for this target.
 include src/formats/CMakeFiles/png2format.dir/depend.make
@@ -58,17 +58,17 @@ include src/formats/CMakeFiles/png2format.dir/progress.make
 include src/formats/CMakeFiles/png2format.dir/flags.make
 
 src/formats/CMakeFiles/png2format.dir/png2format.o: src/formats/CMakeFiles/png2format.dir/flags.make
-src/formats/CMakeFiles/png2format.dir/png2format.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/formats/png2format.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/formats/CMakeFiles/png2format.dir/png2format.o"
-	cd /home/fernando/Documentos/BE3AV/build/src/formats && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/png2format.dir/png2format.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/formats/png2format.cpp
+src/formats/CMakeFiles/png2format.dir/png2format.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/formats/png2format.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/formats/CMakeFiles/png2format.dir/png2format.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/src/formats && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/png2format.dir/png2format.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/formats/png2format.cpp
 
 src/formats/CMakeFiles/png2format.dir/png2format.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/png2format.dir/png2format.i"
-	cd /home/fernando/Documentos/BE3AV/build/src/formats && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/formats/png2format.cpp > CMakeFiles/png2format.dir/png2format.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/src/formats && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/formats/png2format.cpp > CMakeFiles/png2format.dir/png2format.i
 
 src/formats/CMakeFiles/png2format.dir/png2format.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/png2format.dir/png2format.s"
-	cd /home/fernando/Documentos/BE3AV/build/src/formats && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/formats/png2format.cpp -o CMakeFiles/png2format.dir/png2format.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/src/formats && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/formats/png2format.cpp -o CMakeFiles/png2format.dir/png2format.s
 
 src/formats/CMakeFiles/png2format.dir/png2format.o.requires:
 
@@ -82,17 +82,17 @@ src/formats/CMakeFiles/png2format.dir/png2format.o.provides.build: src/formats/C
 
 
 src/formats/CMakeFiles/png2format.dir/__/depict/cairopainter.o: src/formats/CMakeFiles/png2format.dir/flags.make
-src/formats/CMakeFiles/png2format.dir/__/depict/cairopainter.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/depict/cairopainter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/formats/CMakeFiles/png2format.dir/__/depict/cairopainter.o"
-	cd /home/fernando/Documentos/BE3AV/build/src/formats && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/png2format.dir/__/depict/cairopainter.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/depict/cairopainter.cpp
+src/formats/CMakeFiles/png2format.dir/__/depict/cairopainter.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/depict/cairopainter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/formats/CMakeFiles/png2format.dir/__/depict/cairopainter.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/src/formats && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/png2format.dir/__/depict/cairopainter.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/depict/cairopainter.cpp
 
 src/formats/CMakeFiles/png2format.dir/__/depict/cairopainter.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/png2format.dir/__/depict/cairopainter.i"
-	cd /home/fernando/Documentos/BE3AV/build/src/formats && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/depict/cairopainter.cpp > CMakeFiles/png2format.dir/__/depict/cairopainter.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/src/formats && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/depict/cairopainter.cpp > CMakeFiles/png2format.dir/__/depict/cairopainter.i
 
 src/formats/CMakeFiles/png2format.dir/__/depict/cairopainter.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/png2format.dir/__/depict/cairopainter.s"
-	cd /home/fernando/Documentos/BE3AV/build/src/formats && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/depict/cairopainter.cpp -o CMakeFiles/png2format.dir/__/depict/cairopainter.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/src/formats && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/depict/cairopainter.cpp -o CMakeFiles/png2format.dir/__/depict/cairopainter.s
 
 src/formats/CMakeFiles/png2format.dir/__/depict/cairopainter.o.requires:
 
@@ -125,8 +125,8 @@ lib/png2format.so: /usr/lib/x86_64-linux-gnu/libcairo.so
 lib/png2format.so: /usr/lib/x86_64-linux-gnu/libm.so
 lib/png2format.so: /usr/lib/x86_64-linux-gnu/libz.so
 lib/png2format.so: src/formats/CMakeFiles/png2format.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared module ../../lib/png2format.so"
-	cd /home/fernando/Documentos/BE3AV/build/src/formats && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/png2format.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared module ../../lib/png2format.so"
+	cd /home/fernando/Documentos/BE3AV/programas/build/src/formats && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/png2format.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/formats/CMakeFiles/png2format.dir/build: lib/png2format.so
@@ -139,10 +139,10 @@ src/formats/CMakeFiles/png2format.dir/requires: src/formats/CMakeFiles/png2forma
 .PHONY : src/formats/CMakeFiles/png2format.dir/requires
 
 src/formats/CMakeFiles/png2format.dir/clean:
-	cd /home/fernando/Documentos/BE3AV/build/src/formats && $(CMAKE_COMMAND) -P CMakeFiles/png2format.dir/cmake_clean.cmake
+	cd /home/fernando/Documentos/BE3AV/programas/build/src/formats && $(CMAKE_COMMAND) -P CMakeFiles/png2format.dir/cmake_clean.cmake
 .PHONY : src/formats/CMakeFiles/png2format.dir/clean
 
 src/formats/CMakeFiles/png2format.dir/depend:
-	cd /home/fernando/Documentos/BE3AV/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fernando/Documentos/BE3AV/openbabel-2.4.1 /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/formats /home/fernando/Documentos/BE3AV/build /home/fernando/Documentos/BE3AV/build/src/formats /home/fernando/Documentos/BE3AV/build/src/formats/CMakeFiles/png2format.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/fernando/Documentos/BE3AV/programas/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1 /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/formats /home/fernando/Documentos/BE3AV/programas/build /home/fernando/Documentos/BE3AV/programas/build/src/formats /home/fernando/Documentos/BE3AV/programas/build/src/formats/CMakeFiles/png2format.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/formats/CMakeFiles/png2format.dir/depend
 

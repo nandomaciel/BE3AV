@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/fernando/Documentos/BE3AV/openbabel-2.4.1
+CMAKE_SOURCE_DIR = /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/fernando/Documentos/BE3AV/build
+CMAKE_BINARY_DIR = /home/fernando/Documentos/BE3AV/programas/build
 
 # Include any dependencies generated for this target.
 include src/formats/CMakeFiles/asciiformat.dir/depend.make
@@ -58,17 +58,17 @@ include src/formats/CMakeFiles/asciiformat.dir/progress.make
 include src/formats/CMakeFiles/asciiformat.dir/flags.make
 
 src/formats/CMakeFiles/asciiformat.dir/asciiformat.o: src/formats/CMakeFiles/asciiformat.dir/flags.make
-src/formats/CMakeFiles/asciiformat.dir/asciiformat.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/formats/asciiformat.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/formats/CMakeFiles/asciiformat.dir/asciiformat.o"
-	cd /home/fernando/Documentos/BE3AV/build/src/formats && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/asciiformat.dir/asciiformat.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/formats/asciiformat.cpp
+src/formats/CMakeFiles/asciiformat.dir/asciiformat.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/formats/asciiformat.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/formats/CMakeFiles/asciiformat.dir/asciiformat.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/src/formats && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/asciiformat.dir/asciiformat.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/formats/asciiformat.cpp
 
 src/formats/CMakeFiles/asciiformat.dir/asciiformat.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/asciiformat.dir/asciiformat.i"
-	cd /home/fernando/Documentos/BE3AV/build/src/formats && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/formats/asciiformat.cpp > CMakeFiles/asciiformat.dir/asciiformat.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/src/formats && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/formats/asciiformat.cpp > CMakeFiles/asciiformat.dir/asciiformat.i
 
 src/formats/CMakeFiles/asciiformat.dir/asciiformat.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/asciiformat.dir/asciiformat.s"
-	cd /home/fernando/Documentos/BE3AV/build/src/formats && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/formats/asciiformat.cpp -o CMakeFiles/asciiformat.dir/asciiformat.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/src/formats && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/formats/asciiformat.cpp -o CMakeFiles/asciiformat.dir/asciiformat.s
 
 src/formats/CMakeFiles/asciiformat.dir/asciiformat.o.requires:
 
@@ -82,17 +82,17 @@ src/formats/CMakeFiles/asciiformat.dir/asciiformat.o.provides.build: src/formats
 
 
 src/formats/CMakeFiles/asciiformat.dir/__/depict/asciipainter.o: src/formats/CMakeFiles/asciiformat.dir/flags.make
-src/formats/CMakeFiles/asciiformat.dir/__/depict/asciipainter.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/depict/asciipainter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/formats/CMakeFiles/asciiformat.dir/__/depict/asciipainter.o"
-	cd /home/fernando/Documentos/BE3AV/build/src/formats && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/asciiformat.dir/__/depict/asciipainter.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/depict/asciipainter.cpp
+src/formats/CMakeFiles/asciiformat.dir/__/depict/asciipainter.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/depict/asciipainter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/formats/CMakeFiles/asciiformat.dir/__/depict/asciipainter.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/src/formats && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/asciiformat.dir/__/depict/asciipainter.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/depict/asciipainter.cpp
 
 src/formats/CMakeFiles/asciiformat.dir/__/depict/asciipainter.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/asciiformat.dir/__/depict/asciipainter.i"
-	cd /home/fernando/Documentos/BE3AV/build/src/formats && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/depict/asciipainter.cpp > CMakeFiles/asciiformat.dir/__/depict/asciipainter.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/src/formats && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/depict/asciipainter.cpp > CMakeFiles/asciiformat.dir/__/depict/asciipainter.i
 
 src/formats/CMakeFiles/asciiformat.dir/__/depict/asciipainter.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/asciiformat.dir/__/depict/asciipainter.s"
-	cd /home/fernando/Documentos/BE3AV/build/src/formats && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/depict/asciipainter.cpp -o CMakeFiles/asciiformat.dir/__/depict/asciipainter.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/src/formats && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/depict/asciipainter.cpp -o CMakeFiles/asciiformat.dir/__/depict/asciipainter.s
 
 src/formats/CMakeFiles/asciiformat.dir/__/depict/asciipainter.o.requires:
 
@@ -125,8 +125,8 @@ lib/asciiformat.so: /usr/lib/x86_64-linux-gnu/libcairo.so
 lib/asciiformat.so: /usr/lib/x86_64-linux-gnu/libm.so
 lib/asciiformat.so: /usr/lib/x86_64-linux-gnu/libz.so
 lib/asciiformat.so: src/formats/CMakeFiles/asciiformat.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared module ../../lib/asciiformat.so"
-	cd /home/fernando/Documentos/BE3AV/build/src/formats && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/asciiformat.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared module ../../lib/asciiformat.so"
+	cd /home/fernando/Documentos/BE3AV/programas/build/src/formats && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/asciiformat.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/formats/CMakeFiles/asciiformat.dir/build: lib/asciiformat.so
@@ -139,10 +139,10 @@ src/formats/CMakeFiles/asciiformat.dir/requires: src/formats/CMakeFiles/asciifor
 .PHONY : src/formats/CMakeFiles/asciiformat.dir/requires
 
 src/formats/CMakeFiles/asciiformat.dir/clean:
-	cd /home/fernando/Documentos/BE3AV/build/src/formats && $(CMAKE_COMMAND) -P CMakeFiles/asciiformat.dir/cmake_clean.cmake
+	cd /home/fernando/Documentos/BE3AV/programas/build/src/formats && $(CMAKE_COMMAND) -P CMakeFiles/asciiformat.dir/cmake_clean.cmake
 .PHONY : src/formats/CMakeFiles/asciiformat.dir/clean
 
 src/formats/CMakeFiles/asciiformat.dir/depend:
-	cd /home/fernando/Documentos/BE3AV/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fernando/Documentos/BE3AV/openbabel-2.4.1 /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/formats /home/fernando/Documentos/BE3AV/build /home/fernando/Documentos/BE3AV/build/src/formats /home/fernando/Documentos/BE3AV/build/src/formats/CMakeFiles/asciiformat.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/fernando/Documentos/BE3AV/programas/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1 /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/formats /home/fernando/Documentos/BE3AV/programas/build /home/fernando/Documentos/BE3AV/programas/build/src/formats /home/fernando/Documentos/BE3AV/programas/build/src/formats/CMakeFiles/asciiformat.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/formats/CMakeFiles/asciiformat.dir/depend
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src
+# Install script for directory: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -51,9 +51,9 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     endif()
   endforeach()
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES
-    "/home/fernando/Documentos/BE3AV/build/lib/libopenbabel.so.5.0.0"
-    "/home/fernando/Documentos/BE3AV/build/lib/libopenbabel.so.5"
-    "/home/fernando/Documentos/BE3AV/build/lib/libopenbabel.so"
+    "/home/fernando/Documentos/BE3AV/programas/build/lib/libopenbabel.so.5.0.0"
+    "/home/fernando/Documentos/BE3AV/programas/build/lib/libopenbabel.so.5"
+    "/home/fernando/Documentos/BE3AV/programas/build/lib/libopenbabel.so"
     )
   foreach(file
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libopenbabel.so.5.0.0"
@@ -80,12 +80,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/openbabel/2.4.1/plugin_descriptors.so"
          RPATH "/usr/local/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/openbabel/2.4.1" TYPE MODULE FILES "/home/fernando/Documentos/BE3AV/build/lib/plugin_descriptors.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/openbabel/2.4.1" TYPE MODULE FILES "/home/fernando/Documentos/BE3AV/programas/build/lib/plugin_descriptors.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/openbabel/2.4.1/plugin_descriptors.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/openbabel/2.4.1/plugin_descriptors.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/openbabel/2.4.1/plugin_descriptors.so"
-         OLD_RPATH "/home/fernando/Documentos/BE3AV/build/lib:"
+         OLD_RPATH "/home/fernando/Documentos/BE3AV/programas/build/lib:"
          NEW_RPATH "/usr/local/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/openbabel/2.4.1/plugin_descriptors.so")
@@ -100,12 +100,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/openbabel/2.4.1/plugin_fingerprints.so"
          RPATH "/usr/local/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/openbabel/2.4.1" TYPE MODULE FILES "/home/fernando/Documentos/BE3AV/build/lib/plugin_fingerprints.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/openbabel/2.4.1" TYPE MODULE FILES "/home/fernando/Documentos/BE3AV/programas/build/lib/plugin_fingerprints.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/openbabel/2.4.1/plugin_fingerprints.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/openbabel/2.4.1/plugin_fingerprints.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/openbabel/2.4.1/plugin_fingerprints.so"
-         OLD_RPATH "/home/fernando/Documentos/BE3AV/build/lib:"
+         OLD_RPATH "/home/fernando/Documentos/BE3AV/programas/build/lib:"
          NEW_RPATH "/usr/local/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/openbabel/2.4.1/plugin_fingerprints.so")
@@ -120,12 +120,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/openbabel/2.4.1/plugin_forcefields.so"
          RPATH "/usr/local/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/openbabel/2.4.1" TYPE MODULE FILES "/home/fernando/Documentos/BE3AV/build/lib/plugin_forcefields.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/openbabel/2.4.1" TYPE MODULE FILES "/home/fernando/Documentos/BE3AV/programas/build/lib/plugin_forcefields.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/openbabel/2.4.1/plugin_forcefields.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/openbabel/2.4.1/plugin_forcefields.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/openbabel/2.4.1/plugin_forcefields.so"
-         OLD_RPATH "/home/fernando/Documentos/BE3AV/build/lib:"
+         OLD_RPATH "/home/fernando/Documentos/BE3AV/programas/build/lib:"
          NEW_RPATH "/usr/local/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/openbabel/2.4.1/plugin_forcefields.so")
@@ -140,12 +140,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/openbabel/2.4.1/plugin_ops.so"
          RPATH "/usr/local/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/openbabel/2.4.1" TYPE MODULE FILES "/home/fernando/Documentos/BE3AV/build/lib/plugin_ops.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/openbabel/2.4.1" TYPE MODULE FILES "/home/fernando/Documentos/BE3AV/programas/build/lib/plugin_ops.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/openbabel/2.4.1/plugin_ops.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/openbabel/2.4.1/plugin_ops.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/openbabel/2.4.1/plugin_ops.so"
-         OLD_RPATH "/home/fernando/Documentos/BE3AV/build/lib:"
+         OLD_RPATH "/home/fernando/Documentos/BE3AV/programas/build/lib:"
          NEW_RPATH "/usr/local/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/openbabel/2.4.1/plugin_ops.so")
@@ -160,12 +160,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/openbabel/2.4.1/plugin_charges.so"
          RPATH "/usr/local/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/openbabel/2.4.1" TYPE MODULE FILES "/home/fernando/Documentos/BE3AV/build/lib/plugin_charges.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/openbabel/2.4.1" TYPE MODULE FILES "/home/fernando/Documentos/BE3AV/programas/build/lib/plugin_charges.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/openbabel/2.4.1/plugin_charges.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/openbabel/2.4.1/plugin_charges.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/openbabel/2.4.1/plugin_charges.so"
-         OLD_RPATH "/home/fernando/Documentos/BE3AV/build/lib:"
+         OLD_RPATH "/home/fernando/Documentos/BE3AV/programas/build/lib:"
          NEW_RPATH "/usr/local/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/openbabel/2.4.1/plugin_charges.so")
@@ -175,7 +175,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/fernando/Documentos/BE3AV/build/src/formats/cmake_install.cmake")
+  include("/home/fernando/Documentos/BE3AV/programas/build/src/formats/cmake_install.cmake")
 
 endif()
 

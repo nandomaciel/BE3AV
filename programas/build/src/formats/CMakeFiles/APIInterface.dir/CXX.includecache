@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/dlhandler.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/dlhandler.h
 openbabel/babelconfig.h
 -
 string
@@ -14,7 +14,7 @@ string
 vector
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/format.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/format.h
 openbabel/babelconfig.h
 -
 openbabel/plugin.h
@@ -22,13 +22,13 @@ openbabel/plugin.h
 typeinfo
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/lineend.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/lineend.h
 streambuf
 -
 climits
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/obconversion.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/obconversion.h
 openbabel/babelconfig.h
 -
 iostream
@@ -54,7 +54,7 @@ openbabel/format.h
 openbabel/lineend.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/oberror.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/oberror.h
 openbabel/babelconfig.h
 -
 iosfwd
@@ -68,7 +68,7 @@ vector
 deque
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/plugin.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/plugin.h
 openbabel/babelconfig.h
 -
 openbabel/dlhandler.h
@@ -88,7 +88,7 @@ cstring
 openbabel/plugin.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/formats/APIInterface.cpp
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/formats/APIInterface.cpp
 openbabel/babelconfig.h
 -
 openbabel/obconversion.h

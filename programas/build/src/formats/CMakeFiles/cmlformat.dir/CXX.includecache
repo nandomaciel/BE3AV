@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/iconv.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/iconv.h
 iconv.h
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/iconv.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/iconv.h
 stddef.h
 -
 errno.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/libxml/SAX.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/libxml/SAX.h
 stdio.h
 -
 stdlib.h
@@ -26,7 +26,7 @@ libxml/parser.h
 libxml/xlink.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/libxml/SAX2.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/libxml/SAX2.h
 stdio.h
 -
 stdlib.h
@@ -38,13 +38,13 @@ libxml/parser.h
 libxml/xlink.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/libxml/dict.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/libxml/dict.h
 libxml/xmlversion.h
 -
 libxml/tree.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/libxml/encoding.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/libxml/encoding.h
 libxml/xmlversion.h
 -
 iconv.h
@@ -52,13 +52,13 @@ iconv.h
 libxml/tree.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/libxml/entities.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/libxml/entities.h
 libxml/xmlversion.h
 -
 libxml/tree.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/libxml/globals.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/libxml/globals.h
 libxml/xmlversion.h
 -
 libxml/parser.h
@@ -74,7 +74,7 @@ libxml/xmlmemory.h
 libxml/threads.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/libxml/hash.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/libxml/hash.h
 libxml/xmlversion.h
 -
 libxml/parser.h
@@ -82,11 +82,11 @@ libxml/parser.h
 libxml/dict.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/libxml/list.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/libxml/list.h
 libxml/xmlversion.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/libxml/parser.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/libxml/parser.h
 stdarg.h
 -
 libxml/xmlversion.h
@@ -112,7 +112,7 @@ libxml/xmlIO.h
 libxml/globals.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/libxml/relaxng.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/libxml/relaxng.h
 libxml/xmlversion.h
 -
 libxml/hash.h
@@ -120,13 +120,13 @@ libxml/hash.h
 libxml/xmlstring.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/libxml/threads.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/libxml/threads.h
 libxml/xmlversion.h
 -
 libxml/globals.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/libxml/tree.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/libxml/tree.h
 stdio.h
 -
 libxml/xmlversion.h
@@ -138,7 +138,7 @@ libxml/xmlregexp.h
 libxml/xmlmemory.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/libxml/valid.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/libxml/valid.h
 libxml/xmlversion.h
 -
 libxml/xmlerror.h
@@ -152,13 +152,13 @@ libxml/xmlautomata.h
 libxml/xmlregexp.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/libxml/xlink.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/libxml/xlink.h
 libxml/xmlversion.h
 -
 libxml/tree.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/libxml/xmlIO.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/libxml/xmlIO.h
 stdio.h
 -
 libxml/xmlversion.h
@@ -172,7 +172,7 @@ libxml/parser.h
 libxml/encoding.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/libxml/xmlautomata.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/libxml/xmlautomata.h
 libxml/xmlversion.h
 -
 libxml/tree.h
@@ -180,13 +180,13 @@ libxml/tree.h
 libxml/xmlregexp.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/libxml/xmlerror.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/libxml/xmlerror.h
 libxml/parser.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/libxml/xmlexports.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/libxml/xmlexports.h
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/libxml/xmlmemory.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/libxml/xmlmemory.h
 stdio.h
 -
 libxml/xmlversion.h
@@ -196,7 +196,7 @@ libxml/threads.h
 libxml/globals.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/libxml/xmlreader.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/libxml/xmlreader.h
 libxml/xmlversion.h
 -
 libxml/tree.h
@@ -206,25 +206,25 @@ libxml/xmlIO.h
 libxml/relaxng.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/libxml/xmlregexp.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/libxml/xmlregexp.h
 libxml/xmlversion.h
 -
 libxml/tree.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/libxml/xmlstring.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/libxml/xmlstring.h
 stdarg.h
 -
 libxml/xmlversion.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/libxml/xmlversion.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/libxml/xmlversion.h
 libxml/xmlexports.h
 -
 ansidecl.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/libxml/xmlwriter.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/libxml/xmlwriter.h
 libxml/xmlversion.h
 -
 stdarg.h
@@ -236,7 +236,7 @@ libxml/list.h
 libxml/xmlstring.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/atom.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/atom.h
 openbabel/babelconfig.h
 -
 vector
@@ -250,7 +250,7 @@ openbabel/residue.h
 openbabel/math/vector3.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/atomclass.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/atomclass.h
 openbabel/babelconfig.h
 -
 vector
@@ -260,7 +260,7 @@ sstream
 openbabel/base.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/base.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/base.h
 openbabel/babelconfig.h
 -
 vector
@@ -274,7 +274,7 @@ iostream
 openbabel/tokenst.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/bitvec.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/bitvec.h
 openbabel/babelconfig.h
 -
 vector
@@ -284,7 +284,7 @@ string
 inttypes.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/bond.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/bond.h
 openbabel/babelconfig.h
 -
 openbabel/base.h
@@ -292,13 +292,13 @@ openbabel/base.h
 openbabel/atom.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/chains.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/chains.h
 openbabel/babelconfig.h
 -
 vector
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/data.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/data.h
 openbabel/babelconfig.h
 -
 stdio.h
@@ -314,7 +314,7 @@ string
 cstring
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/descriptor.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/descriptor.h
 string
 -
 sstream
@@ -326,7 +326,7 @@ openbabel/babelconfig.h
 openbabel/plugin.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/dlhandler.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/dlhandler.h
 openbabel/babelconfig.h
 -
 string
@@ -334,7 +334,7 @@ string
 vector
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/format.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/format.h
 openbabel/babelconfig.h
 -
 openbabel/plugin.h
@@ -342,7 +342,7 @@ openbabel/plugin.h
 typeinfo
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/generic.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/generic.h
 openbabel/babelconfig.h
 -
 string
@@ -358,27 +358,27 @@ openbabel/obutil.h
 openbabel/base.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/internalcoord.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/internalcoord.h
 openbabel/babelconfig.h
 -
 stddef.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/isomorphism.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/isomorphism.h
 openbabel/mol.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/kinetics.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/kinetics.h
 openbabel/generic.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/lineend.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/lineend.h
 streambuf
 -
 climits
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/math/matrix3x3.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/math/matrix3x3.h
 ostream
 -
 openbabel/math/vector3.h
@@ -386,7 +386,7 @@ openbabel/math/vector3.h
 openbabel/oberror.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/math/spacegroup.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/math/spacegroup.h
 openbabel/math/transform3d.h
 -
 string
@@ -394,7 +394,7 @@ string
 list
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/math/transform3d.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/math/transform3d.h
 openbabel/math/matrix3x3.h
 -
 list
@@ -402,7 +402,7 @@ list
 string
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/math/vector3.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/math/vector3.h
 ostream
 -
 math.h
@@ -412,7 +412,7 @@ iostream
 openbabel/rand.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/mol.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/mol.h
 openbabel/babelconfig.h
 -
 math.h
@@ -454,7 +454,7 @@ openbabel/obiter.h
 openbabel/internalcoord.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/obconversion.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/obconversion.h
 openbabel/babelconfig.h
 -
 iostream
@@ -480,7 +480,7 @@ openbabel/format.h
 openbabel/lineend.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/oberror.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/oberror.h
 openbabel/babelconfig.h
 -
 iosfwd
@@ -494,7 +494,7 @@ vector
 deque
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/obiter.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/obiter.h
 openbabel/babelconfig.h
 -
 openbabel/base.h
@@ -508,7 +508,7 @@ stack
 queue
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/obmolecformat.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/obmolecformat.h
 unordered_map
 -
 ciso646
@@ -536,7 +536,7 @@ openbabel/descriptor.h
 set
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/obutil.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/obutil.h
 openbabel/babelconfig.h
 -
 string
@@ -556,7 +556,7 @@ math.h
 openbabel/rand.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/parsmart.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/parsmart.h
 string
 -
 vector
@@ -566,7 +566,7 @@ openbabel/babelconfig.h
 openbabel/mol.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/plugin.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/plugin.h
 openbabel/babelconfig.h
 -
 openbabel/dlhandler.h
@@ -586,11 +586,11 @@ cstring
 openbabel/plugin.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/rand.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/rand.h
 openbabel/babelconfig.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/reaction.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/reaction.h
 vector
 -
 openbabel/shared_ptr.h
@@ -598,7 +598,7 @@ openbabel/shared_ptr.h
 openbabel/mol.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/residue.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/residue.h
 openbabel/babelconfig.h
 -
 vector
@@ -608,7 +608,7 @@ string
 openbabel/base.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/ring.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/ring.h
 deque
 -
 algorithm
@@ -618,17 +618,17 @@ openbabel/bitvec.h
 openbabel/typer.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/shared_ptr.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/shared_ptr.h
 openbabel/babelconfig.h
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/openbabel/babelconfig.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/openbabel/babelconfig.h
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/stereo/cistrans.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/stereo/cistrans.h
 openbabel/stereo/tetraplanar.h
 -
 vector
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/stereo/stereo.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/stereo/stereo.h
 openbabel/base.h
 -
 openbabel/isomorphism.h
@@ -650,23 +650,23 @@ openbabel/obconversion.h
 openbabel/stereo/tetrahedral.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/stereo/tetrahedral.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/stereo/tetrahedral.h
 openbabel/stereo/tetranonplanar.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/stereo/tetranonplanar.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/stereo/tetranonplanar.h
 openbabel/stereo/stereo.h
 -
 openbabel/oberror.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/stereo/tetraplanar.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/stereo/tetraplanar.h
 stereo.h
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/stereo/stereo.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/stereo/stereo.h
 algorithm
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/tokenst.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/tokenst.h
 openbabel/babelconfig.h
 -
 vector
@@ -678,7 +678,7 @@ string
 fstream
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/typer.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/typer.h
 openbabel/babelconfig.h
 -
 vector
@@ -690,7 +690,7 @@ openbabel/parsmart.h
 openbabel/data.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/xml.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/xml.h
 typeinfo
 -
 openbabel/mol.h
@@ -706,7 +706,7 @@ libxml/xmlwriter.h
 typeinfo
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/formats/xml/cmlformat.cpp
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/formats/xml/cmlformat.cpp
 openbabel/babelconfig.h
 -
 openbabel/math/matrix3x3.h
@@ -728,7 +728,7 @@ openbabel/reaction.h
 sstream
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/formats/xml/xml.cpp
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/formats/xml/xml.cpp
 openbabel/babelconfig.h
 -
 openbabel/xml.h

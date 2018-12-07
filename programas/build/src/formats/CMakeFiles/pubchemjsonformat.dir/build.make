@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/fernando/Documentos/BE3AV/openbabel-2.4.1
+CMAKE_SOURCE_DIR = /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/fernando/Documentos/BE3AV/build
+CMAKE_BINARY_DIR = /home/fernando/Documentos/BE3AV/programas/build
 
 # Include any dependencies generated for this target.
 include src/formats/CMakeFiles/pubchemjsonformat.dir/depend.make
@@ -58,17 +58,17 @@ include src/formats/CMakeFiles/pubchemjsonformat.dir/progress.make
 include src/formats/CMakeFiles/pubchemjsonformat.dir/flags.make
 
 src/formats/CMakeFiles/pubchemjsonformat.dir/json/pubchemjsonformat.o: src/formats/CMakeFiles/pubchemjsonformat.dir/flags.make
-src/formats/CMakeFiles/pubchemjsonformat.dir/json/pubchemjsonformat.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/formats/json/pubchemjsonformat.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/formats/CMakeFiles/pubchemjsonformat.dir/json/pubchemjsonformat.o"
-	cd /home/fernando/Documentos/BE3AV/build/src/formats && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pubchemjsonformat.dir/json/pubchemjsonformat.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/formats/json/pubchemjsonformat.cpp
+src/formats/CMakeFiles/pubchemjsonformat.dir/json/pubchemjsonformat.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/formats/json/pubchemjsonformat.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/formats/CMakeFiles/pubchemjsonformat.dir/json/pubchemjsonformat.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/src/formats && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pubchemjsonformat.dir/json/pubchemjsonformat.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/formats/json/pubchemjsonformat.cpp
 
 src/formats/CMakeFiles/pubchemjsonformat.dir/json/pubchemjsonformat.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pubchemjsonformat.dir/json/pubchemjsonformat.i"
-	cd /home/fernando/Documentos/BE3AV/build/src/formats && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/formats/json/pubchemjsonformat.cpp > CMakeFiles/pubchemjsonformat.dir/json/pubchemjsonformat.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/src/formats && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/formats/json/pubchemjsonformat.cpp > CMakeFiles/pubchemjsonformat.dir/json/pubchemjsonformat.i
 
 src/formats/CMakeFiles/pubchemjsonformat.dir/json/pubchemjsonformat.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pubchemjsonformat.dir/json/pubchemjsonformat.s"
-	cd /home/fernando/Documentos/BE3AV/build/src/formats && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/formats/json/pubchemjsonformat.cpp -o CMakeFiles/pubchemjsonformat.dir/json/pubchemjsonformat.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/src/formats && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/formats/json/pubchemjsonformat.cpp -o CMakeFiles/pubchemjsonformat.dir/json/pubchemjsonformat.s
 
 src/formats/CMakeFiles/pubchemjsonformat.dir/json/pubchemjsonformat.o.requires:
 
@@ -82,17 +82,17 @@ src/formats/CMakeFiles/pubchemjsonformat.dir/json/pubchemjsonformat.o.provides.b
 
 
 src/formats/CMakeFiles/pubchemjsonformat.dir/json/jsoncpp.o: src/formats/CMakeFiles/pubchemjsonformat.dir/flags.make
-src/formats/CMakeFiles/pubchemjsonformat.dir/json/jsoncpp.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/formats/json/jsoncpp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/formats/CMakeFiles/pubchemjsonformat.dir/json/jsoncpp.o"
-	cd /home/fernando/Documentos/BE3AV/build/src/formats && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pubchemjsonformat.dir/json/jsoncpp.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/formats/json/jsoncpp.cpp
+src/formats/CMakeFiles/pubchemjsonformat.dir/json/jsoncpp.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/formats/json/jsoncpp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/formats/CMakeFiles/pubchemjsonformat.dir/json/jsoncpp.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/src/formats && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pubchemjsonformat.dir/json/jsoncpp.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/formats/json/jsoncpp.cpp
 
 src/formats/CMakeFiles/pubchemjsonformat.dir/json/jsoncpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pubchemjsonformat.dir/json/jsoncpp.i"
-	cd /home/fernando/Documentos/BE3AV/build/src/formats && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/formats/json/jsoncpp.cpp > CMakeFiles/pubchemjsonformat.dir/json/jsoncpp.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/src/formats && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/formats/json/jsoncpp.cpp > CMakeFiles/pubchemjsonformat.dir/json/jsoncpp.i
 
 src/formats/CMakeFiles/pubchemjsonformat.dir/json/jsoncpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pubchemjsonformat.dir/json/jsoncpp.s"
-	cd /home/fernando/Documentos/BE3AV/build/src/formats && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/formats/json/jsoncpp.cpp -o CMakeFiles/pubchemjsonformat.dir/json/jsoncpp.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/src/formats && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/formats/json/jsoncpp.cpp -o CMakeFiles/pubchemjsonformat.dir/json/jsoncpp.s
 
 src/formats/CMakeFiles/pubchemjsonformat.dir/json/jsoncpp.o.requires:
 
@@ -106,17 +106,17 @@ src/formats/CMakeFiles/pubchemjsonformat.dir/json/jsoncpp.o.provides.build: src/
 
 
 src/formats/CMakeFiles/pubchemjsonformat.dir/json/customwriter.o: src/formats/CMakeFiles/pubchemjsonformat.dir/flags.make
-src/formats/CMakeFiles/pubchemjsonformat.dir/json/customwriter.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/formats/json/customwriter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/formats/CMakeFiles/pubchemjsonformat.dir/json/customwriter.o"
-	cd /home/fernando/Documentos/BE3AV/build/src/formats && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pubchemjsonformat.dir/json/customwriter.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/formats/json/customwriter.cpp
+src/formats/CMakeFiles/pubchemjsonformat.dir/json/customwriter.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/formats/json/customwriter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/formats/CMakeFiles/pubchemjsonformat.dir/json/customwriter.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/src/formats && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pubchemjsonformat.dir/json/customwriter.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/formats/json/customwriter.cpp
 
 src/formats/CMakeFiles/pubchemjsonformat.dir/json/customwriter.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pubchemjsonformat.dir/json/customwriter.i"
-	cd /home/fernando/Documentos/BE3AV/build/src/formats && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/formats/json/customwriter.cpp > CMakeFiles/pubchemjsonformat.dir/json/customwriter.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/src/formats && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/formats/json/customwriter.cpp > CMakeFiles/pubchemjsonformat.dir/json/customwriter.i
 
 src/formats/CMakeFiles/pubchemjsonformat.dir/json/customwriter.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pubchemjsonformat.dir/json/customwriter.s"
-	cd /home/fernando/Documentos/BE3AV/build/src/formats && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/formats/json/customwriter.cpp -o CMakeFiles/pubchemjsonformat.dir/json/customwriter.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/src/formats && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/formats/json/customwriter.cpp -o CMakeFiles/pubchemjsonformat.dir/json/customwriter.s
 
 src/formats/CMakeFiles/pubchemjsonformat.dir/json/customwriter.o.requires:
 
@@ -151,8 +151,8 @@ lib/pubchemjsonformat.so: /usr/lib/x86_64-linux-gnu/libcairo.so
 lib/pubchemjsonformat.so: /usr/lib/x86_64-linux-gnu/libm.so
 lib/pubchemjsonformat.so: /usr/lib/x86_64-linux-gnu/libz.so
 lib/pubchemjsonformat.so: src/formats/CMakeFiles/pubchemjsonformat.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared module ../../lib/pubchemjsonformat.so"
-	cd /home/fernando/Documentos/BE3AV/build/src/formats && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pubchemjsonformat.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared module ../../lib/pubchemjsonformat.so"
+	cd /home/fernando/Documentos/BE3AV/programas/build/src/formats && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pubchemjsonformat.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/formats/CMakeFiles/pubchemjsonformat.dir/build: lib/pubchemjsonformat.so
@@ -166,10 +166,10 @@ src/formats/CMakeFiles/pubchemjsonformat.dir/requires: src/formats/CMakeFiles/pu
 .PHONY : src/formats/CMakeFiles/pubchemjsonformat.dir/requires
 
 src/formats/CMakeFiles/pubchemjsonformat.dir/clean:
-	cd /home/fernando/Documentos/BE3AV/build/src/formats && $(CMAKE_COMMAND) -P CMakeFiles/pubchemjsonformat.dir/cmake_clean.cmake
+	cd /home/fernando/Documentos/BE3AV/programas/build/src/formats && $(CMAKE_COMMAND) -P CMakeFiles/pubchemjsonformat.dir/cmake_clean.cmake
 .PHONY : src/formats/CMakeFiles/pubchemjsonformat.dir/clean
 
 src/formats/CMakeFiles/pubchemjsonformat.dir/depend:
-	cd /home/fernando/Documentos/BE3AV/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fernando/Documentos/BE3AV/openbabel-2.4.1 /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/formats /home/fernando/Documentos/BE3AV/build /home/fernando/Documentos/BE3AV/build/src/formats /home/fernando/Documentos/BE3AV/build/src/formats/CMakeFiles/pubchemjsonformat.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/fernando/Documentos/BE3AV/programas/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1 /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/formats /home/fernando/Documentos/BE3AV/programas/build /home/fernando/Documentos/BE3AV/programas/build/src/formats /home/fernando/Documentos/BE3AV/programas/build/src/formats/CMakeFiles/pubchemjsonformat.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/formats/CMakeFiles/pubchemjsonformat.dir/depend
 

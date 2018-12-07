@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/fernando/Documentos/BE3AV/openbabel-2.4.1
+CMAKE_SOURCE_DIR = /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/fernando/Documentos/BE3AV/build
+CMAKE_BINARY_DIR = /home/fernando/Documentos/BE3AV/programas/build
 
 # Include any dependencies generated for this target.
 include test/CMakeFiles/test_runner.dir/depend.make
@@ -59,16 +59,16 @@ include test/CMakeFiles/test_runner.dir/flags.make
 
 test/CMakeFiles/test_runner.dir/test_runner.o: test/CMakeFiles/test_runner.dir/flags.make
 test/CMakeFiles/test_runner.dir/test_runner.o: test/test_runner.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/CMakeFiles/test_runner.dir/test_runner.o"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/test_runner.o -c /home/fernando/Documentos/BE3AV/build/test/test_runner.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/CMakeFiles/test_runner.dir/test_runner.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/test_runner.o -c /home/fernando/Documentos/BE3AV/programas/build/test/test_runner.cpp
 
 test/CMakeFiles/test_runner.dir/test_runner.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_runner.dir/test_runner.i"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/build/test/test_runner.cpp > CMakeFiles/test_runner.dir/test_runner.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/build/test/test_runner.cpp > CMakeFiles/test_runner.dir/test_runner.i
 
 test/CMakeFiles/test_runner.dir/test_runner.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_runner.dir/test_runner.s"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/build/test/test_runner.cpp -o CMakeFiles/test_runner.dir/test_runner.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/build/test/test_runner.cpp -o CMakeFiles/test_runner.dir/test_runner.s
 
 test/CMakeFiles/test_runner.dir/test_runner.o.requires:
 
@@ -82,17 +82,17 @@ test/CMakeFiles/test_runner.dir/test_runner.o.provides.build: test/CMakeFiles/te
 
 
 test/CMakeFiles/test_runner.dir/aligntest.o: test/CMakeFiles/test_runner.dir/flags.make
-test/CMakeFiles/test_runner.dir/aligntest.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/aligntest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object test/CMakeFiles/test_runner.dir/aligntest.o"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/aligntest.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/aligntest.cpp
+test/CMakeFiles/test_runner.dir/aligntest.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/aligntest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object test/CMakeFiles/test_runner.dir/aligntest.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/aligntest.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/aligntest.cpp
 
 test/CMakeFiles/test_runner.dir/aligntest.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_runner.dir/aligntest.i"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/aligntest.cpp > CMakeFiles/test_runner.dir/aligntest.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/aligntest.cpp > CMakeFiles/test_runner.dir/aligntest.i
 
 test/CMakeFiles/test_runner.dir/aligntest.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_runner.dir/aligntest.s"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/aligntest.cpp -o CMakeFiles/test_runner.dir/aligntest.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/aligntest.cpp -o CMakeFiles/test_runner.dir/aligntest.s
 
 test/CMakeFiles/test_runner.dir/aligntest.o.requires:
 
@@ -106,17 +106,17 @@ test/CMakeFiles/test_runner.dir/aligntest.o.provides.build: test/CMakeFiles/test
 
 
 test/CMakeFiles/test_runner.dir/automorphismtest.o: test/CMakeFiles/test_runner.dir/flags.make
-test/CMakeFiles/test_runner.dir/automorphismtest.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/automorphismtest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object test/CMakeFiles/test_runner.dir/automorphismtest.o"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/automorphismtest.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/automorphismtest.cpp
+test/CMakeFiles/test_runner.dir/automorphismtest.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/automorphismtest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object test/CMakeFiles/test_runner.dir/automorphismtest.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/automorphismtest.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/automorphismtest.cpp
 
 test/CMakeFiles/test_runner.dir/automorphismtest.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_runner.dir/automorphismtest.i"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/automorphismtest.cpp > CMakeFiles/test_runner.dir/automorphismtest.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/automorphismtest.cpp > CMakeFiles/test_runner.dir/automorphismtest.i
 
 test/CMakeFiles/test_runner.dir/automorphismtest.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_runner.dir/automorphismtest.s"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/automorphismtest.cpp -o CMakeFiles/test_runner.dir/automorphismtest.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/automorphismtest.cpp -o CMakeFiles/test_runner.dir/automorphismtest.s
 
 test/CMakeFiles/test_runner.dir/automorphismtest.o.requires:
 
@@ -130,17 +130,17 @@ test/CMakeFiles/test_runner.dir/automorphismtest.o.provides.build: test/CMakeFil
 
 
 test/CMakeFiles/test_runner.dir/buildertest.o: test/CMakeFiles/test_runner.dir/flags.make
-test/CMakeFiles/test_runner.dir/buildertest.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/buildertest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object test/CMakeFiles/test_runner.dir/buildertest.o"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/buildertest.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/buildertest.cpp
+test/CMakeFiles/test_runner.dir/buildertest.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/buildertest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object test/CMakeFiles/test_runner.dir/buildertest.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/buildertest.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/buildertest.cpp
 
 test/CMakeFiles/test_runner.dir/buildertest.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_runner.dir/buildertest.i"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/buildertest.cpp > CMakeFiles/test_runner.dir/buildertest.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/buildertest.cpp > CMakeFiles/test_runner.dir/buildertest.i
 
 test/CMakeFiles/test_runner.dir/buildertest.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_runner.dir/buildertest.s"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/buildertest.cpp -o CMakeFiles/test_runner.dir/buildertest.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/buildertest.cpp -o CMakeFiles/test_runner.dir/buildertest.s
 
 test/CMakeFiles/test_runner.dir/buildertest.o.requires:
 
@@ -154,17 +154,17 @@ test/CMakeFiles/test_runner.dir/buildertest.o.provides.build: test/CMakeFiles/te
 
 
 test/CMakeFiles/test_runner.dir/canonconsistenttest.o: test/CMakeFiles/test_runner.dir/flags.make
-test/CMakeFiles/test_runner.dir/canonconsistenttest.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/canonconsistenttest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object test/CMakeFiles/test_runner.dir/canonconsistenttest.o"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/canonconsistenttest.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/canonconsistenttest.cpp
+test/CMakeFiles/test_runner.dir/canonconsistenttest.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/canonconsistenttest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object test/CMakeFiles/test_runner.dir/canonconsistenttest.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/canonconsistenttest.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/canonconsistenttest.cpp
 
 test/CMakeFiles/test_runner.dir/canonconsistenttest.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_runner.dir/canonconsistenttest.i"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/canonconsistenttest.cpp > CMakeFiles/test_runner.dir/canonconsistenttest.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/canonconsistenttest.cpp > CMakeFiles/test_runner.dir/canonconsistenttest.i
 
 test/CMakeFiles/test_runner.dir/canonconsistenttest.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_runner.dir/canonconsistenttest.s"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/canonconsistenttest.cpp -o CMakeFiles/test_runner.dir/canonconsistenttest.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/canonconsistenttest.cpp -o CMakeFiles/test_runner.dir/canonconsistenttest.s
 
 test/CMakeFiles/test_runner.dir/canonconsistenttest.o.requires:
 
@@ -178,17 +178,17 @@ test/CMakeFiles/test_runner.dir/canonconsistenttest.o.provides.build: test/CMake
 
 
 test/CMakeFiles/test_runner.dir/canonstabletest.o: test/CMakeFiles/test_runner.dir/flags.make
-test/CMakeFiles/test_runner.dir/canonstabletest.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/canonstabletest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object test/CMakeFiles/test_runner.dir/canonstabletest.o"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/canonstabletest.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/canonstabletest.cpp
+test/CMakeFiles/test_runner.dir/canonstabletest.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/canonstabletest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object test/CMakeFiles/test_runner.dir/canonstabletest.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/canonstabletest.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/canonstabletest.cpp
 
 test/CMakeFiles/test_runner.dir/canonstabletest.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_runner.dir/canonstabletest.i"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/canonstabletest.cpp > CMakeFiles/test_runner.dir/canonstabletest.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/canonstabletest.cpp > CMakeFiles/test_runner.dir/canonstabletest.i
 
 test/CMakeFiles/test_runner.dir/canonstabletest.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_runner.dir/canonstabletest.s"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/canonstabletest.cpp -o CMakeFiles/test_runner.dir/canonstabletest.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/canonstabletest.cpp -o CMakeFiles/test_runner.dir/canonstabletest.s
 
 test/CMakeFiles/test_runner.dir/canonstabletest.o.requires:
 
@@ -202,17 +202,17 @@ test/CMakeFiles/test_runner.dir/canonstabletest.o.provides.build: test/CMakeFile
 
 
 test/CMakeFiles/test_runner.dir/carspacegrouptest.o: test/CMakeFiles/test_runner.dir/flags.make
-test/CMakeFiles/test_runner.dir/carspacegrouptest.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/carspacegrouptest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object test/CMakeFiles/test_runner.dir/carspacegrouptest.o"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/carspacegrouptest.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/carspacegrouptest.cpp
+test/CMakeFiles/test_runner.dir/carspacegrouptest.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/carspacegrouptest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object test/CMakeFiles/test_runner.dir/carspacegrouptest.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/carspacegrouptest.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/carspacegrouptest.cpp
 
 test/CMakeFiles/test_runner.dir/carspacegrouptest.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_runner.dir/carspacegrouptest.i"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/carspacegrouptest.cpp > CMakeFiles/test_runner.dir/carspacegrouptest.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/carspacegrouptest.cpp > CMakeFiles/test_runner.dir/carspacegrouptest.i
 
 test/CMakeFiles/test_runner.dir/carspacegrouptest.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_runner.dir/carspacegrouptest.s"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/carspacegrouptest.cpp -o CMakeFiles/test_runner.dir/carspacegrouptest.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/carspacegrouptest.cpp -o CMakeFiles/test_runner.dir/carspacegrouptest.s
 
 test/CMakeFiles/test_runner.dir/carspacegrouptest.o.requires:
 
@@ -226,17 +226,17 @@ test/CMakeFiles/test_runner.dir/carspacegrouptest.o.provides.build: test/CMakeFi
 
 
 test/CMakeFiles/test_runner.dir/cifspacegrouptest.o: test/CMakeFiles/test_runner.dir/flags.make
-test/CMakeFiles/test_runner.dir/cifspacegrouptest.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/cifspacegrouptest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object test/CMakeFiles/test_runner.dir/cifspacegrouptest.o"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/cifspacegrouptest.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/cifspacegrouptest.cpp
+test/CMakeFiles/test_runner.dir/cifspacegrouptest.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/cifspacegrouptest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object test/CMakeFiles/test_runner.dir/cifspacegrouptest.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/cifspacegrouptest.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/cifspacegrouptest.cpp
 
 test/CMakeFiles/test_runner.dir/cifspacegrouptest.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_runner.dir/cifspacegrouptest.i"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/cifspacegrouptest.cpp > CMakeFiles/test_runner.dir/cifspacegrouptest.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/cifspacegrouptest.cpp > CMakeFiles/test_runner.dir/cifspacegrouptest.i
 
 test/CMakeFiles/test_runner.dir/cifspacegrouptest.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_runner.dir/cifspacegrouptest.s"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/cifspacegrouptest.cpp -o CMakeFiles/test_runner.dir/cifspacegrouptest.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/cifspacegrouptest.cpp -o CMakeFiles/test_runner.dir/cifspacegrouptest.s
 
 test/CMakeFiles/test_runner.dir/cifspacegrouptest.o.requires:
 
@@ -250,17 +250,17 @@ test/CMakeFiles/test_runner.dir/cifspacegrouptest.o.provides.build: test/CMakeFi
 
 
 test/CMakeFiles/test_runner.dir/cistranstest.o: test/CMakeFiles/test_runner.dir/flags.make
-test/CMakeFiles/test_runner.dir/cistranstest.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/cistranstest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object test/CMakeFiles/test_runner.dir/cistranstest.o"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/cistranstest.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/cistranstest.cpp
+test/CMakeFiles/test_runner.dir/cistranstest.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/cistranstest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object test/CMakeFiles/test_runner.dir/cistranstest.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/cistranstest.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/cistranstest.cpp
 
 test/CMakeFiles/test_runner.dir/cistranstest.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_runner.dir/cistranstest.i"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/cistranstest.cpp > CMakeFiles/test_runner.dir/cistranstest.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/cistranstest.cpp > CMakeFiles/test_runner.dir/cistranstest.i
 
 test/CMakeFiles/test_runner.dir/cistranstest.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_runner.dir/cistranstest.s"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/cistranstest.cpp -o CMakeFiles/test_runner.dir/cistranstest.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/cistranstest.cpp -o CMakeFiles/test_runner.dir/cistranstest.s
 
 test/CMakeFiles/test_runner.dir/cistranstest.o.requires:
 
@@ -274,17 +274,17 @@ test/CMakeFiles/test_runner.dir/cistranstest.o.provides.build: test/CMakeFiles/t
 
 
 test/CMakeFiles/test_runner.dir/graphsymtest.o: test/CMakeFiles/test_runner.dir/flags.make
-test/CMakeFiles/test_runner.dir/graphsymtest.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/graphsymtest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object test/CMakeFiles/test_runner.dir/graphsymtest.o"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/graphsymtest.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/graphsymtest.cpp
+test/CMakeFiles/test_runner.dir/graphsymtest.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/graphsymtest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object test/CMakeFiles/test_runner.dir/graphsymtest.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/graphsymtest.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/graphsymtest.cpp
 
 test/CMakeFiles/test_runner.dir/graphsymtest.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_runner.dir/graphsymtest.i"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/graphsymtest.cpp > CMakeFiles/test_runner.dir/graphsymtest.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/graphsymtest.cpp > CMakeFiles/test_runner.dir/graphsymtest.i
 
 test/CMakeFiles/test_runner.dir/graphsymtest.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_runner.dir/graphsymtest.s"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/graphsymtest.cpp -o CMakeFiles/test_runner.dir/graphsymtest.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/graphsymtest.cpp -o CMakeFiles/test_runner.dir/graphsymtest.s
 
 test/CMakeFiles/test_runner.dir/graphsymtest.o.requires:
 
@@ -298,17 +298,17 @@ test/CMakeFiles/test_runner.dir/graphsymtest.o.provides.build: test/CMakeFiles/t
 
 
 test/CMakeFiles/test_runner.dir/gziptest.o: test/CMakeFiles/test_runner.dir/flags.make
-test/CMakeFiles/test_runner.dir/gziptest.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/gziptest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object test/CMakeFiles/test_runner.dir/gziptest.o"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/gziptest.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/gziptest.cpp
+test/CMakeFiles/test_runner.dir/gziptest.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/gziptest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object test/CMakeFiles/test_runner.dir/gziptest.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/gziptest.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/gziptest.cpp
 
 test/CMakeFiles/test_runner.dir/gziptest.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_runner.dir/gziptest.i"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/gziptest.cpp > CMakeFiles/test_runner.dir/gziptest.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/gziptest.cpp > CMakeFiles/test_runner.dir/gziptest.i
 
 test/CMakeFiles/test_runner.dir/gziptest.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_runner.dir/gziptest.s"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/gziptest.cpp -o CMakeFiles/test_runner.dir/gziptest.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/gziptest.cpp -o CMakeFiles/test_runner.dir/gziptest.s
 
 test/CMakeFiles/test_runner.dir/gziptest.o.requires:
 
@@ -322,17 +322,17 @@ test/CMakeFiles/test_runner.dir/gziptest.o.provides.build: test/CMakeFiles/test_
 
 
 test/CMakeFiles/test_runner.dir/implicitHtest.o: test/CMakeFiles/test_runner.dir/flags.make
-test/CMakeFiles/test_runner.dir/implicitHtest.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/implicitHtest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object test/CMakeFiles/test_runner.dir/implicitHtest.o"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/implicitHtest.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/implicitHtest.cpp
+test/CMakeFiles/test_runner.dir/implicitHtest.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/implicitHtest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object test/CMakeFiles/test_runner.dir/implicitHtest.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/implicitHtest.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/implicitHtest.cpp
 
 test/CMakeFiles/test_runner.dir/implicitHtest.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_runner.dir/implicitHtest.i"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/implicitHtest.cpp > CMakeFiles/test_runner.dir/implicitHtest.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/implicitHtest.cpp > CMakeFiles/test_runner.dir/implicitHtest.i
 
 test/CMakeFiles/test_runner.dir/implicitHtest.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_runner.dir/implicitHtest.s"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/implicitHtest.cpp -o CMakeFiles/test_runner.dir/implicitHtest.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/implicitHtest.cpp -o CMakeFiles/test_runner.dir/implicitHtest.s
 
 test/CMakeFiles/test_runner.dir/implicitHtest.o.requires:
 
@@ -346,17 +346,17 @@ test/CMakeFiles/test_runner.dir/implicitHtest.o.provides.build: test/CMakeFiles/
 
 
 test/CMakeFiles/test_runner.dir/lssrtest.o: test/CMakeFiles/test_runner.dir/flags.make
-test/CMakeFiles/test_runner.dir/lssrtest.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/lssrtest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object test/CMakeFiles/test_runner.dir/lssrtest.o"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/lssrtest.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/lssrtest.cpp
+test/CMakeFiles/test_runner.dir/lssrtest.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/lssrtest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object test/CMakeFiles/test_runner.dir/lssrtest.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/lssrtest.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/lssrtest.cpp
 
 test/CMakeFiles/test_runner.dir/lssrtest.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_runner.dir/lssrtest.i"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/lssrtest.cpp > CMakeFiles/test_runner.dir/lssrtest.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/lssrtest.cpp > CMakeFiles/test_runner.dir/lssrtest.i
 
 test/CMakeFiles/test_runner.dir/lssrtest.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_runner.dir/lssrtest.s"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/lssrtest.cpp -o CMakeFiles/test_runner.dir/lssrtest.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/lssrtest.cpp -o CMakeFiles/test_runner.dir/lssrtest.s
 
 test/CMakeFiles/test_runner.dir/lssrtest.o.requires:
 
@@ -370,17 +370,17 @@ test/CMakeFiles/test_runner.dir/lssrtest.o.provides.build: test/CMakeFiles/test_
 
 
 test/CMakeFiles/test_runner.dir/isomorphismtest.o: test/CMakeFiles/test_runner.dir/flags.make
-test/CMakeFiles/test_runner.dir/isomorphismtest.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/isomorphismtest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object test/CMakeFiles/test_runner.dir/isomorphismtest.o"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/isomorphismtest.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/isomorphismtest.cpp
+test/CMakeFiles/test_runner.dir/isomorphismtest.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/isomorphismtest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object test/CMakeFiles/test_runner.dir/isomorphismtest.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/isomorphismtest.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/isomorphismtest.cpp
 
 test/CMakeFiles/test_runner.dir/isomorphismtest.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_runner.dir/isomorphismtest.i"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/isomorphismtest.cpp > CMakeFiles/test_runner.dir/isomorphismtest.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/isomorphismtest.cpp > CMakeFiles/test_runner.dir/isomorphismtest.i
 
 test/CMakeFiles/test_runner.dir/isomorphismtest.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_runner.dir/isomorphismtest.s"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/isomorphismtest.cpp -o CMakeFiles/test_runner.dir/isomorphismtest.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/isomorphismtest.cpp -o CMakeFiles/test_runner.dir/isomorphismtest.s
 
 test/CMakeFiles/test_runner.dir/isomorphismtest.o.requires:
 
@@ -394,17 +394,17 @@ test/CMakeFiles/test_runner.dir/isomorphismtest.o.provides.build: test/CMakeFile
 
 
 test/CMakeFiles/test_runner.dir/multicmltest.o: test/CMakeFiles/test_runner.dir/flags.make
-test/CMakeFiles/test_runner.dir/multicmltest.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/multicmltest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object test/CMakeFiles/test_runner.dir/multicmltest.o"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/multicmltest.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/multicmltest.cpp
+test/CMakeFiles/test_runner.dir/multicmltest.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/multicmltest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object test/CMakeFiles/test_runner.dir/multicmltest.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/multicmltest.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/multicmltest.cpp
 
 test/CMakeFiles/test_runner.dir/multicmltest.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_runner.dir/multicmltest.i"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/multicmltest.cpp > CMakeFiles/test_runner.dir/multicmltest.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/multicmltest.cpp > CMakeFiles/test_runner.dir/multicmltest.i
 
 test/CMakeFiles/test_runner.dir/multicmltest.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_runner.dir/multicmltest.s"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/multicmltest.cpp -o CMakeFiles/test_runner.dir/multicmltest.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/multicmltest.cpp -o CMakeFiles/test_runner.dir/multicmltest.s
 
 test/CMakeFiles/test_runner.dir/multicmltest.o.requires:
 
@@ -418,17 +418,17 @@ test/CMakeFiles/test_runner.dir/multicmltest.o.provides.build: test/CMakeFiles/t
 
 
 test/CMakeFiles/test_runner.dir/regressionstest.o: test/CMakeFiles/test_runner.dir/flags.make
-test/CMakeFiles/test_runner.dir/regressionstest.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/regressionstest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object test/CMakeFiles/test_runner.dir/regressionstest.o"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/regressionstest.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/regressionstest.cpp
+test/CMakeFiles/test_runner.dir/regressionstest.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/regressionstest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object test/CMakeFiles/test_runner.dir/regressionstest.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/regressionstest.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/regressionstest.cpp
 
 test/CMakeFiles/test_runner.dir/regressionstest.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_runner.dir/regressionstest.i"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/regressionstest.cpp > CMakeFiles/test_runner.dir/regressionstest.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/regressionstest.cpp > CMakeFiles/test_runner.dir/regressionstest.i
 
 test/CMakeFiles/test_runner.dir/regressionstest.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_runner.dir/regressionstest.s"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/regressionstest.cpp -o CMakeFiles/test_runner.dir/regressionstest.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/regressionstest.cpp -o CMakeFiles/test_runner.dir/regressionstest.s
 
 test/CMakeFiles/test_runner.dir/regressionstest.o.requires:
 
@@ -442,17 +442,17 @@ test/CMakeFiles/test_runner.dir/regressionstest.o.provides.build: test/CMakeFile
 
 
 test/CMakeFiles/test_runner.dir/rotortest.o: test/CMakeFiles/test_runner.dir/flags.make
-test/CMakeFiles/test_runner.dir/rotortest.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/rotortest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object test/CMakeFiles/test_runner.dir/rotortest.o"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/rotortest.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/rotortest.cpp
+test/CMakeFiles/test_runner.dir/rotortest.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/rotortest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object test/CMakeFiles/test_runner.dir/rotortest.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/rotortest.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/rotortest.cpp
 
 test/CMakeFiles/test_runner.dir/rotortest.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_runner.dir/rotortest.i"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/rotortest.cpp > CMakeFiles/test_runner.dir/rotortest.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/rotortest.cpp > CMakeFiles/test_runner.dir/rotortest.i
 
 test/CMakeFiles/test_runner.dir/rotortest.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_runner.dir/rotortest.s"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/rotortest.cpp -o CMakeFiles/test_runner.dir/rotortest.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/rotortest.cpp -o CMakeFiles/test_runner.dir/rotortest.s
 
 test/CMakeFiles/test_runner.dir/rotortest.o.requires:
 
@@ -466,17 +466,17 @@ test/CMakeFiles/test_runner.dir/rotortest.o.provides.build: test/CMakeFiles/test
 
 
 test/CMakeFiles/test_runner.dir/shuffletest.o: test/CMakeFiles/test_runner.dir/flags.make
-test/CMakeFiles/test_runner.dir/shuffletest.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/shuffletest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object test/CMakeFiles/test_runner.dir/shuffletest.o"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/shuffletest.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/shuffletest.cpp
+test/CMakeFiles/test_runner.dir/shuffletest.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/shuffletest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object test/CMakeFiles/test_runner.dir/shuffletest.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/shuffletest.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/shuffletest.cpp
 
 test/CMakeFiles/test_runner.dir/shuffletest.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_runner.dir/shuffletest.i"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/shuffletest.cpp > CMakeFiles/test_runner.dir/shuffletest.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/shuffletest.cpp > CMakeFiles/test_runner.dir/shuffletest.i
 
 test/CMakeFiles/test_runner.dir/shuffletest.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_runner.dir/shuffletest.s"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/shuffletest.cpp -o CMakeFiles/test_runner.dir/shuffletest.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/shuffletest.cpp -o CMakeFiles/test_runner.dir/shuffletest.s
 
 test/CMakeFiles/test_runner.dir/shuffletest.o.requires:
 
@@ -490,17 +490,17 @@ test/CMakeFiles/test_runner.dir/shuffletest.o.provides.build: test/CMakeFiles/te
 
 
 test/CMakeFiles/test_runner.dir/smilestest.o: test/CMakeFiles/test_runner.dir/flags.make
-test/CMakeFiles/test_runner.dir/smilestest.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/smilestest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object test/CMakeFiles/test_runner.dir/smilestest.o"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/smilestest.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/smilestest.cpp
+test/CMakeFiles/test_runner.dir/smilestest.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/smilestest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object test/CMakeFiles/test_runner.dir/smilestest.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/smilestest.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/smilestest.cpp
 
 test/CMakeFiles/test_runner.dir/smilestest.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_runner.dir/smilestest.i"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/smilestest.cpp > CMakeFiles/test_runner.dir/smilestest.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/smilestest.cpp > CMakeFiles/test_runner.dir/smilestest.i
 
 test/CMakeFiles/test_runner.dir/smilestest.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_runner.dir/smilestest.s"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/smilestest.cpp -o CMakeFiles/test_runner.dir/smilestest.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/smilestest.cpp -o CMakeFiles/test_runner.dir/smilestest.s
 
 test/CMakeFiles/test_runner.dir/smilestest.o.requires:
 
@@ -514,17 +514,17 @@ test/CMakeFiles/test_runner.dir/smilestest.o.provides.build: test/CMakeFiles/tes
 
 
 test/CMakeFiles/test_runner.dir/spectrophoretest.o: test/CMakeFiles/test_runner.dir/flags.make
-test/CMakeFiles/test_runner.dir/spectrophoretest.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/spectrophoretest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object test/CMakeFiles/test_runner.dir/spectrophoretest.o"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/spectrophoretest.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/spectrophoretest.cpp
+test/CMakeFiles/test_runner.dir/spectrophoretest.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/spectrophoretest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object test/CMakeFiles/test_runner.dir/spectrophoretest.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/spectrophoretest.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/spectrophoretest.cpp
 
 test/CMakeFiles/test_runner.dir/spectrophoretest.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_runner.dir/spectrophoretest.i"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/spectrophoretest.cpp > CMakeFiles/test_runner.dir/spectrophoretest.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/spectrophoretest.cpp > CMakeFiles/test_runner.dir/spectrophoretest.i
 
 test/CMakeFiles/test_runner.dir/spectrophoretest.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_runner.dir/spectrophoretest.s"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/spectrophoretest.cpp -o CMakeFiles/test_runner.dir/spectrophoretest.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/spectrophoretest.cpp -o CMakeFiles/test_runner.dir/spectrophoretest.s
 
 test/CMakeFiles/test_runner.dir/spectrophoretest.o.requires:
 
@@ -538,17 +538,17 @@ test/CMakeFiles/test_runner.dir/spectrophoretest.o.provides.build: test/CMakeFil
 
 
 test/CMakeFiles/test_runner.dir/squareplanartest.o: test/CMakeFiles/test_runner.dir/flags.make
-test/CMakeFiles/test_runner.dir/squareplanartest.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/squareplanartest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object test/CMakeFiles/test_runner.dir/squareplanartest.o"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/squareplanartest.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/squareplanartest.cpp
+test/CMakeFiles/test_runner.dir/squareplanartest.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/squareplanartest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object test/CMakeFiles/test_runner.dir/squareplanartest.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/squareplanartest.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/squareplanartest.cpp
 
 test/CMakeFiles/test_runner.dir/squareplanartest.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_runner.dir/squareplanartest.i"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/squareplanartest.cpp > CMakeFiles/test_runner.dir/squareplanartest.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/squareplanartest.cpp > CMakeFiles/test_runner.dir/squareplanartest.i
 
 test/CMakeFiles/test_runner.dir/squareplanartest.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_runner.dir/squareplanartest.s"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/squareplanartest.cpp -o CMakeFiles/test_runner.dir/squareplanartest.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/squareplanartest.cpp -o CMakeFiles/test_runner.dir/squareplanartest.s
 
 test/CMakeFiles/test_runner.dir/squareplanartest.o.requires:
 
@@ -562,17 +562,17 @@ test/CMakeFiles/test_runner.dir/squareplanartest.o.provides.build: test/CMakeFil
 
 
 test/CMakeFiles/test_runner.dir/stereotest.o: test/CMakeFiles/test_runner.dir/flags.make
-test/CMakeFiles/test_runner.dir/stereotest.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/stereotest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object test/CMakeFiles/test_runner.dir/stereotest.o"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/stereotest.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/stereotest.cpp
+test/CMakeFiles/test_runner.dir/stereotest.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/stereotest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object test/CMakeFiles/test_runner.dir/stereotest.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/stereotest.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/stereotest.cpp
 
 test/CMakeFiles/test_runner.dir/stereotest.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_runner.dir/stereotest.i"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/stereotest.cpp > CMakeFiles/test_runner.dir/stereotest.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/stereotest.cpp > CMakeFiles/test_runner.dir/stereotest.i
 
 test/CMakeFiles/test_runner.dir/stereotest.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_runner.dir/stereotest.s"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/stereotest.cpp -o CMakeFiles/test_runner.dir/stereotest.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/stereotest.cpp -o CMakeFiles/test_runner.dir/stereotest.s
 
 test/CMakeFiles/test_runner.dir/stereotest.o.requires:
 
@@ -586,17 +586,17 @@ test/CMakeFiles/test_runner.dir/stereotest.o.provides.build: test/CMakeFiles/tes
 
 
 test/CMakeFiles/test_runner.dir/stereoperceptiontest.o: test/CMakeFiles/test_runner.dir/flags.make
-test/CMakeFiles/test_runner.dir/stereoperceptiontest.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/stereoperceptiontest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object test/CMakeFiles/test_runner.dir/stereoperceptiontest.o"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/stereoperceptiontest.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/stereoperceptiontest.cpp
+test/CMakeFiles/test_runner.dir/stereoperceptiontest.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/stereoperceptiontest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object test/CMakeFiles/test_runner.dir/stereoperceptiontest.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/stereoperceptiontest.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/stereoperceptiontest.cpp
 
 test/CMakeFiles/test_runner.dir/stereoperceptiontest.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_runner.dir/stereoperceptiontest.i"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/stereoperceptiontest.cpp > CMakeFiles/test_runner.dir/stereoperceptiontest.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/stereoperceptiontest.cpp > CMakeFiles/test_runner.dir/stereoperceptiontest.i
 
 test/CMakeFiles/test_runner.dir/stereoperceptiontest.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_runner.dir/stereoperceptiontest.s"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/stereoperceptiontest.cpp -o CMakeFiles/test_runner.dir/stereoperceptiontest.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/stereoperceptiontest.cpp -o CMakeFiles/test_runner.dir/stereoperceptiontest.s
 
 test/CMakeFiles/test_runner.dir/stereoperceptiontest.o.requires:
 
@@ -610,17 +610,17 @@ test/CMakeFiles/test_runner.dir/stereoperceptiontest.o.provides.build: test/CMak
 
 
 test/CMakeFiles/test_runner.dir/tautomertest.o: test/CMakeFiles/test_runner.dir/flags.make
-test/CMakeFiles/test_runner.dir/tautomertest.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/tautomertest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object test/CMakeFiles/test_runner.dir/tautomertest.o"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/tautomertest.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/tautomertest.cpp
+test/CMakeFiles/test_runner.dir/tautomertest.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/tautomertest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object test/CMakeFiles/test_runner.dir/tautomertest.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/tautomertest.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/tautomertest.cpp
 
 test/CMakeFiles/test_runner.dir/tautomertest.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_runner.dir/tautomertest.i"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/tautomertest.cpp > CMakeFiles/test_runner.dir/tautomertest.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/tautomertest.cpp > CMakeFiles/test_runner.dir/tautomertest.i
 
 test/CMakeFiles/test_runner.dir/tautomertest.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_runner.dir/tautomertest.s"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/tautomertest.cpp -o CMakeFiles/test_runner.dir/tautomertest.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/tautomertest.cpp -o CMakeFiles/test_runner.dir/tautomertest.s
 
 test/CMakeFiles/test_runner.dir/tautomertest.o.requires:
 
@@ -634,17 +634,17 @@ test/CMakeFiles/test_runner.dir/tautomertest.o.provides.build: test/CMakeFiles/t
 
 
 test/CMakeFiles/test_runner.dir/tetrahedraltest.o: test/CMakeFiles/test_runner.dir/flags.make
-test/CMakeFiles/test_runner.dir/tetrahedraltest.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/tetrahedraltest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object test/CMakeFiles/test_runner.dir/tetrahedraltest.o"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/tetrahedraltest.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/tetrahedraltest.cpp
+test/CMakeFiles/test_runner.dir/tetrahedraltest.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/tetrahedraltest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object test/CMakeFiles/test_runner.dir/tetrahedraltest.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/tetrahedraltest.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/tetrahedraltest.cpp
 
 test/CMakeFiles/test_runner.dir/tetrahedraltest.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_runner.dir/tetrahedraltest.i"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/tetrahedraltest.cpp > CMakeFiles/test_runner.dir/tetrahedraltest.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/tetrahedraltest.cpp > CMakeFiles/test_runner.dir/tetrahedraltest.i
 
 test/CMakeFiles/test_runner.dir/tetrahedraltest.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_runner.dir/tetrahedraltest.s"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/tetrahedraltest.cpp -o CMakeFiles/test_runner.dir/tetrahedraltest.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/tetrahedraltest.cpp -o CMakeFiles/test_runner.dir/tetrahedraltest.s
 
 test/CMakeFiles/test_runner.dir/tetrahedraltest.o.requires:
 
@@ -658,17 +658,17 @@ test/CMakeFiles/test_runner.dir/tetrahedraltest.o.provides.build: test/CMakeFile
 
 
 test/CMakeFiles/test_runner.dir/tetranonplanartest.o: test/CMakeFiles/test_runner.dir/flags.make
-test/CMakeFiles/test_runner.dir/tetranonplanartest.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/tetranonplanartest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object test/CMakeFiles/test_runner.dir/tetranonplanartest.o"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/tetranonplanartest.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/tetranonplanartest.cpp
+test/CMakeFiles/test_runner.dir/tetranonplanartest.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/tetranonplanartest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object test/CMakeFiles/test_runner.dir/tetranonplanartest.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/tetranonplanartest.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/tetranonplanartest.cpp
 
 test/CMakeFiles/test_runner.dir/tetranonplanartest.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_runner.dir/tetranonplanartest.i"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/tetranonplanartest.cpp > CMakeFiles/test_runner.dir/tetranonplanartest.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/tetranonplanartest.cpp > CMakeFiles/test_runner.dir/tetranonplanartest.i
 
 test/CMakeFiles/test_runner.dir/tetranonplanartest.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_runner.dir/tetranonplanartest.s"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/tetranonplanartest.cpp -o CMakeFiles/test_runner.dir/tetranonplanartest.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/tetranonplanartest.cpp -o CMakeFiles/test_runner.dir/tetranonplanartest.s
 
 test/CMakeFiles/test_runner.dir/tetranonplanartest.o.requires:
 
@@ -682,17 +682,17 @@ test/CMakeFiles/test_runner.dir/tetranonplanartest.o.provides.build: test/CMakeF
 
 
 test/CMakeFiles/test_runner.dir/tetraplanartest.o: test/CMakeFiles/test_runner.dir/flags.make
-test/CMakeFiles/test_runner.dir/tetraplanartest.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/tetraplanartest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object test/CMakeFiles/test_runner.dir/tetraplanartest.o"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/tetraplanartest.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/tetraplanartest.cpp
+test/CMakeFiles/test_runner.dir/tetraplanartest.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/tetraplanartest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object test/CMakeFiles/test_runner.dir/tetraplanartest.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/tetraplanartest.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/tetraplanartest.cpp
 
 test/CMakeFiles/test_runner.dir/tetraplanartest.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_runner.dir/tetraplanartest.i"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/tetraplanartest.cpp > CMakeFiles/test_runner.dir/tetraplanartest.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/tetraplanartest.cpp > CMakeFiles/test_runner.dir/tetraplanartest.i
 
 test/CMakeFiles/test_runner.dir/tetraplanartest.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_runner.dir/tetraplanartest.s"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/tetraplanartest.cpp -o CMakeFiles/test_runner.dir/tetraplanartest.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/tetraplanartest.cpp -o CMakeFiles/test_runner.dir/tetraplanartest.s
 
 test/CMakeFiles/test_runner.dir/tetraplanartest.o.requires:
 
@@ -706,17 +706,17 @@ test/CMakeFiles/test_runner.dir/tetraplanartest.o.provides.build: test/CMakeFile
 
 
 test/CMakeFiles/test_runner.dir/uniqueidtest.o: test/CMakeFiles/test_runner.dir/flags.make
-test/CMakeFiles/test_runner.dir/uniqueidtest.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/uniqueidtest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object test/CMakeFiles/test_runner.dir/uniqueidtest.o"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/uniqueidtest.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/uniqueidtest.cpp
+test/CMakeFiles/test_runner.dir/uniqueidtest.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/uniqueidtest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object test/CMakeFiles/test_runner.dir/uniqueidtest.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/uniqueidtest.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/uniqueidtest.cpp
 
 test/CMakeFiles/test_runner.dir/uniqueidtest.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_runner.dir/uniqueidtest.i"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/uniqueidtest.cpp > CMakeFiles/test_runner.dir/uniqueidtest.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/uniqueidtest.cpp > CMakeFiles/test_runner.dir/uniqueidtest.i
 
 test/CMakeFiles/test_runner.dir/uniqueidtest.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_runner.dir/uniqueidtest.s"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/uniqueidtest.cpp -o CMakeFiles/test_runner.dir/uniqueidtest.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/uniqueidtest.cpp -o CMakeFiles/test_runner.dir/uniqueidtest.s
 
 test/CMakeFiles/test_runner.dir/uniqueidtest.o.requires:
 
@@ -730,17 +730,17 @@ test/CMakeFiles/test_runner.dir/uniqueidtest.o.provides.build: test/CMakeFiles/t
 
 
 test/CMakeFiles/test_runner.dir/aromatest.o: test/CMakeFiles/test_runner.dir/flags.make
-test/CMakeFiles/test_runner.dir/aromatest.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/aromatest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object test/CMakeFiles/test_runner.dir/aromatest.o"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/aromatest.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/aromatest.cpp
+test/CMakeFiles/test_runner.dir/aromatest.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/aromatest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object test/CMakeFiles/test_runner.dir/aromatest.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/aromatest.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/aromatest.cpp
 
 test/CMakeFiles/test_runner.dir/aromatest.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_runner.dir/aromatest.i"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/aromatest.cpp > CMakeFiles/test_runner.dir/aromatest.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/aromatest.cpp > CMakeFiles/test_runner.dir/aromatest.i
 
 test/CMakeFiles/test_runner.dir/aromatest.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_runner.dir/aromatest.s"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/aromatest.cpp -o CMakeFiles/test_runner.dir/aromatest.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/aromatest.cpp -o CMakeFiles/test_runner.dir/aromatest.s
 
 test/CMakeFiles/test_runner.dir/aromatest.o.requires:
 
@@ -754,17 +754,17 @@ test/CMakeFiles/test_runner.dir/aromatest.o.provides.build: test/CMakeFiles/test
 
 
 test/CMakeFiles/test_runner.dir/atom.o: test/CMakeFiles/test_runner.dir/flags.make
-test/CMakeFiles/test_runner.dir/atom.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/atom.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object test/CMakeFiles/test_runner.dir/atom.o"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/atom.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/atom.cpp
+test/CMakeFiles/test_runner.dir/atom.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/atom.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object test/CMakeFiles/test_runner.dir/atom.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/atom.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/atom.cpp
 
 test/CMakeFiles/test_runner.dir/atom.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_runner.dir/atom.i"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/atom.cpp > CMakeFiles/test_runner.dir/atom.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/atom.cpp > CMakeFiles/test_runner.dir/atom.i
 
 test/CMakeFiles/test_runner.dir/atom.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_runner.dir/atom.s"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/atom.cpp -o CMakeFiles/test_runner.dir/atom.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/atom.cpp -o CMakeFiles/test_runner.dir/atom.s
 
 test/CMakeFiles/test_runner.dir/atom.o.requires:
 
@@ -778,17 +778,17 @@ test/CMakeFiles/test_runner.dir/atom.o.provides.build: test/CMakeFiles/test_runn
 
 
 test/CMakeFiles/test_runner.dir/bond.o: test/CMakeFiles/test_runner.dir/flags.make
-test/CMakeFiles/test_runner.dir/bond.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/bond.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object test/CMakeFiles/test_runner.dir/bond.o"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/bond.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/bond.cpp
+test/CMakeFiles/test_runner.dir/bond.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/bond.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object test/CMakeFiles/test_runner.dir/bond.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/bond.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/bond.cpp
 
 test/CMakeFiles/test_runner.dir/bond.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_runner.dir/bond.i"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/bond.cpp > CMakeFiles/test_runner.dir/bond.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/bond.cpp > CMakeFiles/test_runner.dir/bond.i
 
 test/CMakeFiles/test_runner.dir/bond.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_runner.dir/bond.s"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/bond.cpp -o CMakeFiles/test_runner.dir/bond.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/bond.cpp -o CMakeFiles/test_runner.dir/bond.s
 
 test/CMakeFiles/test_runner.dir/bond.o.requires:
 
@@ -802,17 +802,17 @@ test/CMakeFiles/test_runner.dir/bond.o.provides.build: test/CMakeFiles/test_runn
 
 
 test/CMakeFiles/test_runner.dir/cansmi.o: test/CMakeFiles/test_runner.dir/flags.make
-test/CMakeFiles/test_runner.dir/cansmi.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/cansmi.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object test/CMakeFiles/test_runner.dir/cansmi.o"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/cansmi.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/cansmi.cpp
+test/CMakeFiles/test_runner.dir/cansmi.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/cansmi.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object test/CMakeFiles/test_runner.dir/cansmi.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/cansmi.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/cansmi.cpp
 
 test/CMakeFiles/test_runner.dir/cansmi.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_runner.dir/cansmi.i"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/cansmi.cpp > CMakeFiles/test_runner.dir/cansmi.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/cansmi.cpp > CMakeFiles/test_runner.dir/cansmi.i
 
 test/CMakeFiles/test_runner.dir/cansmi.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_runner.dir/cansmi.s"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/cansmi.cpp -o CMakeFiles/test_runner.dir/cansmi.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/cansmi.cpp -o CMakeFiles/test_runner.dir/cansmi.s
 
 test/CMakeFiles/test_runner.dir/cansmi.o.requires:
 
@@ -826,17 +826,17 @@ test/CMakeFiles/test_runner.dir/cansmi.o.provides.build: test/CMakeFiles/test_ru
 
 
 test/CMakeFiles/test_runner.dir/charge_mmff94.o: test/CMakeFiles/test_runner.dir/flags.make
-test/CMakeFiles/test_runner.dir/charge_mmff94.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/charge_mmff94.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object test/CMakeFiles/test_runner.dir/charge_mmff94.o"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/charge_mmff94.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/charge_mmff94.cpp
+test/CMakeFiles/test_runner.dir/charge_mmff94.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/charge_mmff94.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object test/CMakeFiles/test_runner.dir/charge_mmff94.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/charge_mmff94.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/charge_mmff94.cpp
 
 test/CMakeFiles/test_runner.dir/charge_mmff94.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_runner.dir/charge_mmff94.i"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/charge_mmff94.cpp > CMakeFiles/test_runner.dir/charge_mmff94.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/charge_mmff94.cpp > CMakeFiles/test_runner.dir/charge_mmff94.i
 
 test/CMakeFiles/test_runner.dir/charge_mmff94.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_runner.dir/charge_mmff94.s"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/charge_mmff94.cpp -o CMakeFiles/test_runner.dir/charge_mmff94.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/charge_mmff94.cpp -o CMakeFiles/test_runner.dir/charge_mmff94.s
 
 test/CMakeFiles/test_runner.dir/charge_mmff94.o.requires:
 
@@ -850,17 +850,17 @@ test/CMakeFiles/test_runner.dir/charge_mmff94.o.provides.build: test/CMakeFiles/
 
 
 test/CMakeFiles/test_runner.dir/charge_gasteiger.o: test/CMakeFiles/test_runner.dir/flags.make
-test/CMakeFiles/test_runner.dir/charge_gasteiger.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/charge_gasteiger.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object test/CMakeFiles/test_runner.dir/charge_gasteiger.o"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/charge_gasteiger.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/charge_gasteiger.cpp
+test/CMakeFiles/test_runner.dir/charge_gasteiger.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/charge_gasteiger.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object test/CMakeFiles/test_runner.dir/charge_gasteiger.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/charge_gasteiger.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/charge_gasteiger.cpp
 
 test/CMakeFiles/test_runner.dir/charge_gasteiger.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_runner.dir/charge_gasteiger.i"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/charge_gasteiger.cpp > CMakeFiles/test_runner.dir/charge_gasteiger.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/charge_gasteiger.cpp > CMakeFiles/test_runner.dir/charge_gasteiger.i
 
 test/CMakeFiles/test_runner.dir/charge_gasteiger.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_runner.dir/charge_gasteiger.s"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/charge_gasteiger.cpp -o CMakeFiles/test_runner.dir/charge_gasteiger.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/charge_gasteiger.cpp -o CMakeFiles/test_runner.dir/charge_gasteiger.s
 
 test/CMakeFiles/test_runner.dir/charge_gasteiger.o.requires:
 
@@ -874,17 +874,17 @@ test/CMakeFiles/test_runner.dir/charge_gasteiger.o.provides.build: test/CMakeFil
 
 
 test/CMakeFiles/test_runner.dir/conversion.o: test/CMakeFiles/test_runner.dir/flags.make
-test/CMakeFiles/test_runner.dir/conversion.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/conversion.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object test/CMakeFiles/test_runner.dir/conversion.o"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/conversion.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/conversion.cpp
+test/CMakeFiles/test_runner.dir/conversion.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/conversion.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object test/CMakeFiles/test_runner.dir/conversion.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/conversion.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/conversion.cpp
 
 test/CMakeFiles/test_runner.dir/conversion.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_runner.dir/conversion.i"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/conversion.cpp > CMakeFiles/test_runner.dir/conversion.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/conversion.cpp > CMakeFiles/test_runner.dir/conversion.i
 
 test/CMakeFiles/test_runner.dir/conversion.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_runner.dir/conversion.s"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/conversion.cpp -o CMakeFiles/test_runner.dir/conversion.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/conversion.cpp -o CMakeFiles/test_runner.dir/conversion.s
 
 test/CMakeFiles/test_runner.dir/conversion.o.requires:
 
@@ -898,17 +898,17 @@ test/CMakeFiles/test_runner.dir/conversion.o.provides.build: test/CMakeFiles/tes
 
 
 test/CMakeFiles/test_runner.dir/datatest.o: test/CMakeFiles/test_runner.dir/flags.make
-test/CMakeFiles/test_runner.dir/datatest.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/datatest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object test/CMakeFiles/test_runner.dir/datatest.o"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/datatest.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/datatest.cpp
+test/CMakeFiles/test_runner.dir/datatest.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/datatest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object test/CMakeFiles/test_runner.dir/datatest.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/datatest.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/datatest.cpp
 
 test/CMakeFiles/test_runner.dir/datatest.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_runner.dir/datatest.i"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/datatest.cpp > CMakeFiles/test_runner.dir/datatest.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/datatest.cpp > CMakeFiles/test_runner.dir/datatest.i
 
 test/CMakeFiles/test_runner.dir/datatest.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_runner.dir/datatest.s"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/datatest.cpp -o CMakeFiles/test_runner.dir/datatest.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/datatest.cpp -o CMakeFiles/test_runner.dir/datatest.s
 
 test/CMakeFiles/test_runner.dir/datatest.o.requires:
 
@@ -922,17 +922,17 @@ test/CMakeFiles/test_runner.dir/datatest.o.provides.build: test/CMakeFiles/test_
 
 
 test/CMakeFiles/test_runner.dir/ffgaff.o: test/CMakeFiles/test_runner.dir/flags.make
-test/CMakeFiles/test_runner.dir/ffgaff.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/ffgaff.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object test/CMakeFiles/test_runner.dir/ffgaff.o"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/ffgaff.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/ffgaff.cpp
+test/CMakeFiles/test_runner.dir/ffgaff.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/ffgaff.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object test/CMakeFiles/test_runner.dir/ffgaff.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/ffgaff.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/ffgaff.cpp
 
 test/CMakeFiles/test_runner.dir/ffgaff.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_runner.dir/ffgaff.i"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/ffgaff.cpp > CMakeFiles/test_runner.dir/ffgaff.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/ffgaff.cpp > CMakeFiles/test_runner.dir/ffgaff.i
 
 test/CMakeFiles/test_runner.dir/ffgaff.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_runner.dir/ffgaff.s"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/ffgaff.cpp -o CMakeFiles/test_runner.dir/ffgaff.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/ffgaff.cpp -o CMakeFiles/test_runner.dir/ffgaff.s
 
 test/CMakeFiles/test_runner.dir/ffgaff.o.requires:
 
@@ -946,17 +946,17 @@ test/CMakeFiles/test_runner.dir/ffgaff.o.provides.build: test/CMakeFiles/test_ru
 
 
 test/CMakeFiles/test_runner.dir/ffghemical.o: test/CMakeFiles/test_runner.dir/flags.make
-test/CMakeFiles/test_runner.dir/ffghemical.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/ffghemical.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object test/CMakeFiles/test_runner.dir/ffghemical.o"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/ffghemical.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/ffghemical.cpp
+test/CMakeFiles/test_runner.dir/ffghemical.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/ffghemical.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object test/CMakeFiles/test_runner.dir/ffghemical.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/ffghemical.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/ffghemical.cpp
 
 test/CMakeFiles/test_runner.dir/ffghemical.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_runner.dir/ffghemical.i"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/ffghemical.cpp > CMakeFiles/test_runner.dir/ffghemical.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/ffghemical.cpp > CMakeFiles/test_runner.dir/ffghemical.i
 
 test/CMakeFiles/test_runner.dir/ffghemical.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_runner.dir/ffghemical.s"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/ffghemical.cpp -o CMakeFiles/test_runner.dir/ffghemical.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/ffghemical.cpp -o CMakeFiles/test_runner.dir/ffghemical.s
 
 test/CMakeFiles/test_runner.dir/ffghemical.o.requires:
 
@@ -970,17 +970,17 @@ test/CMakeFiles/test_runner.dir/ffghemical.o.provides.build: test/CMakeFiles/tes
 
 
 test/CMakeFiles/test_runner.dir/ffmmff94.o: test/CMakeFiles/test_runner.dir/flags.make
-test/CMakeFiles/test_runner.dir/ffmmff94.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/ffmmff94.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object test/CMakeFiles/test_runner.dir/ffmmff94.o"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/ffmmff94.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/ffmmff94.cpp
+test/CMakeFiles/test_runner.dir/ffmmff94.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/ffmmff94.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object test/CMakeFiles/test_runner.dir/ffmmff94.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/ffmmff94.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/ffmmff94.cpp
 
 test/CMakeFiles/test_runner.dir/ffmmff94.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_runner.dir/ffmmff94.i"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/ffmmff94.cpp > CMakeFiles/test_runner.dir/ffmmff94.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/ffmmff94.cpp > CMakeFiles/test_runner.dir/ffmmff94.i
 
 test/CMakeFiles/test_runner.dir/ffmmff94.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_runner.dir/ffmmff94.s"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/ffmmff94.cpp -o CMakeFiles/test_runner.dir/ffmmff94.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/ffmmff94.cpp -o CMakeFiles/test_runner.dir/ffmmff94.s
 
 test/CMakeFiles/test_runner.dir/ffmmff94.o.requires:
 
@@ -994,17 +994,17 @@ test/CMakeFiles/test_runner.dir/ffmmff94.o.provides.build: test/CMakeFiles/test_
 
 
 test/CMakeFiles/test_runner.dir/ffuff.o: test/CMakeFiles/test_runner.dir/flags.make
-test/CMakeFiles/test_runner.dir/ffuff.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/ffuff.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object test/CMakeFiles/test_runner.dir/ffuff.o"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/ffuff.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/ffuff.cpp
+test/CMakeFiles/test_runner.dir/ffuff.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/ffuff.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object test/CMakeFiles/test_runner.dir/ffuff.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/ffuff.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/ffuff.cpp
 
 test/CMakeFiles/test_runner.dir/ffuff.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_runner.dir/ffuff.i"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/ffuff.cpp > CMakeFiles/test_runner.dir/ffuff.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/ffuff.cpp > CMakeFiles/test_runner.dir/ffuff.i
 
 test/CMakeFiles/test_runner.dir/ffuff.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_runner.dir/ffuff.s"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/ffuff.cpp -o CMakeFiles/test_runner.dir/ffuff.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/ffuff.cpp -o CMakeFiles/test_runner.dir/ffuff.s
 
 test/CMakeFiles/test_runner.dir/ffuff.o.requires:
 
@@ -1018,17 +1018,17 @@ test/CMakeFiles/test_runner.dir/ffuff.o.provides.build: test/CMakeFiles/test_run
 
 
 test/CMakeFiles/test_runner.dir/formalcharge.o: test/CMakeFiles/test_runner.dir/flags.make
-test/CMakeFiles/test_runner.dir/formalcharge.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/formalcharge.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object test/CMakeFiles/test_runner.dir/formalcharge.o"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/formalcharge.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/formalcharge.cpp
+test/CMakeFiles/test_runner.dir/formalcharge.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/formalcharge.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object test/CMakeFiles/test_runner.dir/formalcharge.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/formalcharge.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/formalcharge.cpp
 
 test/CMakeFiles/test_runner.dir/formalcharge.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_runner.dir/formalcharge.i"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/formalcharge.cpp > CMakeFiles/test_runner.dir/formalcharge.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/formalcharge.cpp > CMakeFiles/test_runner.dir/formalcharge.i
 
 test/CMakeFiles/test_runner.dir/formalcharge.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_runner.dir/formalcharge.s"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/formalcharge.cpp -o CMakeFiles/test_runner.dir/formalcharge.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/formalcharge.cpp -o CMakeFiles/test_runner.dir/formalcharge.s
 
 test/CMakeFiles/test_runner.dir/formalcharge.o.requires:
 
@@ -1042,17 +1042,17 @@ test/CMakeFiles/test_runner.dir/formalcharge.o.provides.build: test/CMakeFiles/t
 
 
 test/CMakeFiles/test_runner.dir/format.o: test/CMakeFiles/test_runner.dir/flags.make
-test/CMakeFiles/test_runner.dir/format.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/format.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object test/CMakeFiles/test_runner.dir/format.o"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/format.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/format.cpp
+test/CMakeFiles/test_runner.dir/format.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/format.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object test/CMakeFiles/test_runner.dir/format.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/format.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/format.cpp
 
 test/CMakeFiles/test_runner.dir/format.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_runner.dir/format.i"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/format.cpp > CMakeFiles/test_runner.dir/format.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/format.cpp > CMakeFiles/test_runner.dir/format.i
 
 test/CMakeFiles/test_runner.dir/format.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_runner.dir/format.s"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/format.cpp -o CMakeFiles/test_runner.dir/format.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/format.cpp -o CMakeFiles/test_runner.dir/format.s
 
 test/CMakeFiles/test_runner.dir/format.o.requires:
 
@@ -1066,17 +1066,17 @@ test/CMakeFiles/test_runner.dir/format.o.provides.build: test/CMakeFiles/test_ru
 
 
 test/CMakeFiles/test_runner.dir/formula.o: test/CMakeFiles/test_runner.dir/flags.make
-test/CMakeFiles/test_runner.dir/formula.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/formula.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object test/CMakeFiles/test_runner.dir/formula.o"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/formula.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/formula.cpp
+test/CMakeFiles/test_runner.dir/formula.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/formula.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object test/CMakeFiles/test_runner.dir/formula.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/formula.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/formula.cpp
 
 test/CMakeFiles/test_runner.dir/formula.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_runner.dir/formula.i"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/formula.cpp > CMakeFiles/test_runner.dir/formula.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/formula.cpp > CMakeFiles/test_runner.dir/formula.i
 
 test/CMakeFiles/test_runner.dir/formula.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_runner.dir/formula.s"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/formula.cpp -o CMakeFiles/test_runner.dir/formula.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/formula.cpp -o CMakeFiles/test_runner.dir/formula.s
 
 test/CMakeFiles/test_runner.dir/formula.o.requires:
 
@@ -1090,17 +1090,17 @@ test/CMakeFiles/test_runner.dir/formula.o.provides.build: test/CMakeFiles/test_r
 
 
 test/CMakeFiles/test_runner.dir/internalcoord.o: test/CMakeFiles/test_runner.dir/flags.make
-test/CMakeFiles/test_runner.dir/internalcoord.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/internalcoord.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object test/CMakeFiles/test_runner.dir/internalcoord.o"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/internalcoord.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/internalcoord.cpp
+test/CMakeFiles/test_runner.dir/internalcoord.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/internalcoord.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object test/CMakeFiles/test_runner.dir/internalcoord.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/internalcoord.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/internalcoord.cpp
 
 test/CMakeFiles/test_runner.dir/internalcoord.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_runner.dir/internalcoord.i"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/internalcoord.cpp > CMakeFiles/test_runner.dir/internalcoord.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/internalcoord.cpp > CMakeFiles/test_runner.dir/internalcoord.i
 
 test/CMakeFiles/test_runner.dir/internalcoord.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_runner.dir/internalcoord.s"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/internalcoord.cpp -o CMakeFiles/test_runner.dir/internalcoord.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/internalcoord.cpp -o CMakeFiles/test_runner.dir/internalcoord.s
 
 test/CMakeFiles/test_runner.dir/internalcoord.o.requires:
 
@@ -1114,17 +1114,17 @@ test/CMakeFiles/test_runner.dir/internalcoord.o.provides.build: test/CMakeFiles/
 
 
 test/CMakeFiles/test_runner.dir/invalidsmarts.o: test/CMakeFiles/test_runner.dir/flags.make
-test/CMakeFiles/test_runner.dir/invalidsmarts.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/invalidsmarts.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object test/CMakeFiles/test_runner.dir/invalidsmarts.o"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/invalidsmarts.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/invalidsmarts.cpp
+test/CMakeFiles/test_runner.dir/invalidsmarts.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/invalidsmarts.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object test/CMakeFiles/test_runner.dir/invalidsmarts.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/invalidsmarts.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/invalidsmarts.cpp
 
 test/CMakeFiles/test_runner.dir/invalidsmarts.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_runner.dir/invalidsmarts.i"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/invalidsmarts.cpp > CMakeFiles/test_runner.dir/invalidsmarts.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/invalidsmarts.cpp > CMakeFiles/test_runner.dir/invalidsmarts.i
 
 test/CMakeFiles/test_runner.dir/invalidsmarts.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_runner.dir/invalidsmarts.s"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/invalidsmarts.cpp -o CMakeFiles/test_runner.dir/invalidsmarts.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/invalidsmarts.cpp -o CMakeFiles/test_runner.dir/invalidsmarts.s
 
 test/CMakeFiles/test_runner.dir/invalidsmarts.o.requires:
 
@@ -1138,17 +1138,17 @@ test/CMakeFiles/test_runner.dir/invalidsmarts.o.provides.build: test/CMakeFiles/
 
 
 test/CMakeFiles/test_runner.dir/invalidsmiles.o: test/CMakeFiles/test_runner.dir/flags.make
-test/CMakeFiles/test_runner.dir/invalidsmiles.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/invalidsmiles.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object test/CMakeFiles/test_runner.dir/invalidsmiles.o"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/invalidsmiles.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/invalidsmiles.cpp
+test/CMakeFiles/test_runner.dir/invalidsmiles.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/invalidsmiles.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object test/CMakeFiles/test_runner.dir/invalidsmiles.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/invalidsmiles.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/invalidsmiles.cpp
 
 test/CMakeFiles/test_runner.dir/invalidsmiles.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_runner.dir/invalidsmiles.i"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/invalidsmiles.cpp > CMakeFiles/test_runner.dir/invalidsmiles.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/invalidsmiles.cpp > CMakeFiles/test_runner.dir/invalidsmiles.i
 
 test/CMakeFiles/test_runner.dir/invalidsmiles.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_runner.dir/invalidsmiles.s"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/invalidsmiles.cpp -o CMakeFiles/test_runner.dir/invalidsmiles.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/invalidsmiles.cpp -o CMakeFiles/test_runner.dir/invalidsmiles.s
 
 test/CMakeFiles/test_runner.dir/invalidsmiles.o.requires:
 
@@ -1162,17 +1162,17 @@ test/CMakeFiles/test_runner.dir/invalidsmiles.o.provides.build: test/CMakeFiles/
 
 
 test/CMakeFiles/test_runner.dir/iterators.o: test/CMakeFiles/test_runner.dir/flags.make
-test/CMakeFiles/test_runner.dir/iterators.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/iterators.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object test/CMakeFiles/test_runner.dir/iterators.o"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/iterators.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/iterators.cpp
+test/CMakeFiles/test_runner.dir/iterators.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/iterators.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object test/CMakeFiles/test_runner.dir/iterators.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/iterators.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/iterators.cpp
 
 test/CMakeFiles/test_runner.dir/iterators.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_runner.dir/iterators.i"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/iterators.cpp > CMakeFiles/test_runner.dir/iterators.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/iterators.cpp > CMakeFiles/test_runner.dir/iterators.i
 
 test/CMakeFiles/test_runner.dir/iterators.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_runner.dir/iterators.s"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/iterators.cpp -o CMakeFiles/test_runner.dir/iterators.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/iterators.cpp -o CMakeFiles/test_runner.dir/iterators.s
 
 test/CMakeFiles/test_runner.dir/iterators.o.requires:
 
@@ -1186,17 +1186,17 @@ test/CMakeFiles/test_runner.dir/iterators.o.provides.build: test/CMakeFiles/test
 
 
 test/CMakeFiles/test_runner.dir/logp_psa.o: test/CMakeFiles/test_runner.dir/flags.make
-test/CMakeFiles/test_runner.dir/logp_psa.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/logp_psa.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object test/CMakeFiles/test_runner.dir/logp_psa.o"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/logp_psa.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/logp_psa.cpp
+test/CMakeFiles/test_runner.dir/logp_psa.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/logp_psa.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object test/CMakeFiles/test_runner.dir/logp_psa.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/logp_psa.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/logp_psa.cpp
 
 test/CMakeFiles/test_runner.dir/logp_psa.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_runner.dir/logp_psa.i"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/logp_psa.cpp > CMakeFiles/test_runner.dir/logp_psa.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/logp_psa.cpp > CMakeFiles/test_runner.dir/logp_psa.i
 
 test/CMakeFiles/test_runner.dir/logp_psa.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_runner.dir/logp_psa.s"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/logp_psa.cpp -o CMakeFiles/test_runner.dir/logp_psa.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/logp_psa.cpp -o CMakeFiles/test_runner.dir/logp_psa.s
 
 test/CMakeFiles/test_runner.dir/logp_psa.o.requires:
 
@@ -1210,17 +1210,17 @@ test/CMakeFiles/test_runner.dir/logp_psa.o.provides.build: test/CMakeFiles/test_
 
 
 test/CMakeFiles/test_runner.dir/math.o: test/CMakeFiles/test_runner.dir/flags.make
-test/CMakeFiles/test_runner.dir/math.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/math.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object test/CMakeFiles/test_runner.dir/math.o"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/math.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/math.cpp
+test/CMakeFiles/test_runner.dir/math.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/math.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object test/CMakeFiles/test_runner.dir/math.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/math.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/math.cpp
 
 test/CMakeFiles/test_runner.dir/math.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_runner.dir/math.i"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/math.cpp > CMakeFiles/test_runner.dir/math.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/math.cpp > CMakeFiles/test_runner.dir/math.i
 
 test/CMakeFiles/test_runner.dir/math.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_runner.dir/math.s"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/math.cpp -o CMakeFiles/test_runner.dir/math.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/math.cpp -o CMakeFiles/test_runner.dir/math.s
 
 test/CMakeFiles/test_runner.dir/math.o.requires:
 
@@ -1234,17 +1234,17 @@ test/CMakeFiles/test_runner.dir/math.o.provides.build: test/CMakeFiles/test_runn
 
 
 test/CMakeFiles/test_runner.dir/mol.o: test/CMakeFiles/test_runner.dir/flags.make
-test/CMakeFiles/test_runner.dir/mol.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/mol.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object test/CMakeFiles/test_runner.dir/mol.o"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/mol.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/mol.cpp
+test/CMakeFiles/test_runner.dir/mol.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/mol.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object test/CMakeFiles/test_runner.dir/mol.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/mol.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/mol.cpp
 
 test/CMakeFiles/test_runner.dir/mol.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_runner.dir/mol.i"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/mol.cpp > CMakeFiles/test_runner.dir/mol.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/mol.cpp > CMakeFiles/test_runner.dir/mol.i
 
 test/CMakeFiles/test_runner.dir/mol.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_runner.dir/mol.s"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/mol.cpp -o CMakeFiles/test_runner.dir/mol.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/mol.cpp -o CMakeFiles/test_runner.dir/mol.s
 
 test/CMakeFiles/test_runner.dir/mol.o.requires:
 
@@ -1258,17 +1258,17 @@ test/CMakeFiles/test_runner.dir/mol.o.provides.build: test/CMakeFiles/test_runne
 
 
 test/CMakeFiles/test_runner.dir/phmodel.o: test/CMakeFiles/test_runner.dir/flags.make
-test/CMakeFiles/test_runner.dir/phmodel.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/phmodel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object test/CMakeFiles/test_runner.dir/phmodel.o"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/phmodel.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/phmodel.cpp
+test/CMakeFiles/test_runner.dir/phmodel.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/phmodel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object test/CMakeFiles/test_runner.dir/phmodel.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/phmodel.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/phmodel.cpp
 
 test/CMakeFiles/test_runner.dir/phmodel.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_runner.dir/phmodel.i"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/phmodel.cpp > CMakeFiles/test_runner.dir/phmodel.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/phmodel.cpp > CMakeFiles/test_runner.dir/phmodel.i
 
 test/CMakeFiles/test_runner.dir/phmodel.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_runner.dir/phmodel.s"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/phmodel.cpp -o CMakeFiles/test_runner.dir/phmodel.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/phmodel.cpp -o CMakeFiles/test_runner.dir/phmodel.s
 
 test/CMakeFiles/test_runner.dir/phmodel.o.requires:
 
@@ -1282,17 +1282,17 @@ test/CMakeFiles/test_runner.dir/phmodel.o.provides.build: test/CMakeFiles/test_r
 
 
 test/CMakeFiles/test_runner.dir/residue.o: test/CMakeFiles/test_runner.dir/flags.make
-test/CMakeFiles/test_runner.dir/residue.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/residue.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object test/CMakeFiles/test_runner.dir/residue.o"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/residue.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/residue.cpp
+test/CMakeFiles/test_runner.dir/residue.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/residue.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object test/CMakeFiles/test_runner.dir/residue.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/residue.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/residue.cpp
 
 test/CMakeFiles/test_runner.dir/residue.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_runner.dir/residue.i"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/residue.cpp > CMakeFiles/test_runner.dir/residue.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/residue.cpp > CMakeFiles/test_runner.dir/residue.i
 
 test/CMakeFiles/test_runner.dir/residue.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_runner.dir/residue.s"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/residue.cpp -o CMakeFiles/test_runner.dir/residue.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/residue.cpp -o CMakeFiles/test_runner.dir/residue.s
 
 test/CMakeFiles/test_runner.dir/residue.o.requires:
 
@@ -1306,17 +1306,17 @@ test/CMakeFiles/test_runner.dir/residue.o.provides.build: test/CMakeFiles/test_r
 
 
 test/CMakeFiles/test_runner.dir/ringtest.o: test/CMakeFiles/test_runner.dir/flags.make
-test/CMakeFiles/test_runner.dir/ringtest.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/ringtest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object test/CMakeFiles/test_runner.dir/ringtest.o"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/ringtest.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/ringtest.cpp
+test/CMakeFiles/test_runner.dir/ringtest.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/ringtest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object test/CMakeFiles/test_runner.dir/ringtest.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/ringtest.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/ringtest.cpp
 
 test/CMakeFiles/test_runner.dir/ringtest.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_runner.dir/ringtest.i"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/ringtest.cpp > CMakeFiles/test_runner.dir/ringtest.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/ringtest.cpp > CMakeFiles/test_runner.dir/ringtest.i
 
 test/CMakeFiles/test_runner.dir/ringtest.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_runner.dir/ringtest.s"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/ringtest.cpp -o CMakeFiles/test_runner.dir/ringtest.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/ringtest.cpp -o CMakeFiles/test_runner.dir/ringtest.s
 
 test/CMakeFiles/test_runner.dir/ringtest.o.requires:
 
@@ -1330,17 +1330,17 @@ test/CMakeFiles/test_runner.dir/ringtest.o.provides.build: test/CMakeFiles/test_
 
 
 test/CMakeFiles/test_runner.dir/smartstest.o: test/CMakeFiles/test_runner.dir/flags.make
-test/CMakeFiles/test_runner.dir/smartstest.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/smartstest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object test/CMakeFiles/test_runner.dir/smartstest.o"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/smartstest.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/smartstest.cpp
+test/CMakeFiles/test_runner.dir/smartstest.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/smartstest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object test/CMakeFiles/test_runner.dir/smartstest.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/smartstest.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/smartstest.cpp
 
 test/CMakeFiles/test_runner.dir/smartstest.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_runner.dir/smartstest.i"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/smartstest.cpp > CMakeFiles/test_runner.dir/smartstest.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/smartstest.cpp > CMakeFiles/test_runner.dir/smartstest.i
 
 test/CMakeFiles/test_runner.dir/smartstest.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_runner.dir/smartstest.s"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/smartstest.cpp -o CMakeFiles/test_runner.dir/smartstest.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/smartstest.cpp -o CMakeFiles/test_runner.dir/smartstest.s
 
 test/CMakeFiles/test_runner.dir/smartstest.o.requires:
 
@@ -1354,17 +1354,17 @@ test/CMakeFiles/test_runner.dir/smartstest.o.provides.build: test/CMakeFiles/tes
 
 
 test/CMakeFiles/test_runner.dir/smartsparse.o: test/CMakeFiles/test_runner.dir/flags.make
-test/CMakeFiles/test_runner.dir/smartsparse.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/smartsparse.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object test/CMakeFiles/test_runner.dir/smartsparse.o"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/smartsparse.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/smartsparse.cpp
+test/CMakeFiles/test_runner.dir/smartsparse.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/smartsparse.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object test/CMakeFiles/test_runner.dir/smartsparse.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/smartsparse.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/smartsparse.cpp
 
 test/CMakeFiles/test_runner.dir/smartsparse.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_runner.dir/smartsparse.i"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/smartsparse.cpp > CMakeFiles/test_runner.dir/smartsparse.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/smartsparse.cpp > CMakeFiles/test_runner.dir/smartsparse.i
 
 test/CMakeFiles/test_runner.dir/smartsparse.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_runner.dir/smartsparse.s"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/smartsparse.cpp -o CMakeFiles/test_runner.dir/smartsparse.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/smartsparse.cpp -o CMakeFiles/test_runner.dir/smartsparse.s
 
 test/CMakeFiles/test_runner.dir/smartsparse.o.requires:
 
@@ -1378,17 +1378,17 @@ test/CMakeFiles/test_runner.dir/smartsparse.o.provides.build: test/CMakeFiles/te
 
 
 test/CMakeFiles/test_runner.dir/smilesmatch.o: test/CMakeFiles/test_runner.dir/flags.make
-test/CMakeFiles/test_runner.dir/smilesmatch.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/smilesmatch.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object test/CMakeFiles/test_runner.dir/smilesmatch.o"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/smilesmatch.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/smilesmatch.cpp
+test/CMakeFiles/test_runner.dir/smilesmatch.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/smilesmatch.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object test/CMakeFiles/test_runner.dir/smilesmatch.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/smilesmatch.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/smilesmatch.cpp
 
 test/CMakeFiles/test_runner.dir/smilesmatch.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_runner.dir/smilesmatch.i"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/smilesmatch.cpp > CMakeFiles/test_runner.dir/smilesmatch.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/smilesmatch.cpp > CMakeFiles/test_runner.dir/smilesmatch.i
 
 test/CMakeFiles/test_runner.dir/smilesmatch.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_runner.dir/smilesmatch.s"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/smilesmatch.cpp -o CMakeFiles/test_runner.dir/smilesmatch.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/smilesmatch.cpp -o CMakeFiles/test_runner.dir/smilesmatch.s
 
 test/CMakeFiles/test_runner.dir/smilesmatch.o.requires:
 
@@ -1402,17 +1402,17 @@ test/CMakeFiles/test_runner.dir/smilesmatch.o.provides.build: test/CMakeFiles/te
 
 
 test/CMakeFiles/test_runner.dir/unitcell.o: test/CMakeFiles/test_runner.dir/flags.make
-test/CMakeFiles/test_runner.dir/unitcell.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/unitcell.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object test/CMakeFiles/test_runner.dir/unitcell.o"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/unitcell.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/unitcell.cpp
+test/CMakeFiles/test_runner.dir/unitcell.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/unitcell.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object test/CMakeFiles/test_runner.dir/unitcell.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/unitcell.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/unitcell.cpp
 
 test/CMakeFiles/test_runner.dir/unitcell.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_runner.dir/unitcell.i"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/unitcell.cpp > CMakeFiles/test_runner.dir/unitcell.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/unitcell.cpp > CMakeFiles/test_runner.dir/unitcell.i
 
 test/CMakeFiles/test_runner.dir/unitcell.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_runner.dir/unitcell.s"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/unitcell.cpp -o CMakeFiles/test_runner.dir/unitcell.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/unitcell.cpp -o CMakeFiles/test_runner.dir/unitcell.s
 
 test/CMakeFiles/test_runner.dir/unitcell.o.requires:
 
@@ -1426,17 +1426,17 @@ test/CMakeFiles/test_runner.dir/unitcell.o.provides.build: test/CMakeFiles/test_
 
 
 test/CMakeFiles/test_runner.dir/cmlreadfile.o: test/CMakeFiles/test_runner.dir/flags.make
-test/CMakeFiles/test_runner.dir/cmlreadfile.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/cmlreadfile.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object test/CMakeFiles/test_runner.dir/cmlreadfile.o"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/cmlreadfile.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/cmlreadfile.cpp
+test/CMakeFiles/test_runner.dir/cmlreadfile.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/cmlreadfile.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object test/CMakeFiles/test_runner.dir/cmlreadfile.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/cmlreadfile.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/cmlreadfile.cpp
 
 test/CMakeFiles/test_runner.dir/cmlreadfile.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_runner.dir/cmlreadfile.i"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/cmlreadfile.cpp > CMakeFiles/test_runner.dir/cmlreadfile.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/cmlreadfile.cpp > CMakeFiles/test_runner.dir/cmlreadfile.i
 
 test/CMakeFiles/test_runner.dir/cmlreadfile.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_runner.dir/cmlreadfile.s"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/cmlreadfile.cpp -o CMakeFiles/test_runner.dir/cmlreadfile.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/cmlreadfile.cpp -o CMakeFiles/test_runner.dir/cmlreadfile.s
 
 test/CMakeFiles/test_runner.dir/cmlreadfile.o.requires:
 
@@ -1450,17 +1450,17 @@ test/CMakeFiles/test_runner.dir/cmlreadfile.o.provides.build: test/CMakeFiles/te
 
 
 test/CMakeFiles/test_runner.dir/obtest.o: test/CMakeFiles/test_runner.dir/flags.make
-test/CMakeFiles/test_runner.dir/obtest.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/obtest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object test/CMakeFiles/test_runner.dir/obtest.o"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/obtest.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/obtest.cpp
+test/CMakeFiles/test_runner.dir/obtest.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/obtest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object test/CMakeFiles/test_runner.dir/obtest.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_runner.dir/obtest.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/obtest.cpp
 
 test/CMakeFiles/test_runner.dir/obtest.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_runner.dir/obtest.i"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/obtest.cpp > CMakeFiles/test_runner.dir/obtest.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/obtest.cpp > CMakeFiles/test_runner.dir/obtest.i
 
 test/CMakeFiles/test_runner.dir/obtest.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_runner.dir/obtest.s"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/obtest.cpp -o CMakeFiles/test_runner.dir/obtest.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/obtest.cpp -o CMakeFiles/test_runner.dir/obtest.s
 
 test/CMakeFiles/test_runner.dir/obtest.o.requires:
 
@@ -1602,8 +1602,8 @@ bin/test_runner: lib/libopenbabel.so.5.0.0
 bin/test_runner: /usr/lib/x86_64-linux-gnu/libm.so
 bin/test_runner: /usr/lib/x86_64-linux-gnu/libz.so
 bin/test_runner: test/CMakeFiles/test_runner.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Linking CXX executable ../bin/test_runner"
-	cd /home/fernando/Documentos/BE3AV/build/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test_runner.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Linking CXX executable ../bin/test_runner"
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test_runner.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 test/CMakeFiles/test_runner.dir/build: bin/test_runner
@@ -1673,10 +1673,10 @@ test/CMakeFiles/test_runner.dir/requires: test/CMakeFiles/test_runner.dir/obtest
 .PHONY : test/CMakeFiles/test_runner.dir/requires
 
 test/CMakeFiles/test_runner.dir/clean:
-	cd /home/fernando/Documentos/BE3AV/build/test && $(CMAKE_COMMAND) -P CMakeFiles/test_runner.dir/cmake_clean.cmake
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && $(CMAKE_COMMAND) -P CMakeFiles/test_runner.dir/cmake_clean.cmake
 .PHONY : test/CMakeFiles/test_runner.dir/clean
 
 test/CMakeFiles/test_runner.dir/depend:
-	cd /home/fernando/Documentos/BE3AV/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fernando/Documentos/BE3AV/openbabel-2.4.1 /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test /home/fernando/Documentos/BE3AV/build /home/fernando/Documentos/BE3AV/build/test /home/fernando/Documentos/BE3AV/build/test/CMakeFiles/test_runner.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/fernando/Documentos/BE3AV/programas/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1 /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test /home/fernando/Documentos/BE3AV/programas/build /home/fernando/Documentos/BE3AV/programas/build/test /home/fernando/Documentos/BE3AV/programas/build/test/CMakeFiles/test_runner.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : test/CMakeFiles/test_runner.dir/depend
 

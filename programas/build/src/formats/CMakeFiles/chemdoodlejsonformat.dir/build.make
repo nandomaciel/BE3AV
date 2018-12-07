@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/fernando/Documentos/BE3AV/openbabel-2.4.1
+CMAKE_SOURCE_DIR = /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/fernando/Documentos/BE3AV/build
+CMAKE_BINARY_DIR = /home/fernando/Documentos/BE3AV/programas/build
 
 # Include any dependencies generated for this target.
 include src/formats/CMakeFiles/chemdoodlejsonformat.dir/depend.make
@@ -58,17 +58,17 @@ include src/formats/CMakeFiles/chemdoodlejsonformat.dir/progress.make
 include src/formats/CMakeFiles/chemdoodlejsonformat.dir/flags.make
 
 src/formats/CMakeFiles/chemdoodlejsonformat.dir/json/chemdoodlejsonformat.o: src/formats/CMakeFiles/chemdoodlejsonformat.dir/flags.make
-src/formats/CMakeFiles/chemdoodlejsonformat.dir/json/chemdoodlejsonformat.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/formats/json/chemdoodlejsonformat.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/formats/CMakeFiles/chemdoodlejsonformat.dir/json/chemdoodlejsonformat.o"
-	cd /home/fernando/Documentos/BE3AV/build/src/formats && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chemdoodlejsonformat.dir/json/chemdoodlejsonformat.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/formats/json/chemdoodlejsonformat.cpp
+src/formats/CMakeFiles/chemdoodlejsonformat.dir/json/chemdoodlejsonformat.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/formats/json/chemdoodlejsonformat.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/formats/CMakeFiles/chemdoodlejsonformat.dir/json/chemdoodlejsonformat.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/src/formats && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chemdoodlejsonformat.dir/json/chemdoodlejsonformat.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/formats/json/chemdoodlejsonformat.cpp
 
 src/formats/CMakeFiles/chemdoodlejsonformat.dir/json/chemdoodlejsonformat.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chemdoodlejsonformat.dir/json/chemdoodlejsonformat.i"
-	cd /home/fernando/Documentos/BE3AV/build/src/formats && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/formats/json/chemdoodlejsonformat.cpp > CMakeFiles/chemdoodlejsonformat.dir/json/chemdoodlejsonformat.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/src/formats && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/formats/json/chemdoodlejsonformat.cpp > CMakeFiles/chemdoodlejsonformat.dir/json/chemdoodlejsonformat.i
 
 src/formats/CMakeFiles/chemdoodlejsonformat.dir/json/chemdoodlejsonformat.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chemdoodlejsonformat.dir/json/chemdoodlejsonformat.s"
-	cd /home/fernando/Documentos/BE3AV/build/src/formats && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/formats/json/chemdoodlejsonformat.cpp -o CMakeFiles/chemdoodlejsonformat.dir/json/chemdoodlejsonformat.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/src/formats && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/formats/json/chemdoodlejsonformat.cpp -o CMakeFiles/chemdoodlejsonformat.dir/json/chemdoodlejsonformat.s
 
 src/formats/CMakeFiles/chemdoodlejsonformat.dir/json/chemdoodlejsonformat.o.requires:
 
@@ -82,17 +82,17 @@ src/formats/CMakeFiles/chemdoodlejsonformat.dir/json/chemdoodlejsonformat.o.prov
 
 
 src/formats/CMakeFiles/chemdoodlejsonformat.dir/json/jsoncpp.o: src/formats/CMakeFiles/chemdoodlejsonformat.dir/flags.make
-src/formats/CMakeFiles/chemdoodlejsonformat.dir/json/jsoncpp.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/formats/json/jsoncpp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/formats/CMakeFiles/chemdoodlejsonformat.dir/json/jsoncpp.o"
-	cd /home/fernando/Documentos/BE3AV/build/src/formats && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chemdoodlejsonformat.dir/json/jsoncpp.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/formats/json/jsoncpp.cpp
+src/formats/CMakeFiles/chemdoodlejsonformat.dir/json/jsoncpp.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/formats/json/jsoncpp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/formats/CMakeFiles/chemdoodlejsonformat.dir/json/jsoncpp.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/src/formats && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chemdoodlejsonformat.dir/json/jsoncpp.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/formats/json/jsoncpp.cpp
 
 src/formats/CMakeFiles/chemdoodlejsonformat.dir/json/jsoncpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chemdoodlejsonformat.dir/json/jsoncpp.i"
-	cd /home/fernando/Documentos/BE3AV/build/src/formats && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/formats/json/jsoncpp.cpp > CMakeFiles/chemdoodlejsonformat.dir/json/jsoncpp.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/src/formats && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/formats/json/jsoncpp.cpp > CMakeFiles/chemdoodlejsonformat.dir/json/jsoncpp.i
 
 src/formats/CMakeFiles/chemdoodlejsonformat.dir/json/jsoncpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chemdoodlejsonformat.dir/json/jsoncpp.s"
-	cd /home/fernando/Documentos/BE3AV/build/src/formats && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/formats/json/jsoncpp.cpp -o CMakeFiles/chemdoodlejsonformat.dir/json/jsoncpp.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/src/formats && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/formats/json/jsoncpp.cpp -o CMakeFiles/chemdoodlejsonformat.dir/json/jsoncpp.s
 
 src/formats/CMakeFiles/chemdoodlejsonformat.dir/json/jsoncpp.o.requires:
 
@@ -106,17 +106,17 @@ src/formats/CMakeFiles/chemdoodlejsonformat.dir/json/jsoncpp.o.provides.build: s
 
 
 src/formats/CMakeFiles/chemdoodlejsonformat.dir/json/customwriter.o: src/formats/CMakeFiles/chemdoodlejsonformat.dir/flags.make
-src/formats/CMakeFiles/chemdoodlejsonformat.dir/json/customwriter.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/formats/json/customwriter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/formats/CMakeFiles/chemdoodlejsonformat.dir/json/customwriter.o"
-	cd /home/fernando/Documentos/BE3AV/build/src/formats && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chemdoodlejsonformat.dir/json/customwriter.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/formats/json/customwriter.cpp
+src/formats/CMakeFiles/chemdoodlejsonformat.dir/json/customwriter.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/formats/json/customwriter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/formats/CMakeFiles/chemdoodlejsonformat.dir/json/customwriter.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/src/formats && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chemdoodlejsonformat.dir/json/customwriter.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/formats/json/customwriter.cpp
 
 src/formats/CMakeFiles/chemdoodlejsonformat.dir/json/customwriter.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chemdoodlejsonformat.dir/json/customwriter.i"
-	cd /home/fernando/Documentos/BE3AV/build/src/formats && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/formats/json/customwriter.cpp > CMakeFiles/chemdoodlejsonformat.dir/json/customwriter.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/src/formats && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/formats/json/customwriter.cpp > CMakeFiles/chemdoodlejsonformat.dir/json/customwriter.i
 
 src/formats/CMakeFiles/chemdoodlejsonformat.dir/json/customwriter.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chemdoodlejsonformat.dir/json/customwriter.s"
-	cd /home/fernando/Documentos/BE3AV/build/src/formats && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/formats/json/customwriter.cpp -o CMakeFiles/chemdoodlejsonformat.dir/json/customwriter.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/src/formats && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/formats/json/customwriter.cpp -o CMakeFiles/chemdoodlejsonformat.dir/json/customwriter.s
 
 src/formats/CMakeFiles/chemdoodlejsonformat.dir/json/customwriter.o.requires:
 
@@ -151,8 +151,8 @@ lib/chemdoodlejsonformat.so: /usr/lib/x86_64-linux-gnu/libcairo.so
 lib/chemdoodlejsonformat.so: /usr/lib/x86_64-linux-gnu/libm.so
 lib/chemdoodlejsonformat.so: /usr/lib/x86_64-linux-gnu/libz.so
 lib/chemdoodlejsonformat.so: src/formats/CMakeFiles/chemdoodlejsonformat.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared module ../../lib/chemdoodlejsonformat.so"
-	cd /home/fernando/Documentos/BE3AV/build/src/formats && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/chemdoodlejsonformat.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared module ../../lib/chemdoodlejsonformat.so"
+	cd /home/fernando/Documentos/BE3AV/programas/build/src/formats && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/chemdoodlejsonformat.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/formats/CMakeFiles/chemdoodlejsonformat.dir/build: lib/chemdoodlejsonformat.so
@@ -166,10 +166,10 @@ src/formats/CMakeFiles/chemdoodlejsonformat.dir/requires: src/formats/CMakeFiles
 .PHONY : src/formats/CMakeFiles/chemdoodlejsonformat.dir/requires
 
 src/formats/CMakeFiles/chemdoodlejsonformat.dir/clean:
-	cd /home/fernando/Documentos/BE3AV/build/src/formats && $(CMAKE_COMMAND) -P CMakeFiles/chemdoodlejsonformat.dir/cmake_clean.cmake
+	cd /home/fernando/Documentos/BE3AV/programas/build/src/formats && $(CMAKE_COMMAND) -P CMakeFiles/chemdoodlejsonformat.dir/cmake_clean.cmake
 .PHONY : src/formats/CMakeFiles/chemdoodlejsonformat.dir/clean
 
 src/formats/CMakeFiles/chemdoodlejsonformat.dir/depend:
-	cd /home/fernando/Documentos/BE3AV/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fernando/Documentos/BE3AV/openbabel-2.4.1 /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/formats /home/fernando/Documentos/BE3AV/build /home/fernando/Documentos/BE3AV/build/src/formats /home/fernando/Documentos/BE3AV/build/src/formats/CMakeFiles/chemdoodlejsonformat.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/fernando/Documentos/BE3AV/programas/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1 /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/formats /home/fernando/Documentos/BE3AV/programas/build /home/fernando/Documentos/BE3AV/programas/build/src/formats /home/fernando/Documentos/BE3AV/programas/build/src/formats/CMakeFiles/chemdoodlejsonformat.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/formats/CMakeFiles/chemdoodlejsonformat.dir/depend
 

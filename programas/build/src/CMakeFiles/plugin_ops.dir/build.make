@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/fernando/Documentos/BE3AV/openbabel-2.4.1
+CMAKE_SOURCE_DIR = /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/fernando/Documentos/BE3AV/build
+CMAKE_BINARY_DIR = /home/fernando/Documentos/BE3AV/programas/build
 
 # Include any dependencies generated for this target.
 include src/CMakeFiles/plugin_ops.dir/depend.make
@@ -58,17 +58,17 @@ include src/CMakeFiles/plugin_ops.dir/progress.make
 include src/CMakeFiles/plugin_ops.dir/flags.make
 
 src/CMakeFiles/plugin_ops.dir/ops/addfilename.o: src/CMakeFiles/plugin_ops.dir/flags.make
-src/CMakeFiles/plugin_ops.dir/ops/addfilename.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/addfilename.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/plugin_ops.dir/ops/addfilename.o"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/plugin_ops.dir/ops/addfilename.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/addfilename.cpp
+src/CMakeFiles/plugin_ops.dir/ops/addfilename.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/addfilename.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/plugin_ops.dir/ops/addfilename.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/plugin_ops.dir/ops/addfilename.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/addfilename.cpp
 
 src/CMakeFiles/plugin_ops.dir/ops/addfilename.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/plugin_ops.dir/ops/addfilename.i"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/addfilename.cpp > CMakeFiles/plugin_ops.dir/ops/addfilename.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/addfilename.cpp > CMakeFiles/plugin_ops.dir/ops/addfilename.i
 
 src/CMakeFiles/plugin_ops.dir/ops/addfilename.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/plugin_ops.dir/ops/addfilename.s"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/addfilename.cpp -o CMakeFiles/plugin_ops.dir/ops/addfilename.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/addfilename.cpp -o CMakeFiles/plugin_ops.dir/ops/addfilename.s
 
 src/CMakeFiles/plugin_ops.dir/ops/addfilename.o.requires:
 
@@ -82,17 +82,17 @@ src/CMakeFiles/plugin_ops.dir/ops/addfilename.o.provides.build: src/CMakeFiles/p
 
 
 src/CMakeFiles/plugin_ops.dir/ops/addinindex.o: src/CMakeFiles/plugin_ops.dir/flags.make
-src/CMakeFiles/plugin_ops.dir/ops/addinindex.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/addinindex.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/plugin_ops.dir/ops/addinindex.o"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/plugin_ops.dir/ops/addinindex.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/addinindex.cpp
+src/CMakeFiles/plugin_ops.dir/ops/addinindex.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/addinindex.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/plugin_ops.dir/ops/addinindex.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/plugin_ops.dir/ops/addinindex.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/addinindex.cpp
 
 src/CMakeFiles/plugin_ops.dir/ops/addinindex.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/plugin_ops.dir/ops/addinindex.i"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/addinindex.cpp > CMakeFiles/plugin_ops.dir/ops/addinindex.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/addinindex.cpp > CMakeFiles/plugin_ops.dir/ops/addinindex.i
 
 src/CMakeFiles/plugin_ops.dir/ops/addinindex.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/plugin_ops.dir/ops/addinindex.s"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/addinindex.cpp -o CMakeFiles/plugin_ops.dir/ops/addinindex.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/addinindex.cpp -o CMakeFiles/plugin_ops.dir/ops/addinindex.s
 
 src/CMakeFiles/plugin_ops.dir/ops/addinindex.o.requires:
 
@@ -106,17 +106,17 @@ src/CMakeFiles/plugin_ops.dir/ops/addinindex.o.provides.build: src/CMakeFiles/pl
 
 
 src/CMakeFiles/plugin_ops.dir/ops/addpolarh.o: src/CMakeFiles/plugin_ops.dir/flags.make
-src/CMakeFiles/plugin_ops.dir/ops/addpolarh.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/addpolarh.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/plugin_ops.dir/ops/addpolarh.o"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/plugin_ops.dir/ops/addpolarh.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/addpolarh.cpp
+src/CMakeFiles/plugin_ops.dir/ops/addpolarh.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/addpolarh.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/plugin_ops.dir/ops/addpolarh.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/plugin_ops.dir/ops/addpolarh.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/addpolarh.cpp
 
 src/CMakeFiles/plugin_ops.dir/ops/addpolarh.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/plugin_ops.dir/ops/addpolarh.i"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/addpolarh.cpp > CMakeFiles/plugin_ops.dir/ops/addpolarh.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/addpolarh.cpp > CMakeFiles/plugin_ops.dir/ops/addpolarh.i
 
 src/CMakeFiles/plugin_ops.dir/ops/addpolarh.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/plugin_ops.dir/ops/addpolarh.s"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/addpolarh.cpp -o CMakeFiles/plugin_ops.dir/ops/addpolarh.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/addpolarh.cpp -o CMakeFiles/plugin_ops.dir/ops/addpolarh.s
 
 src/CMakeFiles/plugin_ops.dir/ops/addpolarh.o.requires:
 
@@ -130,17 +130,17 @@ src/CMakeFiles/plugin_ops.dir/ops/addpolarh.o.provides.build: src/CMakeFiles/plu
 
 
 src/CMakeFiles/plugin_ops.dir/ops/addnonpolarh.o: src/CMakeFiles/plugin_ops.dir/flags.make
-src/CMakeFiles/plugin_ops.dir/ops/addnonpolarh.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/addnonpolarh.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/plugin_ops.dir/ops/addnonpolarh.o"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/plugin_ops.dir/ops/addnonpolarh.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/addnonpolarh.cpp
+src/CMakeFiles/plugin_ops.dir/ops/addnonpolarh.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/addnonpolarh.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/plugin_ops.dir/ops/addnonpolarh.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/plugin_ops.dir/ops/addnonpolarh.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/addnonpolarh.cpp
 
 src/CMakeFiles/plugin_ops.dir/ops/addnonpolarh.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/plugin_ops.dir/ops/addnonpolarh.i"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/addnonpolarh.cpp > CMakeFiles/plugin_ops.dir/ops/addnonpolarh.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/addnonpolarh.cpp > CMakeFiles/plugin_ops.dir/ops/addnonpolarh.i
 
 src/CMakeFiles/plugin_ops.dir/ops/addnonpolarh.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/plugin_ops.dir/ops/addnonpolarh.s"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/addnonpolarh.cpp -o CMakeFiles/plugin_ops.dir/ops/addnonpolarh.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/addnonpolarh.cpp -o CMakeFiles/plugin_ops.dir/ops/addnonpolarh.s
 
 src/CMakeFiles/plugin_ops.dir/ops/addnonpolarh.o.requires:
 
@@ -154,17 +154,17 @@ src/CMakeFiles/plugin_ops.dir/ops/addnonpolarh.o.provides.build: src/CMakeFiles/
 
 
 src/CMakeFiles/plugin_ops.dir/ops/canonical.o: src/CMakeFiles/plugin_ops.dir/flags.make
-src/CMakeFiles/plugin_ops.dir/ops/canonical.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/canonical.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/plugin_ops.dir/ops/canonical.o"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/plugin_ops.dir/ops/canonical.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/canonical.cpp
+src/CMakeFiles/plugin_ops.dir/ops/canonical.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/canonical.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/plugin_ops.dir/ops/canonical.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/plugin_ops.dir/ops/canonical.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/canonical.cpp
 
 src/CMakeFiles/plugin_ops.dir/ops/canonical.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/plugin_ops.dir/ops/canonical.i"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/canonical.cpp > CMakeFiles/plugin_ops.dir/ops/canonical.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/canonical.cpp > CMakeFiles/plugin_ops.dir/ops/canonical.i
 
 src/CMakeFiles/plugin_ops.dir/ops/canonical.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/plugin_ops.dir/ops/canonical.s"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/canonical.cpp -o CMakeFiles/plugin_ops.dir/ops/canonical.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/canonical.cpp -o CMakeFiles/plugin_ops.dir/ops/canonical.s
 
 src/CMakeFiles/plugin_ops.dir/ops/canonical.o.requires:
 
@@ -178,17 +178,17 @@ src/CMakeFiles/plugin_ops.dir/ops/canonical.o.provides.build: src/CMakeFiles/plu
 
 
 src/CMakeFiles/plugin_ops.dir/ops/changecell.o: src/CMakeFiles/plugin_ops.dir/flags.make
-src/CMakeFiles/plugin_ops.dir/ops/changecell.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/changecell.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/plugin_ops.dir/ops/changecell.o"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/plugin_ops.dir/ops/changecell.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/changecell.cpp
+src/CMakeFiles/plugin_ops.dir/ops/changecell.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/changecell.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/plugin_ops.dir/ops/changecell.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/plugin_ops.dir/ops/changecell.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/changecell.cpp
 
 src/CMakeFiles/plugin_ops.dir/ops/changecell.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/plugin_ops.dir/ops/changecell.i"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/changecell.cpp > CMakeFiles/plugin_ops.dir/ops/changecell.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/changecell.cpp > CMakeFiles/plugin_ops.dir/ops/changecell.i
 
 src/CMakeFiles/plugin_ops.dir/ops/changecell.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/plugin_ops.dir/ops/changecell.s"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/changecell.cpp -o CMakeFiles/plugin_ops.dir/ops/changecell.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/changecell.cpp -o CMakeFiles/plugin_ops.dir/ops/changecell.s
 
 src/CMakeFiles/plugin_ops.dir/ops/changecell.o.requires:
 
@@ -202,17 +202,17 @@ src/CMakeFiles/plugin_ops.dir/ops/changecell.o.provides.build: src/CMakeFiles/pl
 
 
 src/CMakeFiles/plugin_ops.dir/ops/delpolarh.o: src/CMakeFiles/plugin_ops.dir/flags.make
-src/CMakeFiles/plugin_ops.dir/ops/delpolarh.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/delpolarh.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/CMakeFiles/plugin_ops.dir/ops/delpolarh.o"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/plugin_ops.dir/ops/delpolarh.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/delpolarh.cpp
+src/CMakeFiles/plugin_ops.dir/ops/delpolarh.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/delpolarh.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/CMakeFiles/plugin_ops.dir/ops/delpolarh.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/plugin_ops.dir/ops/delpolarh.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/delpolarh.cpp
 
 src/CMakeFiles/plugin_ops.dir/ops/delpolarh.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/plugin_ops.dir/ops/delpolarh.i"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/delpolarh.cpp > CMakeFiles/plugin_ops.dir/ops/delpolarh.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/delpolarh.cpp > CMakeFiles/plugin_ops.dir/ops/delpolarh.i
 
 src/CMakeFiles/plugin_ops.dir/ops/delpolarh.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/plugin_ops.dir/ops/delpolarh.s"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/delpolarh.cpp -o CMakeFiles/plugin_ops.dir/ops/delpolarh.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/delpolarh.cpp -o CMakeFiles/plugin_ops.dir/ops/delpolarh.s
 
 src/CMakeFiles/plugin_ops.dir/ops/delpolarh.o.requires:
 
@@ -226,17 +226,17 @@ src/CMakeFiles/plugin_ops.dir/ops/delpolarh.o.provides.build: src/CMakeFiles/plu
 
 
 src/CMakeFiles/plugin_ops.dir/ops/delnonpolarh.o: src/CMakeFiles/plugin_ops.dir/flags.make
-src/CMakeFiles/plugin_ops.dir/ops/delnonpolarh.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/delnonpolarh.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/CMakeFiles/plugin_ops.dir/ops/delnonpolarh.o"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/plugin_ops.dir/ops/delnonpolarh.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/delnonpolarh.cpp
+src/CMakeFiles/plugin_ops.dir/ops/delnonpolarh.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/delnonpolarh.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/CMakeFiles/plugin_ops.dir/ops/delnonpolarh.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/plugin_ops.dir/ops/delnonpolarh.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/delnonpolarh.cpp
 
 src/CMakeFiles/plugin_ops.dir/ops/delnonpolarh.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/plugin_ops.dir/ops/delnonpolarh.i"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/delnonpolarh.cpp > CMakeFiles/plugin_ops.dir/ops/delnonpolarh.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/delnonpolarh.cpp > CMakeFiles/plugin_ops.dir/ops/delnonpolarh.i
 
 src/CMakeFiles/plugin_ops.dir/ops/delnonpolarh.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/plugin_ops.dir/ops/delnonpolarh.s"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/delnonpolarh.cpp -o CMakeFiles/plugin_ops.dir/ops/delnonpolarh.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/delnonpolarh.cpp -o CMakeFiles/plugin_ops.dir/ops/delnonpolarh.s
 
 src/CMakeFiles/plugin_ops.dir/ops/delnonpolarh.o.requires:
 
@@ -250,17 +250,17 @@ src/CMakeFiles/plugin_ops.dir/ops/delnonpolarh.o.provides.build: src/CMakeFiles/
 
 
 src/CMakeFiles/plugin_ops.dir/ops/gen2D.o: src/CMakeFiles/plugin_ops.dir/flags.make
-src/CMakeFiles/plugin_ops.dir/ops/gen2D.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/gen2D.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/CMakeFiles/plugin_ops.dir/ops/gen2D.o"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/plugin_ops.dir/ops/gen2D.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/gen2D.cpp
+src/CMakeFiles/plugin_ops.dir/ops/gen2D.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/gen2D.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/CMakeFiles/plugin_ops.dir/ops/gen2D.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/plugin_ops.dir/ops/gen2D.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/gen2D.cpp
 
 src/CMakeFiles/plugin_ops.dir/ops/gen2D.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/plugin_ops.dir/ops/gen2D.i"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/gen2D.cpp > CMakeFiles/plugin_ops.dir/ops/gen2D.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/gen2D.cpp > CMakeFiles/plugin_ops.dir/ops/gen2D.i
 
 src/CMakeFiles/plugin_ops.dir/ops/gen2D.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/plugin_ops.dir/ops/gen2D.s"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/gen2D.cpp -o CMakeFiles/plugin_ops.dir/ops/gen2D.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/gen2D.cpp -o CMakeFiles/plugin_ops.dir/ops/gen2D.s
 
 src/CMakeFiles/plugin_ops.dir/ops/gen2D.o.requires:
 
@@ -274,17 +274,17 @@ src/CMakeFiles/plugin_ops.dir/ops/gen2D.o.provides.build: src/CMakeFiles/plugin_
 
 
 src/CMakeFiles/plugin_ops.dir/ops/fillUC.o: src/CMakeFiles/plugin_ops.dir/flags.make
-src/CMakeFiles/plugin_ops.dir/ops/fillUC.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/fillUC.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object src/CMakeFiles/plugin_ops.dir/ops/fillUC.o"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/plugin_ops.dir/ops/fillUC.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/fillUC.cpp
+src/CMakeFiles/plugin_ops.dir/ops/fillUC.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/fillUC.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object src/CMakeFiles/plugin_ops.dir/ops/fillUC.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/plugin_ops.dir/ops/fillUC.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/fillUC.cpp
 
 src/CMakeFiles/plugin_ops.dir/ops/fillUC.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/plugin_ops.dir/ops/fillUC.i"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/fillUC.cpp > CMakeFiles/plugin_ops.dir/ops/fillUC.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/fillUC.cpp > CMakeFiles/plugin_ops.dir/ops/fillUC.i
 
 src/CMakeFiles/plugin_ops.dir/ops/fillUC.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/plugin_ops.dir/ops/fillUC.s"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/fillUC.cpp -o CMakeFiles/plugin_ops.dir/ops/fillUC.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/fillUC.cpp -o CMakeFiles/plugin_ops.dir/ops/fillUC.s
 
 src/CMakeFiles/plugin_ops.dir/ops/fillUC.o.requires:
 
@@ -298,17 +298,17 @@ src/CMakeFiles/plugin_ops.dir/ops/fillUC.o.provides.build: src/CMakeFiles/plugin
 
 
 src/CMakeFiles/plugin_ops.dir/ops/forcefield.o: src/CMakeFiles/plugin_ops.dir/flags.make
-src/CMakeFiles/plugin_ops.dir/ops/forcefield.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/forcefield.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object src/CMakeFiles/plugin_ops.dir/ops/forcefield.o"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/plugin_ops.dir/ops/forcefield.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/forcefield.cpp
+src/CMakeFiles/plugin_ops.dir/ops/forcefield.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/forcefield.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object src/CMakeFiles/plugin_ops.dir/ops/forcefield.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/plugin_ops.dir/ops/forcefield.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/forcefield.cpp
 
 src/CMakeFiles/plugin_ops.dir/ops/forcefield.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/plugin_ops.dir/ops/forcefield.i"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/forcefield.cpp > CMakeFiles/plugin_ops.dir/ops/forcefield.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/forcefield.cpp > CMakeFiles/plugin_ops.dir/ops/forcefield.i
 
 src/CMakeFiles/plugin_ops.dir/ops/forcefield.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/plugin_ops.dir/ops/forcefield.s"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/forcefield.cpp -o CMakeFiles/plugin_ops.dir/ops/forcefield.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/forcefield.cpp -o CMakeFiles/plugin_ops.dir/ops/forcefield.s
 
 src/CMakeFiles/plugin_ops.dir/ops/forcefield.o.requires:
 
@@ -322,17 +322,17 @@ src/CMakeFiles/plugin_ops.dir/ops/forcefield.o.provides.build: src/CMakeFiles/pl
 
 
 src/CMakeFiles/plugin_ops.dir/ops/gen3d.o: src/CMakeFiles/plugin_ops.dir/flags.make
-src/CMakeFiles/plugin_ops.dir/ops/gen3d.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/gen3d.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object src/CMakeFiles/plugin_ops.dir/ops/gen3d.o"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/plugin_ops.dir/ops/gen3d.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/gen3d.cpp
+src/CMakeFiles/plugin_ops.dir/ops/gen3d.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/gen3d.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object src/CMakeFiles/plugin_ops.dir/ops/gen3d.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/plugin_ops.dir/ops/gen3d.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/gen3d.cpp
 
 src/CMakeFiles/plugin_ops.dir/ops/gen3d.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/plugin_ops.dir/ops/gen3d.i"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/gen3d.cpp > CMakeFiles/plugin_ops.dir/ops/gen3d.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/gen3d.cpp > CMakeFiles/plugin_ops.dir/ops/gen3d.i
 
 src/CMakeFiles/plugin_ops.dir/ops/gen3d.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/plugin_ops.dir/ops/gen3d.s"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/gen3d.cpp -o CMakeFiles/plugin_ops.dir/ops/gen3d.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/gen3d.cpp -o CMakeFiles/plugin_ops.dir/ops/gen3d.s
 
 src/CMakeFiles/plugin_ops.dir/ops/gen3d.o.requires:
 
@@ -346,17 +346,17 @@ src/CMakeFiles/plugin_ops.dir/ops/gen3d.o.provides.build: src/CMakeFiles/plugin_
 
 
 src/CMakeFiles/plugin_ops.dir/ops/largest.o: src/CMakeFiles/plugin_ops.dir/flags.make
-src/CMakeFiles/plugin_ops.dir/ops/largest.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/largest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object src/CMakeFiles/plugin_ops.dir/ops/largest.o"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/plugin_ops.dir/ops/largest.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/largest.cpp
+src/CMakeFiles/plugin_ops.dir/ops/largest.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/largest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object src/CMakeFiles/plugin_ops.dir/ops/largest.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/plugin_ops.dir/ops/largest.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/largest.cpp
 
 src/CMakeFiles/plugin_ops.dir/ops/largest.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/plugin_ops.dir/ops/largest.i"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/largest.cpp > CMakeFiles/plugin_ops.dir/ops/largest.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/largest.cpp > CMakeFiles/plugin_ops.dir/ops/largest.i
 
 src/CMakeFiles/plugin_ops.dir/ops/largest.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/plugin_ops.dir/ops/largest.s"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/largest.cpp -o CMakeFiles/plugin_ops.dir/ops/largest.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/largest.cpp -o CMakeFiles/plugin_ops.dir/ops/largest.s
 
 src/CMakeFiles/plugin_ops.dir/ops/largest.o.requires:
 
@@ -370,17 +370,17 @@ src/CMakeFiles/plugin_ops.dir/ops/largest.o.provides.build: src/CMakeFiles/plugi
 
 
 src/CMakeFiles/plugin_ops.dir/ops/loader.o: src/CMakeFiles/plugin_ops.dir/flags.make
-src/CMakeFiles/plugin_ops.dir/ops/loader.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/loader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object src/CMakeFiles/plugin_ops.dir/ops/loader.o"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/plugin_ops.dir/ops/loader.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/loader.cpp
+src/CMakeFiles/plugin_ops.dir/ops/loader.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/loader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object src/CMakeFiles/plugin_ops.dir/ops/loader.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/plugin_ops.dir/ops/loader.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/loader.cpp
 
 src/CMakeFiles/plugin_ops.dir/ops/loader.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/plugin_ops.dir/ops/loader.i"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/loader.cpp > CMakeFiles/plugin_ops.dir/ops/loader.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/loader.cpp > CMakeFiles/plugin_ops.dir/ops/loader.i
 
 src/CMakeFiles/plugin_ops.dir/ops/loader.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/plugin_ops.dir/ops/loader.s"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/loader.cpp -o CMakeFiles/plugin_ops.dir/ops/loader.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/loader.cpp -o CMakeFiles/plugin_ops.dir/ops/loader.s
 
 src/CMakeFiles/plugin_ops.dir/ops/loader.o.requires:
 
@@ -394,17 +394,17 @@ src/CMakeFiles/plugin_ops.dir/ops/loader.o.provides.build: src/CMakeFiles/plugin
 
 
 src/CMakeFiles/plugin_ops.dir/ops/opsplit.o: src/CMakeFiles/plugin_ops.dir/flags.make
-src/CMakeFiles/plugin_ops.dir/ops/opsplit.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/opsplit.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object src/CMakeFiles/plugin_ops.dir/ops/opsplit.o"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/plugin_ops.dir/ops/opsplit.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/opsplit.cpp
+src/CMakeFiles/plugin_ops.dir/ops/opsplit.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/opsplit.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object src/CMakeFiles/plugin_ops.dir/ops/opsplit.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/plugin_ops.dir/ops/opsplit.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/opsplit.cpp
 
 src/CMakeFiles/plugin_ops.dir/ops/opsplit.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/plugin_ops.dir/ops/opsplit.i"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/opsplit.cpp > CMakeFiles/plugin_ops.dir/ops/opsplit.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/opsplit.cpp > CMakeFiles/plugin_ops.dir/ops/opsplit.i
 
 src/CMakeFiles/plugin_ops.dir/ops/opsplit.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/plugin_ops.dir/ops/opsplit.s"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/opsplit.cpp -o CMakeFiles/plugin_ops.dir/ops/opsplit.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/opsplit.cpp -o CMakeFiles/plugin_ops.dir/ops/opsplit.s
 
 src/CMakeFiles/plugin_ops.dir/ops/opsplit.o.requires:
 
@@ -418,17 +418,17 @@ src/CMakeFiles/plugin_ops.dir/ops/opsplit.o.provides.build: src/CMakeFiles/plugi
 
 
 src/CMakeFiles/plugin_ops.dir/ops/optransform.o: src/CMakeFiles/plugin_ops.dir/flags.make
-src/CMakeFiles/plugin_ops.dir/ops/optransform.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/optransform.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object src/CMakeFiles/plugin_ops.dir/ops/optransform.o"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/plugin_ops.dir/ops/optransform.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/optransform.cpp
+src/CMakeFiles/plugin_ops.dir/ops/optransform.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/optransform.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object src/CMakeFiles/plugin_ops.dir/ops/optransform.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/plugin_ops.dir/ops/optransform.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/optransform.cpp
 
 src/CMakeFiles/plugin_ops.dir/ops/optransform.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/plugin_ops.dir/ops/optransform.i"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/optransform.cpp > CMakeFiles/plugin_ops.dir/ops/optransform.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/optransform.cpp > CMakeFiles/plugin_ops.dir/ops/optransform.i
 
 src/CMakeFiles/plugin_ops.dir/ops/optransform.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/plugin_ops.dir/ops/optransform.s"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/optransform.cpp -o CMakeFiles/plugin_ops.dir/ops/optransform.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/optransform.cpp -o CMakeFiles/plugin_ops.dir/ops/optransform.s
 
 src/CMakeFiles/plugin_ops.dir/ops/optransform.o.requires:
 
@@ -442,17 +442,17 @@ src/CMakeFiles/plugin_ops.dir/ops/optransform.o.provides.build: src/CMakeFiles/p
 
 
 src/CMakeFiles/plugin_ops.dir/ops/partialcharges.o: src/CMakeFiles/plugin_ops.dir/flags.make
-src/CMakeFiles/plugin_ops.dir/ops/partialcharges.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/partialcharges.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object src/CMakeFiles/plugin_ops.dir/ops/partialcharges.o"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/plugin_ops.dir/ops/partialcharges.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/partialcharges.cpp
+src/CMakeFiles/plugin_ops.dir/ops/partialcharges.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/partialcharges.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object src/CMakeFiles/plugin_ops.dir/ops/partialcharges.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/plugin_ops.dir/ops/partialcharges.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/partialcharges.cpp
 
 src/CMakeFiles/plugin_ops.dir/ops/partialcharges.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/plugin_ops.dir/ops/partialcharges.i"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/partialcharges.cpp > CMakeFiles/plugin_ops.dir/ops/partialcharges.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/partialcharges.cpp > CMakeFiles/plugin_ops.dir/ops/partialcharges.i
 
 src/CMakeFiles/plugin_ops.dir/ops/partialcharges.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/plugin_ops.dir/ops/partialcharges.s"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/partialcharges.cpp -o CMakeFiles/plugin_ops.dir/ops/partialcharges.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/partialcharges.cpp -o CMakeFiles/plugin_ops.dir/ops/partialcharges.s
 
 src/CMakeFiles/plugin_ops.dir/ops/partialcharges.o.requires:
 
@@ -466,17 +466,17 @@ src/CMakeFiles/plugin_ops.dir/ops/partialcharges.o.provides.build: src/CMakeFile
 
 
 src/CMakeFiles/plugin_ops.dir/ops/readconformers.o: src/CMakeFiles/plugin_ops.dir/flags.make
-src/CMakeFiles/plugin_ops.dir/ops/readconformers.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/readconformers.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object src/CMakeFiles/plugin_ops.dir/ops/readconformers.o"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/plugin_ops.dir/ops/readconformers.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/readconformers.cpp
+src/CMakeFiles/plugin_ops.dir/ops/readconformers.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/readconformers.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object src/CMakeFiles/plugin_ops.dir/ops/readconformers.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/plugin_ops.dir/ops/readconformers.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/readconformers.cpp
 
 src/CMakeFiles/plugin_ops.dir/ops/readconformers.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/plugin_ops.dir/ops/readconformers.i"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/readconformers.cpp > CMakeFiles/plugin_ops.dir/ops/readconformers.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/readconformers.cpp > CMakeFiles/plugin_ops.dir/ops/readconformers.i
 
 src/CMakeFiles/plugin_ops.dir/ops/readconformers.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/plugin_ops.dir/ops/readconformers.s"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/readconformers.cpp -o CMakeFiles/plugin_ops.dir/ops/readconformers.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/readconformers.cpp -o CMakeFiles/plugin_ops.dir/ops/readconformers.s
 
 src/CMakeFiles/plugin_ops.dir/ops/readconformers.o.requires:
 
@@ -490,17 +490,17 @@ src/CMakeFiles/plugin_ops.dir/ops/readconformers.o.provides.build: src/CMakeFile
 
 
 src/CMakeFiles/plugin_ops.dir/ops/sort.o: src/CMakeFiles/plugin_ops.dir/flags.make
-src/CMakeFiles/plugin_ops.dir/ops/sort.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/sort.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object src/CMakeFiles/plugin_ops.dir/ops/sort.o"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/plugin_ops.dir/ops/sort.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/sort.cpp
+src/CMakeFiles/plugin_ops.dir/ops/sort.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/sort.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object src/CMakeFiles/plugin_ops.dir/ops/sort.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/plugin_ops.dir/ops/sort.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/sort.cpp
 
 src/CMakeFiles/plugin_ops.dir/ops/sort.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/plugin_ops.dir/ops/sort.i"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/sort.cpp > CMakeFiles/plugin_ops.dir/ops/sort.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/sort.cpp > CMakeFiles/plugin_ops.dir/ops/sort.i
 
 src/CMakeFiles/plugin_ops.dir/ops/sort.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/plugin_ops.dir/ops/sort.s"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/sort.cpp -o CMakeFiles/plugin_ops.dir/ops/sort.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/sort.cpp -o CMakeFiles/plugin_ops.dir/ops/sort.s
 
 src/CMakeFiles/plugin_ops.dir/ops/sort.o.requires:
 
@@ -514,17 +514,17 @@ src/CMakeFiles/plugin_ops.dir/ops/sort.o.provides.build: src/CMakeFiles/plugin_o
 
 
 src/CMakeFiles/plugin_ops.dir/ops/opisomorph.o: src/CMakeFiles/plugin_ops.dir/flags.make
-src/CMakeFiles/plugin_ops.dir/ops/opisomorph.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/opisomorph.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object src/CMakeFiles/plugin_ops.dir/ops/opisomorph.o"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/plugin_ops.dir/ops/opisomorph.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/opisomorph.cpp
+src/CMakeFiles/plugin_ops.dir/ops/opisomorph.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/opisomorph.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object src/CMakeFiles/plugin_ops.dir/ops/opisomorph.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/plugin_ops.dir/ops/opisomorph.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/opisomorph.cpp
 
 src/CMakeFiles/plugin_ops.dir/ops/opisomorph.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/plugin_ops.dir/ops/opisomorph.i"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/opisomorph.cpp > CMakeFiles/plugin_ops.dir/ops/opisomorph.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/opisomorph.cpp > CMakeFiles/plugin_ops.dir/ops/opisomorph.i
 
 src/CMakeFiles/plugin_ops.dir/ops/opisomorph.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/plugin_ops.dir/ops/opisomorph.s"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/opisomorph.cpp -o CMakeFiles/plugin_ops.dir/ops/opisomorph.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/opisomorph.cpp -o CMakeFiles/plugin_ops.dir/ops/opisomorph.s
 
 src/CMakeFiles/plugin_ops.dir/ops/opisomorph.o.requires:
 
@@ -538,17 +538,17 @@ src/CMakeFiles/plugin_ops.dir/ops/opisomorph.o.provides.build: src/CMakeFiles/pl
 
 
 src/CMakeFiles/plugin_ops.dir/ops/ophighlight.o: src/CMakeFiles/plugin_ops.dir/flags.make
-src/CMakeFiles/plugin_ops.dir/ops/ophighlight.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/ophighlight.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object src/CMakeFiles/plugin_ops.dir/ops/ophighlight.o"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/plugin_ops.dir/ops/ophighlight.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/ophighlight.cpp
+src/CMakeFiles/plugin_ops.dir/ops/ophighlight.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/ophighlight.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object src/CMakeFiles/plugin_ops.dir/ops/ophighlight.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/plugin_ops.dir/ops/ophighlight.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/ophighlight.cpp
 
 src/CMakeFiles/plugin_ops.dir/ops/ophighlight.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/plugin_ops.dir/ops/ophighlight.i"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/ophighlight.cpp > CMakeFiles/plugin_ops.dir/ops/ophighlight.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/ophighlight.cpp > CMakeFiles/plugin_ops.dir/ops/ophighlight.i
 
 src/CMakeFiles/plugin_ops.dir/ops/ophighlight.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/plugin_ops.dir/ops/ophighlight.s"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/ophighlight.cpp -o CMakeFiles/plugin_ops.dir/ops/ophighlight.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/ophighlight.cpp -o CMakeFiles/plugin_ops.dir/ops/ophighlight.s
 
 src/CMakeFiles/plugin_ops.dir/ops/ophighlight.o.requires:
 
@@ -562,17 +562,17 @@ src/CMakeFiles/plugin_ops.dir/ops/ophighlight.o.provides.build: src/CMakeFiles/p
 
 
 src/CMakeFiles/plugin_ops.dir/ops/xout.o: src/CMakeFiles/plugin_ops.dir/flags.make
-src/CMakeFiles/plugin_ops.dir/ops/xout.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/xout.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object src/CMakeFiles/plugin_ops.dir/ops/xout.o"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/plugin_ops.dir/ops/xout.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/xout.cpp
+src/CMakeFiles/plugin_ops.dir/ops/xout.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/xout.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object src/CMakeFiles/plugin_ops.dir/ops/xout.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/plugin_ops.dir/ops/xout.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/xout.cpp
 
 src/CMakeFiles/plugin_ops.dir/ops/xout.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/plugin_ops.dir/ops/xout.i"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/xout.cpp > CMakeFiles/plugin_ops.dir/ops/xout.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/xout.cpp > CMakeFiles/plugin_ops.dir/ops/xout.i
 
 src/CMakeFiles/plugin_ops.dir/ops/xout.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/plugin_ops.dir/ops/xout.s"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/xout.cpp -o CMakeFiles/plugin_ops.dir/ops/xout.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/xout.cpp -o CMakeFiles/plugin_ops.dir/ops/xout.s
 
 src/CMakeFiles/plugin_ops.dir/ops/xout.o.requires:
 
@@ -586,17 +586,17 @@ src/CMakeFiles/plugin_ops.dir/ops/xout.o.provides.build: src/CMakeFiles/plugin_o
 
 
 src/CMakeFiles/plugin_ops.dir/ops/conformer.o: src/CMakeFiles/plugin_ops.dir/flags.make
-src/CMakeFiles/plugin_ops.dir/ops/conformer.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/conformer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object src/CMakeFiles/plugin_ops.dir/ops/conformer.o"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/plugin_ops.dir/ops/conformer.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/conformer.cpp
+src/CMakeFiles/plugin_ops.dir/ops/conformer.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/conformer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object src/CMakeFiles/plugin_ops.dir/ops/conformer.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/plugin_ops.dir/ops/conformer.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/conformer.cpp
 
 src/CMakeFiles/plugin_ops.dir/ops/conformer.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/plugin_ops.dir/ops/conformer.i"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/conformer.cpp > CMakeFiles/plugin_ops.dir/ops/conformer.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/conformer.cpp > CMakeFiles/plugin_ops.dir/ops/conformer.i
 
 src/CMakeFiles/plugin_ops.dir/ops/conformer.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/plugin_ops.dir/ops/conformer.s"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/conformer.cpp -o CMakeFiles/plugin_ops.dir/ops/conformer.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/conformer.cpp -o CMakeFiles/plugin_ops.dir/ops/conformer.s
 
 src/CMakeFiles/plugin_ops.dir/ops/conformer.o.requires:
 
@@ -610,17 +610,17 @@ src/CMakeFiles/plugin_ops.dir/ops/conformer.o.provides.build: src/CMakeFiles/plu
 
 
 src/CMakeFiles/plugin_ops.dir/ops/opalign.o: src/CMakeFiles/plugin_ops.dir/flags.make
-src/CMakeFiles/plugin_ops.dir/ops/opalign.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/opalign.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object src/CMakeFiles/plugin_ops.dir/ops/opalign.o"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/plugin_ops.dir/ops/opalign.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/opalign.cpp
+src/CMakeFiles/plugin_ops.dir/ops/opalign.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/opalign.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object src/CMakeFiles/plugin_ops.dir/ops/opalign.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/plugin_ops.dir/ops/opalign.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/opalign.cpp
 
 src/CMakeFiles/plugin_ops.dir/ops/opalign.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/plugin_ops.dir/ops/opalign.i"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/opalign.cpp > CMakeFiles/plugin_ops.dir/ops/opalign.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/opalign.cpp > CMakeFiles/plugin_ops.dir/ops/opalign.i
 
 src/CMakeFiles/plugin_ops.dir/ops/opalign.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/plugin_ops.dir/ops/opalign.s"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/opalign.cpp -o CMakeFiles/plugin_ops.dir/ops/opalign.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/opalign.cpp -o CMakeFiles/plugin_ops.dir/ops/opalign.s
 
 src/CMakeFiles/plugin_ops.dir/ops/opalign.o.requires:
 
@@ -634,17 +634,17 @@ src/CMakeFiles/plugin_ops.dir/ops/opalign.o.provides.build: src/CMakeFiles/plugi
 
 
 src/CMakeFiles/plugin_ops.dir/ops/opconfab.o: src/CMakeFiles/plugin_ops.dir/flags.make
-src/CMakeFiles/plugin_ops.dir/ops/opconfab.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/opconfab.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object src/CMakeFiles/plugin_ops.dir/ops/opconfab.o"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/plugin_ops.dir/ops/opconfab.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/opconfab.cpp
+src/CMakeFiles/plugin_ops.dir/ops/opconfab.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/opconfab.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object src/CMakeFiles/plugin_ops.dir/ops/opconfab.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/plugin_ops.dir/ops/opconfab.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/opconfab.cpp
 
 src/CMakeFiles/plugin_ops.dir/ops/opconfab.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/plugin_ops.dir/ops/opconfab.i"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/opconfab.cpp > CMakeFiles/plugin_ops.dir/ops/opconfab.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/opconfab.cpp > CMakeFiles/plugin_ops.dir/ops/opconfab.i
 
 src/CMakeFiles/plugin_ops.dir/ops/opconfab.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/plugin_ops.dir/ops/opconfab.s"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/opconfab.cpp -o CMakeFiles/plugin_ops.dir/ops/opconfab.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/opconfab.cpp -o CMakeFiles/plugin_ops.dir/ops/opconfab.s
 
 src/CMakeFiles/plugin_ops.dir/ops/opconfab.o.requires:
 
@@ -720,8 +720,8 @@ lib/plugin_ops.so: lib/libopenbabel.so.5.0.0
 lib/plugin_ops.so: /usr/lib/x86_64-linux-gnu/libm.so
 lib/plugin_ops.so: /usr/lib/x86_64-linux-gnu/libz.so
 lib/plugin_ops.so: src/CMakeFiles/plugin_ops.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Linking CXX shared module ../lib/plugin_ops.so"
-	cd /home/fernando/Documentos/BE3AV/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/plugin_ops.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Linking CXX shared module ../lib/plugin_ops.so"
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/plugin_ops.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/CMakeFiles/plugin_ops.dir/build: lib/plugin_ops.so
@@ -757,10 +757,10 @@ src/CMakeFiles/plugin_ops.dir/requires: src/CMakeFiles/plugin_ops.dir/ops/opconf
 .PHONY : src/CMakeFiles/plugin_ops.dir/requires
 
 src/CMakeFiles/plugin_ops.dir/clean:
-	cd /home/fernando/Documentos/BE3AV/build/src && $(CMAKE_COMMAND) -P CMakeFiles/plugin_ops.dir/cmake_clean.cmake
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && $(CMAKE_COMMAND) -P CMakeFiles/plugin_ops.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/plugin_ops.dir/clean
 
 src/CMakeFiles/plugin_ops.dir/depend:
-	cd /home/fernando/Documentos/BE3AV/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fernando/Documentos/BE3AV/openbabel-2.4.1 /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src /home/fernando/Documentos/BE3AV/build /home/fernando/Documentos/BE3AV/build/src /home/fernando/Documentos/BE3AV/build/src/CMakeFiles/plugin_ops.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/fernando/Documentos/BE3AV/programas/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1 /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src /home/fernando/Documentos/BE3AV/programas/build /home/fernando/Documentos/BE3AV/programas/build/src /home/fernando/Documentos/BE3AV/programas/build/src/CMakeFiles/plugin_ops.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/CMakeFiles/plugin_ops.dir/depend
 

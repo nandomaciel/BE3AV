@@ -4,8 +4,8 @@
 
 
 # Configuration directories and files
-SourceDirectory: /home/fernando/Documentos/BE3AV/openbabel-2.4.1
-BuildDirectory: /home/fernando/Documentos/BE3AV/build
+SourceDirectory: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1
+BuildDirectory: /home/fernando/Documentos/BE3AV/programas/build
 
 # Where to place the cost data store
 CostDataFile: 
@@ -36,7 +36,7 @@ ScpCommand: /usr/bin/scp
 NightlyStartTime: 05:00:00 UTC
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/usr/bin/cmake" "/home/fernando/Documentos/BE3AV/openbabel-2.4.1"
+ConfigureCommand: "/usr/bin/cmake" "/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1"
 MakeCommand: /usr/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}" -- -i
 DefaultCTestConfigurationType: Release
 

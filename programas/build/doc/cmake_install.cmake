@@ -1,4 +1,4 @@
-# Install script for directory: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/doc
+# Install script for directory: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/doc
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -47,22 +47,22 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
 file(INSTALL DESTINATION "/usr/local/share/man/man1" TYPE FILE FILES
-    "/home/fernando/Documentos/BE3AV/openbabel-2.4.1/doc/babel.1"
-    "/home/fernando/Documentos/BE3AV/openbabel-2.4.1/doc/obabel.1"
-    "/home/fernando/Documentos/BE3AV/openbabel-2.4.1/doc/obchiral.1"
-    "/home/fernando/Documentos/BE3AV/openbabel-2.4.1/doc/obconformer.1"
-    "/home/fernando/Documentos/BE3AV/openbabel-2.4.1/doc/obenergy.1"
-    "/home/fernando/Documentos/BE3AV/openbabel-2.4.1/doc/obfit.1"
-    "/home/fernando/Documentos/BE3AV/openbabel-2.4.1/doc/obgen.1"
-    "/home/fernando/Documentos/BE3AV/openbabel-2.4.1/doc/obgrep.1"
-    "/home/fernando/Documentos/BE3AV/openbabel-2.4.1/doc/obgui.1"
-    "/home/fernando/Documentos/BE3AV/openbabel-2.4.1/doc/obminimize.1"
-    "/home/fernando/Documentos/BE3AV/openbabel-2.4.1/doc/obprobe.1"
-    "/home/fernando/Documentos/BE3AV/openbabel-2.4.1/doc/obprop.1"
-    "/home/fernando/Documentos/BE3AV/openbabel-2.4.1/doc/obrotamer.1"
-    "/home/fernando/Documentos/BE3AV/openbabel-2.4.1/doc/obrotate.1"
-    "/home/fernando/Documentos/BE3AV/openbabel-2.4.1/doc/obspectrophore.1"
-    "/home/fernando/Documentos/BE3AV/openbabel-2.4.1/doc/roundtrip.1"
+    "/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/doc/babel.1"
+    "/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/doc/obabel.1"
+    "/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/doc/obchiral.1"
+    "/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/doc/obconformer.1"
+    "/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/doc/obenergy.1"
+    "/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/doc/obfit.1"
+    "/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/doc/obgen.1"
+    "/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/doc/obgrep.1"
+    "/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/doc/obgui.1"
+    "/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/doc/obminimize.1"
+    "/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/doc/obprobe.1"
+    "/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/doc/obprop.1"
+    "/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/doc/obrotamer.1"
+    "/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/doc/obrotate.1"
+    "/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/doc/obspectrophore.1"
+    "/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/doc/roundtrip.1"
     )
 endif()
 
@@ -75,6 +75,6 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/local/share/openbabel/2.4.1" TYPE FILE FILES "/home/fernando/Documentos/BE3AV/openbabel-2.4.1/doc/splash.png")
+file(INSTALL DESTINATION "/usr/local/share/openbabel/2.4.1" TYPE FILE FILES "/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/doc/splash.png")
 endif()
 

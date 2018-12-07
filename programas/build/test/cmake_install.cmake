@@ -1,4 +1,4 @@
-# Install script for directory: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test
+# Install script for directory: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,12 +44,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/roundtrip"
          RPATH "/usr/local/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/fernando/Documentos/BE3AV/build/bin/roundtrip")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/fernando/Documentos/BE3AV/programas/build/bin/roundtrip")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/roundtrip" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/roundtrip")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/roundtrip"
-         OLD_RPATH "/home/fernando/Documentos/BE3AV/build/lib:"
+         OLD_RPATH "/home/fernando/Documentos/BE3AV/programas/build/lib:"
          NEW_RPATH "/usr/local/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/roundtrip")

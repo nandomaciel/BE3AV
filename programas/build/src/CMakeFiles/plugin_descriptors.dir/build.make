@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/fernando/Documentos/BE3AV/openbabel-2.4.1
+CMAKE_SOURCE_DIR = /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/fernando/Documentos/BE3AV/build
+CMAKE_BINARY_DIR = /home/fernando/Documentos/BE3AV/programas/build
 
 # Include any dependencies generated for this target.
 include src/CMakeFiles/plugin_descriptors.dir/depend.make
@@ -58,17 +58,17 @@ include src/CMakeFiles/plugin_descriptors.dir/progress.make
 include src/CMakeFiles/plugin_descriptors.dir/flags.make
 
 src/CMakeFiles/plugin_descriptors.dir/descriptors/cansmidescriptor.o: src/CMakeFiles/plugin_descriptors.dir/flags.make
-src/CMakeFiles/plugin_descriptors.dir/descriptors/cansmidescriptor.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/descriptors/cansmidescriptor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/plugin_descriptors.dir/descriptors/cansmidescriptor.o"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/plugin_descriptors.dir/descriptors/cansmidescriptor.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/descriptors/cansmidescriptor.cpp
+src/CMakeFiles/plugin_descriptors.dir/descriptors/cansmidescriptor.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/descriptors/cansmidescriptor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/plugin_descriptors.dir/descriptors/cansmidescriptor.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/plugin_descriptors.dir/descriptors/cansmidescriptor.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/descriptors/cansmidescriptor.cpp
 
 src/CMakeFiles/plugin_descriptors.dir/descriptors/cansmidescriptor.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/plugin_descriptors.dir/descriptors/cansmidescriptor.i"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/descriptors/cansmidescriptor.cpp > CMakeFiles/plugin_descriptors.dir/descriptors/cansmidescriptor.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/descriptors/cansmidescriptor.cpp > CMakeFiles/plugin_descriptors.dir/descriptors/cansmidescriptor.i
 
 src/CMakeFiles/plugin_descriptors.dir/descriptors/cansmidescriptor.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/plugin_descriptors.dir/descriptors/cansmidescriptor.s"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/descriptors/cansmidescriptor.cpp -o CMakeFiles/plugin_descriptors.dir/descriptors/cansmidescriptor.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/descriptors/cansmidescriptor.cpp -o CMakeFiles/plugin_descriptors.dir/descriptors/cansmidescriptor.s
 
 src/CMakeFiles/plugin_descriptors.dir/descriptors/cansmidescriptor.o.requires:
 
@@ -82,17 +82,17 @@ src/CMakeFiles/plugin_descriptors.dir/descriptors/cansmidescriptor.o.provides.bu
 
 
 src/CMakeFiles/plugin_descriptors.dir/descriptors/cmpdfilter.o: src/CMakeFiles/plugin_descriptors.dir/flags.make
-src/CMakeFiles/plugin_descriptors.dir/descriptors/cmpdfilter.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/descriptors/cmpdfilter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/plugin_descriptors.dir/descriptors/cmpdfilter.o"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/plugin_descriptors.dir/descriptors/cmpdfilter.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/descriptors/cmpdfilter.cpp
+src/CMakeFiles/plugin_descriptors.dir/descriptors/cmpdfilter.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/descriptors/cmpdfilter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/plugin_descriptors.dir/descriptors/cmpdfilter.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/plugin_descriptors.dir/descriptors/cmpdfilter.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/descriptors/cmpdfilter.cpp
 
 src/CMakeFiles/plugin_descriptors.dir/descriptors/cmpdfilter.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/plugin_descriptors.dir/descriptors/cmpdfilter.i"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/descriptors/cmpdfilter.cpp > CMakeFiles/plugin_descriptors.dir/descriptors/cmpdfilter.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/descriptors/cmpdfilter.cpp > CMakeFiles/plugin_descriptors.dir/descriptors/cmpdfilter.i
 
 src/CMakeFiles/plugin_descriptors.dir/descriptors/cmpdfilter.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/plugin_descriptors.dir/descriptors/cmpdfilter.s"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/descriptors/cmpdfilter.cpp -o CMakeFiles/plugin_descriptors.dir/descriptors/cmpdfilter.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/descriptors/cmpdfilter.cpp -o CMakeFiles/plugin_descriptors.dir/descriptors/cmpdfilter.s
 
 src/CMakeFiles/plugin_descriptors.dir/descriptors/cmpdfilter.o.requires:
 
@@ -106,17 +106,17 @@ src/CMakeFiles/plugin_descriptors.dir/descriptors/cmpdfilter.o.provides.build: s
 
 
 src/CMakeFiles/plugin_descriptors.dir/descriptors/groupcontrib.o: src/CMakeFiles/plugin_descriptors.dir/flags.make
-src/CMakeFiles/plugin_descriptors.dir/descriptors/groupcontrib.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/descriptors/groupcontrib.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/plugin_descriptors.dir/descriptors/groupcontrib.o"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/plugin_descriptors.dir/descriptors/groupcontrib.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/descriptors/groupcontrib.cpp
+src/CMakeFiles/plugin_descriptors.dir/descriptors/groupcontrib.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/descriptors/groupcontrib.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/plugin_descriptors.dir/descriptors/groupcontrib.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/plugin_descriptors.dir/descriptors/groupcontrib.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/descriptors/groupcontrib.cpp
 
 src/CMakeFiles/plugin_descriptors.dir/descriptors/groupcontrib.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/plugin_descriptors.dir/descriptors/groupcontrib.i"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/descriptors/groupcontrib.cpp > CMakeFiles/plugin_descriptors.dir/descriptors/groupcontrib.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/descriptors/groupcontrib.cpp > CMakeFiles/plugin_descriptors.dir/descriptors/groupcontrib.i
 
 src/CMakeFiles/plugin_descriptors.dir/descriptors/groupcontrib.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/plugin_descriptors.dir/descriptors/groupcontrib.s"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/descriptors/groupcontrib.cpp -o CMakeFiles/plugin_descriptors.dir/descriptors/groupcontrib.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/descriptors/groupcontrib.cpp -o CMakeFiles/plugin_descriptors.dir/descriptors/groupcontrib.s
 
 src/CMakeFiles/plugin_descriptors.dir/descriptors/groupcontrib.o.requires:
 
@@ -130,17 +130,17 @@ src/CMakeFiles/plugin_descriptors.dir/descriptors/groupcontrib.o.provides.build:
 
 
 src/CMakeFiles/plugin_descriptors.dir/descriptors/filters.o: src/CMakeFiles/plugin_descriptors.dir/flags.make
-src/CMakeFiles/plugin_descriptors.dir/descriptors/filters.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/descriptors/filters.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/plugin_descriptors.dir/descriptors/filters.o"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/plugin_descriptors.dir/descriptors/filters.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/descriptors/filters.cpp
+src/CMakeFiles/plugin_descriptors.dir/descriptors/filters.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/descriptors/filters.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/plugin_descriptors.dir/descriptors/filters.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/plugin_descriptors.dir/descriptors/filters.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/descriptors/filters.cpp
 
 src/CMakeFiles/plugin_descriptors.dir/descriptors/filters.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/plugin_descriptors.dir/descriptors/filters.i"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/descriptors/filters.cpp > CMakeFiles/plugin_descriptors.dir/descriptors/filters.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/descriptors/filters.cpp > CMakeFiles/plugin_descriptors.dir/descriptors/filters.i
 
 src/CMakeFiles/plugin_descriptors.dir/descriptors/filters.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/plugin_descriptors.dir/descriptors/filters.s"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/descriptors/filters.cpp -o CMakeFiles/plugin_descriptors.dir/descriptors/filters.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/descriptors/filters.cpp -o CMakeFiles/plugin_descriptors.dir/descriptors/filters.s
 
 src/CMakeFiles/plugin_descriptors.dir/descriptors/filters.o.requires:
 
@@ -154,17 +154,17 @@ src/CMakeFiles/plugin_descriptors.dir/descriptors/filters.o.provides.build: src/
 
 
 src/CMakeFiles/plugin_descriptors.dir/descriptors/inchidescriptor.o: src/CMakeFiles/plugin_descriptors.dir/flags.make
-src/CMakeFiles/plugin_descriptors.dir/descriptors/inchidescriptor.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/descriptors/inchidescriptor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/plugin_descriptors.dir/descriptors/inchidescriptor.o"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/plugin_descriptors.dir/descriptors/inchidescriptor.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/descriptors/inchidescriptor.cpp
+src/CMakeFiles/plugin_descriptors.dir/descriptors/inchidescriptor.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/descriptors/inchidescriptor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/plugin_descriptors.dir/descriptors/inchidescriptor.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/plugin_descriptors.dir/descriptors/inchidescriptor.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/descriptors/inchidescriptor.cpp
 
 src/CMakeFiles/plugin_descriptors.dir/descriptors/inchidescriptor.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/plugin_descriptors.dir/descriptors/inchidescriptor.i"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/descriptors/inchidescriptor.cpp > CMakeFiles/plugin_descriptors.dir/descriptors/inchidescriptor.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/descriptors/inchidescriptor.cpp > CMakeFiles/plugin_descriptors.dir/descriptors/inchidescriptor.i
 
 src/CMakeFiles/plugin_descriptors.dir/descriptors/inchidescriptor.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/plugin_descriptors.dir/descriptors/inchidescriptor.s"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/descriptors/inchidescriptor.cpp -o CMakeFiles/plugin_descriptors.dir/descriptors/inchidescriptor.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/descriptors/inchidescriptor.cpp -o CMakeFiles/plugin_descriptors.dir/descriptors/inchidescriptor.s
 
 src/CMakeFiles/plugin_descriptors.dir/descriptors/inchidescriptor.o.requires:
 
@@ -178,17 +178,17 @@ src/CMakeFiles/plugin_descriptors.dir/descriptors/inchidescriptor.o.provides.bui
 
 
 src/CMakeFiles/plugin_descriptors.dir/descriptors/smartsdescriptors.o: src/CMakeFiles/plugin_descriptors.dir/flags.make
-src/CMakeFiles/plugin_descriptors.dir/descriptors/smartsdescriptors.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/descriptors/smartsdescriptors.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/plugin_descriptors.dir/descriptors/smartsdescriptors.o"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/plugin_descriptors.dir/descriptors/smartsdescriptors.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/descriptors/smartsdescriptors.cpp
+src/CMakeFiles/plugin_descriptors.dir/descriptors/smartsdescriptors.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/descriptors/smartsdescriptors.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/plugin_descriptors.dir/descriptors/smartsdescriptors.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/plugin_descriptors.dir/descriptors/smartsdescriptors.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/descriptors/smartsdescriptors.cpp
 
 src/CMakeFiles/plugin_descriptors.dir/descriptors/smartsdescriptors.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/plugin_descriptors.dir/descriptors/smartsdescriptors.i"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/descriptors/smartsdescriptors.cpp > CMakeFiles/plugin_descriptors.dir/descriptors/smartsdescriptors.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/descriptors/smartsdescriptors.cpp > CMakeFiles/plugin_descriptors.dir/descriptors/smartsdescriptors.i
 
 src/CMakeFiles/plugin_descriptors.dir/descriptors/smartsdescriptors.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/plugin_descriptors.dir/descriptors/smartsdescriptors.s"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/descriptors/smartsdescriptors.cpp -o CMakeFiles/plugin_descriptors.dir/descriptors/smartsdescriptors.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/descriptors/smartsdescriptors.cpp -o CMakeFiles/plugin_descriptors.dir/descriptors/smartsdescriptors.s
 
 src/CMakeFiles/plugin_descriptors.dir/descriptors/smartsdescriptors.o.requires:
 
@@ -226,8 +226,8 @@ lib/plugin_descriptors.so: lib/libopenbabel.so.5.0.0
 lib/plugin_descriptors.so: /usr/lib/x86_64-linux-gnu/libm.so
 lib/plugin_descriptors.so: /usr/lib/x86_64-linux-gnu/libz.so
 lib/plugin_descriptors.so: src/CMakeFiles/plugin_descriptors.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX shared module ../lib/plugin_descriptors.so"
-	cd /home/fernando/Documentos/BE3AV/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/plugin_descriptors.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX shared module ../lib/plugin_descriptors.so"
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/plugin_descriptors.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/CMakeFiles/plugin_descriptors.dir/build: lib/plugin_descriptors.so
@@ -244,10 +244,10 @@ src/CMakeFiles/plugin_descriptors.dir/requires: src/CMakeFiles/plugin_descriptor
 .PHONY : src/CMakeFiles/plugin_descriptors.dir/requires
 
 src/CMakeFiles/plugin_descriptors.dir/clean:
-	cd /home/fernando/Documentos/BE3AV/build/src && $(CMAKE_COMMAND) -P CMakeFiles/plugin_descriptors.dir/cmake_clean.cmake
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && $(CMAKE_COMMAND) -P CMakeFiles/plugin_descriptors.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/plugin_descriptors.dir/clean
 
 src/CMakeFiles/plugin_descriptors.dir/depend:
-	cd /home/fernando/Documentos/BE3AV/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fernando/Documentos/BE3AV/openbabel-2.4.1 /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src /home/fernando/Documentos/BE3AV/build /home/fernando/Documentos/BE3AV/build/src /home/fernando/Documentos/BE3AV/build/src/CMakeFiles/plugin_descriptors.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/fernando/Documentos/BE3AV/programas/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1 /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src /home/fernando/Documentos/BE3AV/programas/build /home/fernando/Documentos/BE3AV/programas/build/src /home/fernando/Documentos/BE3AV/programas/build/src/CMakeFiles/plugin_descriptors.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/CMakeFiles/plugin_descriptors.dir/depend
 

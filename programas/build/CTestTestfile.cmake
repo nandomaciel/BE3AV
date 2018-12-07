@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/fernando/Documentos/BE3AV/openbabel-2.4.1
-# Build directory: /home/fernando/Documentos/BE3AV/build
+# Source directory: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1
+# Build directory: /home/fernando/Documentos/BE3AV/programas/build
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

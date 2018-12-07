@@ -1,11 +1,11 @@
 
-  SET(ENV{PYTHONPATH} /home/fernando/Documentos/BE3AV/openbabel-2.4.1/scripts/python:/home/fernando/Documentos/BE3AV/build/lib)
-  SET(ENV{LD_LIBRARY_PATH} /home/fernando/Documentos/BE3AV/openbabel-2.4.1/scripts/python:/home/fernando/Documentos/BE3AV/build/lib:$ENV{LD_LIBRARY_PATH})
-  SET(ENV{BABEL_LIBDIR} /home/fernando/Documentos/BE3AV/build/lib/)
-  SET(ENV{BABEL_DATADIR} /home/fernando/Documentos/BE3AV/openbabel-2.4.1/data)
-  MESSAGE("/home/fernando/Documentos/BE3AV/openbabel-2.4.1/scripts/python:/home/fernando/Documentos/BE3AV/build/lib")
+  SET(ENV{PYTHONPATH} /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/scripts/python:/home/fernando/Documentos/BE3AV/programas/build/lib)
+  SET(ENV{LD_LIBRARY_PATH} /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/scripts/python:/home/fernando/Documentos/BE3AV/programas/build/lib:$ENV{LD_LIBRARY_PATH})
+  SET(ENV{BABEL_LIBDIR} /home/fernando/Documentos/BE3AV/programas/build/lib/)
+  SET(ENV{BABEL_DATADIR} /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/data)
+  MESSAGE("/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/scripts/python:/home/fernando/Documentos/BE3AV/programas/build/lib")
   EXECUTE_PROCESS(
-  	COMMAND /usr/bin/python /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/testbabel.py 
+  	COMMAND /usr/bin/python /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/testbabel.py 
   	#WORKING_DIRECTORY @LIBRARY_OUTPUT_PATH@
   	RESULT_VARIABLE import_res
   	OUTPUT_VARIABLE import_output

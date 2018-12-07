@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/atom.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/atom.h
 openbabel/babelconfig.h
 -
 vector
@@ -20,7 +20,7 @@ openbabel/residue.h
 openbabel/math/vector3.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/base.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/base.h
 openbabel/babelconfig.h
 -
 vector
@@ -34,7 +34,7 @@ iostream
 openbabel/tokenst.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/bitvec.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/bitvec.h
 openbabel/babelconfig.h
 -
 vector
@@ -44,7 +44,7 @@ string
 inttypes.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/bond.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/bond.h
 openbabel/babelconfig.h
 -
 openbabel/base.h
@@ -52,7 +52,7 @@ openbabel/base.h
 openbabel/atom.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/builder.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/builder.h
 vector
 -
 string
@@ -70,17 +70,17 @@ openbabel/mol.h
 openbabel/stereo/stereo.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/canon.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/canon.h
 openbabel/bitvec.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/chains.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/chains.h
 openbabel/babelconfig.h
 -
 vector
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/chargemodel.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/chargemodel.h
 openbabel/babelconfig.h
 -
 openbabel/plugin.h
@@ -88,7 +88,7 @@ openbabel/plugin.h
 openbabel/math/vector3.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/conformersearch.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/conformersearch.h
 openbabel/mol.h
 -
 openbabel/rotor.h
@@ -96,7 +96,7 @@ openbabel/rotor.h
 openbabel/rotamer.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/data.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/data.h
 openbabel/babelconfig.h
 -
 stdio.h
@@ -112,7 +112,7 @@ string
 cstring
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/descriptor.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/descriptor.h
 string
 -
 sstream
@@ -124,7 +124,7 @@ openbabel/babelconfig.h
 openbabel/plugin.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/distgeom.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/distgeom.h
 openbabel/babelconfig.h
 -
 openbabel/mol.h
@@ -132,7 +132,7 @@ openbabel/mol.h
 Eigen/Core
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/dlhandler.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/dlhandler.h
 openbabel/babelconfig.h
 -
 string
@@ -140,7 +140,7 @@ string
 vector
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/forcefield.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/forcefield.h
 vector
 -
 string
@@ -166,7 +166,7 @@ openbabel/griddata.h
 float.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/format.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/format.h
 openbabel/babelconfig.h
 -
 openbabel/plugin.h
@@ -174,7 +174,7 @@ openbabel/plugin.h
 typeinfo
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/generic.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/generic.h
 openbabel/babelconfig.h
 -
 string
@@ -190,7 +190,7 @@ openbabel/obutil.h
 openbabel/base.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/graphsym.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/graphsym.h
 openbabel/babelconfig.h
 -
 openbabel/stereo/stereo.h
@@ -198,7 +198,7 @@ openbabel/stereo/stereo.h
 vector
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/grid.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/grid.h
 openbabel/babelconfig.h
 -
 openbabel/math/vector3.h
@@ -216,7 +216,7 @@ vector
 string
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/griddata.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/griddata.h
 openbabel/babelconfig.h
 -
 openbabel/base.h
@@ -226,29 +226,29 @@ openbabel/math/vector3.h
 vector
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/internalcoord.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/internalcoord.h
 openbabel/babelconfig.h
 -
 stddef.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/isomorphism.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/isomorphism.h
 openbabel/mol.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/lineend.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/lineend.h
 streambuf
 -
 climits
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/locale.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/locale.h
 locale
 -
 openbabel/babelconfig.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/math/align.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/math/align.h
 openbabel/mol.h
 -
 openbabel/math/vector3.h
@@ -260,7 +260,7 @@ openbabel/isomorphism.h
 Eigen/Core
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/math/matrix3x3.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/math/matrix3x3.h
 ostream
 -
 openbabel/math/vector3.h
@@ -268,7 +268,7 @@ openbabel/math/vector3.h
 openbabel/oberror.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/math/spacegroup.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/math/spacegroup.h
 openbabel/math/transform3d.h
 -
 string
@@ -276,7 +276,7 @@ string
 list
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/math/transform3d.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/math/transform3d.h
 openbabel/math/matrix3x3.h
 -
 list
@@ -284,7 +284,7 @@ list
 string
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/math/vector3.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/math/vector3.h
 ostream
 -
 math.h
@@ -294,9 +294,9 @@ iostream
 openbabel/rand.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/mcdlutil.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/mcdlutil.h
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/mol.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/mol.h
 openbabel/babelconfig.h
 -
 math.h
@@ -338,7 +338,7 @@ openbabel/obiter.h
 openbabel/internalcoord.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/obconversion.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/obconversion.h
 openbabel/babelconfig.h
 -
 iostream
@@ -364,7 +364,7 @@ openbabel/format.h
 openbabel/lineend.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/oberror.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/oberror.h
 openbabel/babelconfig.h
 -
 iosfwd
@@ -378,7 +378,7 @@ vector
 deque
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/obiter.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/obiter.h
 openbabel/babelconfig.h
 -
 openbabel/base.h
@@ -392,7 +392,7 @@ stack
 queue
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/obutil.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/obutil.h
 openbabel/babelconfig.h
 -
 string
@@ -412,7 +412,7 @@ math.h
 openbabel/rand.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/op.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/op.h
 openbabel/babelconfig.h
 -
 string
@@ -424,7 +424,7 @@ openbabel/plugin.h
 openbabel/base.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/optransform.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/optransform.h
 openbabel/babelconfig.h
 -
 openbabel/mol.h
@@ -436,7 +436,7 @@ openbabel/op.h
 vector
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/parsmart.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/parsmart.h
 string
 -
 vector
@@ -446,13 +446,13 @@ openbabel/babelconfig.h
 openbabel/mol.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/phmodel.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/phmodel.h
 openbabel/parsmart.h
 -
 openbabel/data.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/plugin.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/plugin.h
 openbabel/babelconfig.h
 -
 openbabel/dlhandler.h
@@ -472,17 +472,17 @@ cstring
 openbabel/plugin.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/query.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/query.h
 openbabel/mol.h
 -
 openbabel/tokenst.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/rand.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/rand.h
 openbabel/babelconfig.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/residue.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/residue.h
 openbabel/babelconfig.h
 -
 vector
@@ -492,7 +492,7 @@ string
 openbabel/base.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/ring.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/ring.h
 deque
 -
 algorithm
@@ -502,7 +502,7 @@ openbabel/bitvec.h
 openbabel/typer.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/rotamer.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/rotamer.h
 vector
 -
 map
@@ -514,7 +514,7 @@ openbabel/rotor.h
 openbabel/generic.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/rotor.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/rotor.h
 openbabel/parsmart.h
 -
 openbabel/typer.h
@@ -524,7 +524,7 @@ openbabel/rotor.h
 openbabel/mol.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/stereo/stereo.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/stereo/stereo.h
 openbabel/base.h
 -
 openbabel/isomorphism.h
@@ -546,17 +546,17 @@ openbabel/obconversion.h
 openbabel/stereo/tetrahedral.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/stereo/tetrahedral.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/stereo/tetrahedral.h
 openbabel/stereo/tetranonplanar.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/stereo/tetranonplanar.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/stereo/tetranonplanar.h
 openbabel/stereo/stereo.h
 -
 openbabel/oberror.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/tokenst.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/tokenst.h
 openbabel/babelconfig.h
 -
 vector
@@ -568,7 +568,7 @@ string
 fstream
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/typer.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/typer.h
 openbabel/babelconfig.h
 -
 vector
@@ -580,7 +580,7 @@ openbabel/parsmart.h
 openbabel/data.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/addfilename.cpp
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/addfilename.cpp
 string
 -
 openbabel/babelconfig.h
@@ -590,7 +590,7 @@ openbabel/op.h
 openbabel/obconversion.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/addinindex.cpp
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/addinindex.cpp
 openbabel/babelconfig.h
 -
 openbabel/base.h
@@ -602,7 +602,7 @@ openbabel/op.h
 openbabel/obconversion.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/addnonpolarh.cpp
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/addnonpolarh.cpp
 openbabel/babelconfig.h
 -
 iostream
@@ -612,7 +612,7 @@ openbabel/op.h
 openbabel/mol.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/addpolarh.cpp
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/addpolarh.cpp
 openbabel/babelconfig.h
 -
 iostream
@@ -622,7 +622,7 @@ openbabel/op.h
 openbabel/mol.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/canonical.cpp
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/canonical.cpp
 openbabel/babelconfig.h
 -
 openbabel/op.h
@@ -634,7 +634,7 @@ openbabel/graphsym.h
 openbabel/canon.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/changecell.cpp
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/changecell.cpp
 openbabel/babelconfig.h
 -
 iostream
@@ -644,7 +644,7 @@ openbabel/op.h
 openbabel/mol.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/conformer.cpp
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/conformer.cpp
 openbabel/babelconfig.h
 -
 iostream
@@ -660,7 +660,7 @@ openbabel/conformersearch.h
 openbabel/generic.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/deferred.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/deferred.h
 openbabel/babelconfig.h
 -
 openbabel/op.h
@@ -670,7 +670,7 @@ openbabel/obconversion.h
 vector
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/delnonpolarh.cpp
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/delnonpolarh.cpp
 openbabel/babelconfig.h
 -
 iostream
@@ -680,7 +680,7 @@ openbabel/op.h
 openbabel/mol.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/delpolarh.cpp
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/delpolarh.cpp
 openbabel/babelconfig.h
 -
 iostream
@@ -690,7 +690,7 @@ openbabel/op.h
 openbabel/mol.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/fillUC.cpp
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/fillUC.cpp
 openbabel/babelconfig.h
 -
 openbabel/op.h
@@ -710,7 +710,7 @@ vector
 iostream
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/forcefield.cpp
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/forcefield.cpp
 openbabel/babelconfig.h
 -
 iostream
@@ -724,7 +724,7 @@ openbabel/forcefield.h
 openbabel/generic.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/gen2D.cpp
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/gen2D.cpp
 openbabel/babelconfig.h
 -
 iostream
@@ -736,7 +736,7 @@ openbabel/mol.h
 openbabel/mcdlutil.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/gen3d.cpp
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/gen3d.cpp
 openbabel/babelconfig.h
 -
 openbabel/op.h
@@ -750,7 +750,7 @@ openbabel/distgeom.h
 openbabel/forcefield.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/largest.cpp
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/largest.cpp
 openbabel/babelconfig.h
 -
 openbabel/op.h
@@ -762,11 +762,11 @@ openbabel/descriptor.h
 openbabel/obconversion.h
 -
 deferred.h
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/deferred.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/deferred.h
 sstream
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/loader.cpp
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/loader.cpp
 iosfwd
 -
 string
@@ -784,7 +784,7 @@ openbabel/plugin.h
 openbabel/locale.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/opalign.cpp
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/opalign.cpp
 openbabel/babelconfig.h
 -
 iostream
@@ -798,9 +798,9 @@ openbabel/math/align.h
 openbabel/obconversion.h
 -
 opisomorph.h
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/opisomorph.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/opisomorph.h
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/opconfab.cpp
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/opconfab.cpp
 openbabel/babelconfig.h
 -
 iostream
@@ -816,7 +816,7 @@ openbabel/obconversion.h
 openbabel/generic.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/ophighlight.cpp
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/ophighlight.cpp
 openbabel/babelconfig.h
 -
 openbabel/parsmart.h
@@ -826,7 +826,7 @@ openbabel/obconversion.h
 openbabel/op.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/opisomorph.cpp
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/opisomorph.cpp
 openbabel/babelconfig.h
 -
 openbabel/parsmart.h
@@ -834,9 +834,9 @@ openbabel/parsmart.h
 openbabel/isomorphism.h
 -
 opisomorph.h
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/opisomorph.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/opisomorph.h
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/opisomorph.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/opisomorph.h
 openbabel/babelconfig.h
 -
 openbabel/op.h
@@ -852,7 +852,7 @@ vector
 string
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/opsplit.cpp
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/opsplit.cpp
 openbabel/babelconfig.h
 -
 openbabel/obconversion.h
@@ -864,11 +864,11 @@ openbabel/mol.h
 fstream
 -
 deferred.h
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/deferred.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/deferred.h
 openbabel/descriptor.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/optransform.cpp
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/optransform.cpp
 openbabel/babelconfig.h
 -
 openbabel/optransform.h
@@ -878,7 +878,7 @@ openbabel/locale.h
 vector
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/partialcharges.cpp
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/partialcharges.cpp
 openbabel/babelconfig.h
 -
 openbabel/op.h
@@ -892,7 +892,7 @@ openbabel/obconversion.h
 string.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/readconformers.cpp
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/readconformers.cpp
 openbabel/babelconfig.h
 -
 openbabel/op.h
@@ -902,11 +902,11 @@ openbabel/mol.h
 openbabel/obconversion.h
 -
 deferred.h
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/deferred.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/deferred.h
 algorithm
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/sort.cpp
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/sort.cpp
 openbabel/babelconfig.h
 -
 openbabel/op.h
@@ -918,13 +918,13 @@ openbabel/obconversion.h
 openbabel/descriptor.h
 -
 deferred.h
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/deferred.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/deferred.h
 set
 -
 algorithm
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/ops/xout.cpp
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/ops/xout.cpp
 openbabel/babelconfig.h
 -
 openbabel/op.h

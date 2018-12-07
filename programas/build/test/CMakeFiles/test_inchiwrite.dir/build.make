@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/fernando/Documentos/BE3AV/openbabel-2.4.1
+CMAKE_SOURCE_DIR = /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/fernando/Documentos/BE3AV/build
+CMAKE_BINARY_DIR = /home/fernando/Documentos/BE3AV/programas/build
 
 # Include any dependencies generated for this target.
 include test/CMakeFiles/test_inchiwrite.dir/depend.make
@@ -58,17 +58,17 @@ include test/CMakeFiles/test_inchiwrite.dir/progress.make
 include test/CMakeFiles/test_inchiwrite.dir/flags.make
 
 test/CMakeFiles/test_inchiwrite.dir/inchiwrite.o: test/CMakeFiles/test_inchiwrite.dir/flags.make
-test/CMakeFiles/test_inchiwrite.dir/inchiwrite.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/inchiwrite.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/CMakeFiles/test_inchiwrite.dir/inchiwrite.o"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_inchiwrite.dir/inchiwrite.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/inchiwrite.cpp
+test/CMakeFiles/test_inchiwrite.dir/inchiwrite.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/inchiwrite.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/CMakeFiles/test_inchiwrite.dir/inchiwrite.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_inchiwrite.dir/inchiwrite.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/inchiwrite.cpp
 
 test/CMakeFiles/test_inchiwrite.dir/inchiwrite.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_inchiwrite.dir/inchiwrite.i"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/inchiwrite.cpp > CMakeFiles/test_inchiwrite.dir/inchiwrite.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/inchiwrite.cpp > CMakeFiles/test_inchiwrite.dir/inchiwrite.i
 
 test/CMakeFiles/test_inchiwrite.dir/inchiwrite.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_inchiwrite.dir/inchiwrite.s"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/inchiwrite.cpp -o CMakeFiles/test_inchiwrite.dir/inchiwrite.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/inchiwrite.cpp -o CMakeFiles/test_inchiwrite.dir/inchiwrite.s
 
 test/CMakeFiles/test_inchiwrite.dir/inchiwrite.o.requires:
 
@@ -82,17 +82,17 @@ test/CMakeFiles/test_inchiwrite.dir/inchiwrite.o.provides.build: test/CMakeFiles
 
 
 test/CMakeFiles/test_inchiwrite.dir/__/src/formats/getinchi.o: test/CMakeFiles/test_inchiwrite.dir/flags.make
-test/CMakeFiles/test_inchiwrite.dir/__/src/formats/getinchi.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/formats/getinchi.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object test/CMakeFiles/test_inchiwrite.dir/__/src/formats/getinchi.o"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_inchiwrite.dir/__/src/formats/getinchi.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/formats/getinchi.cpp
+test/CMakeFiles/test_inchiwrite.dir/__/src/formats/getinchi.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/formats/getinchi.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object test/CMakeFiles/test_inchiwrite.dir/__/src/formats/getinchi.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_inchiwrite.dir/__/src/formats/getinchi.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/formats/getinchi.cpp
 
 test/CMakeFiles/test_inchiwrite.dir/__/src/formats/getinchi.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_inchiwrite.dir/__/src/formats/getinchi.i"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/formats/getinchi.cpp > CMakeFiles/test_inchiwrite.dir/__/src/formats/getinchi.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/formats/getinchi.cpp > CMakeFiles/test_inchiwrite.dir/__/src/formats/getinchi.i
 
 test/CMakeFiles/test_inchiwrite.dir/__/src/formats/getinchi.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_inchiwrite.dir/__/src/formats/getinchi.s"
-	cd /home/fernando/Documentos/BE3AV/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/formats/getinchi.cpp -o CMakeFiles/test_inchiwrite.dir/__/src/formats/getinchi.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/formats/getinchi.cpp -o CMakeFiles/test_inchiwrite.dir/__/src/formats/getinchi.s
 
 test/CMakeFiles/test_inchiwrite.dir/__/src/formats/getinchi.o.requires:
 
@@ -120,8 +120,8 @@ bin/test_inchiwrite: lib/libopenbabel.so.5.0.0
 bin/test_inchiwrite: /usr/lib/x86_64-linux-gnu/libm.so
 bin/test_inchiwrite: /usr/lib/x86_64-linux-gnu/libz.so
 bin/test_inchiwrite: test/CMakeFiles/test_inchiwrite.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../bin/test_inchiwrite"
-	cd /home/fernando/Documentos/BE3AV/build/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test_inchiwrite.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../bin/test_inchiwrite"
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test_inchiwrite.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 test/CMakeFiles/test_inchiwrite.dir/build: bin/test_inchiwrite
@@ -134,10 +134,10 @@ test/CMakeFiles/test_inchiwrite.dir/requires: test/CMakeFiles/test_inchiwrite.di
 .PHONY : test/CMakeFiles/test_inchiwrite.dir/requires
 
 test/CMakeFiles/test_inchiwrite.dir/clean:
-	cd /home/fernando/Documentos/BE3AV/build/test && $(CMAKE_COMMAND) -P CMakeFiles/test_inchiwrite.dir/cmake_clean.cmake
+	cd /home/fernando/Documentos/BE3AV/programas/build/test && $(CMAKE_COMMAND) -P CMakeFiles/test_inchiwrite.dir/cmake_clean.cmake
 .PHONY : test/CMakeFiles/test_inchiwrite.dir/clean
 
 test/CMakeFiles/test_inchiwrite.dir/depend:
-	cd /home/fernando/Documentos/BE3AV/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fernando/Documentos/BE3AV/openbabel-2.4.1 /home/fernando/Documentos/BE3AV/openbabel-2.4.1/test /home/fernando/Documentos/BE3AV/build /home/fernando/Documentos/BE3AV/build/test /home/fernando/Documentos/BE3AV/build/test/CMakeFiles/test_inchiwrite.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/fernando/Documentos/BE3AV/programas/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1 /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test /home/fernando/Documentos/BE3AV/programas/build /home/fernando/Documentos/BE3AV/programas/build/test /home/fernando/Documentos/BE3AV/programas/build/test/CMakeFiles/test_inchiwrite.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : test/CMakeFiles/test_inchiwrite.dir/depend
 

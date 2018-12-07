@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/fernando/Documentos/BE3AV/openbabel-2.4.1
+CMAKE_SOURCE_DIR = /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/fernando/Documentos/BE3AV/build
+CMAKE_BINARY_DIR = /home/fernando/Documentos/BE3AV/programas/build
 
 # Include any dependencies generated for this target.
 include src/CMakeFiles/plugin_charges.dir/depend.make
@@ -58,17 +58,17 @@ include src/CMakeFiles/plugin_charges.dir/progress.make
 include src/CMakeFiles/plugin_charges.dir/flags.make
 
 src/CMakeFiles/plugin_charges.dir/charges/eem.o: src/CMakeFiles/plugin_charges.dir/flags.make
-src/CMakeFiles/plugin_charges.dir/charges/eem.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/charges/eem.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/plugin_charges.dir/charges/eem.o"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/plugin_charges.dir/charges/eem.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/charges/eem.cpp
+src/CMakeFiles/plugin_charges.dir/charges/eem.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/charges/eem.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/plugin_charges.dir/charges/eem.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/plugin_charges.dir/charges/eem.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/charges/eem.cpp
 
 src/CMakeFiles/plugin_charges.dir/charges/eem.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/plugin_charges.dir/charges/eem.i"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/charges/eem.cpp > CMakeFiles/plugin_charges.dir/charges/eem.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/charges/eem.cpp > CMakeFiles/plugin_charges.dir/charges/eem.i
 
 src/CMakeFiles/plugin_charges.dir/charges/eem.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/plugin_charges.dir/charges/eem.s"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/charges/eem.cpp -o CMakeFiles/plugin_charges.dir/charges/eem.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/charges/eem.cpp -o CMakeFiles/plugin_charges.dir/charges/eem.s
 
 src/CMakeFiles/plugin_charges.dir/charges/eem.o.requires:
 
@@ -82,17 +82,17 @@ src/CMakeFiles/plugin_charges.dir/charges/eem.o.provides.build: src/CMakeFiles/p
 
 
 src/CMakeFiles/plugin_charges.dir/charges/gasteiger.o: src/CMakeFiles/plugin_charges.dir/flags.make
-src/CMakeFiles/plugin_charges.dir/charges/gasteiger.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/charges/gasteiger.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/plugin_charges.dir/charges/gasteiger.o"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/plugin_charges.dir/charges/gasteiger.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/charges/gasteiger.cpp
+src/CMakeFiles/plugin_charges.dir/charges/gasteiger.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/charges/gasteiger.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/plugin_charges.dir/charges/gasteiger.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/plugin_charges.dir/charges/gasteiger.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/charges/gasteiger.cpp
 
 src/CMakeFiles/plugin_charges.dir/charges/gasteiger.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/plugin_charges.dir/charges/gasteiger.i"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/charges/gasteiger.cpp > CMakeFiles/plugin_charges.dir/charges/gasteiger.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/charges/gasteiger.cpp > CMakeFiles/plugin_charges.dir/charges/gasteiger.i
 
 src/CMakeFiles/plugin_charges.dir/charges/gasteiger.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/plugin_charges.dir/charges/gasteiger.s"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/charges/gasteiger.cpp -o CMakeFiles/plugin_charges.dir/charges/gasteiger.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/charges/gasteiger.cpp -o CMakeFiles/plugin_charges.dir/charges/gasteiger.s
 
 src/CMakeFiles/plugin_charges.dir/charges/gasteiger.o.requires:
 
@@ -106,17 +106,17 @@ src/CMakeFiles/plugin_charges.dir/charges/gasteiger.o.provides.build: src/CMakeF
 
 
 src/CMakeFiles/plugin_charges.dir/charges/none.o: src/CMakeFiles/plugin_charges.dir/flags.make
-src/CMakeFiles/plugin_charges.dir/charges/none.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/charges/none.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/plugin_charges.dir/charges/none.o"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/plugin_charges.dir/charges/none.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/charges/none.cpp
+src/CMakeFiles/plugin_charges.dir/charges/none.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/charges/none.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/plugin_charges.dir/charges/none.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/plugin_charges.dir/charges/none.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/charges/none.cpp
 
 src/CMakeFiles/plugin_charges.dir/charges/none.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/plugin_charges.dir/charges/none.i"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/charges/none.cpp > CMakeFiles/plugin_charges.dir/charges/none.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/charges/none.cpp > CMakeFiles/plugin_charges.dir/charges/none.i
 
 src/CMakeFiles/plugin_charges.dir/charges/none.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/plugin_charges.dir/charges/none.s"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/charges/none.cpp -o CMakeFiles/plugin_charges.dir/charges/none.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/charges/none.cpp -o CMakeFiles/plugin_charges.dir/charges/none.s
 
 src/CMakeFiles/plugin_charges.dir/charges/none.o.requires:
 
@@ -130,17 +130,17 @@ src/CMakeFiles/plugin_charges.dir/charges/none.o.provides.build: src/CMakeFiles/
 
 
 src/CMakeFiles/plugin_charges.dir/charges/mmff94.o: src/CMakeFiles/plugin_charges.dir/flags.make
-src/CMakeFiles/plugin_charges.dir/charges/mmff94.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/charges/mmff94.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/plugin_charges.dir/charges/mmff94.o"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/plugin_charges.dir/charges/mmff94.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/charges/mmff94.cpp
+src/CMakeFiles/plugin_charges.dir/charges/mmff94.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/charges/mmff94.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/plugin_charges.dir/charges/mmff94.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/plugin_charges.dir/charges/mmff94.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/charges/mmff94.cpp
 
 src/CMakeFiles/plugin_charges.dir/charges/mmff94.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/plugin_charges.dir/charges/mmff94.i"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/charges/mmff94.cpp > CMakeFiles/plugin_charges.dir/charges/mmff94.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/charges/mmff94.cpp > CMakeFiles/plugin_charges.dir/charges/mmff94.i
 
 src/CMakeFiles/plugin_charges.dir/charges/mmff94.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/plugin_charges.dir/charges/mmff94.s"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/charges/mmff94.cpp -o CMakeFiles/plugin_charges.dir/charges/mmff94.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/charges/mmff94.cpp -o CMakeFiles/plugin_charges.dir/charges/mmff94.s
 
 src/CMakeFiles/plugin_charges.dir/charges/mmff94.o.requires:
 
@@ -154,17 +154,17 @@ src/CMakeFiles/plugin_charges.dir/charges/mmff94.o.provides.build: src/CMakeFile
 
 
 src/CMakeFiles/plugin_charges.dir/charges/fromfile.o: src/CMakeFiles/plugin_charges.dir/flags.make
-src/CMakeFiles/plugin_charges.dir/charges/fromfile.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/charges/fromfile.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/plugin_charges.dir/charges/fromfile.o"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/plugin_charges.dir/charges/fromfile.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/charges/fromfile.cpp
+src/CMakeFiles/plugin_charges.dir/charges/fromfile.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/charges/fromfile.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/plugin_charges.dir/charges/fromfile.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/plugin_charges.dir/charges/fromfile.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/charges/fromfile.cpp
 
 src/CMakeFiles/plugin_charges.dir/charges/fromfile.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/plugin_charges.dir/charges/fromfile.i"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/charges/fromfile.cpp > CMakeFiles/plugin_charges.dir/charges/fromfile.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/charges/fromfile.cpp > CMakeFiles/plugin_charges.dir/charges/fromfile.i
 
 src/CMakeFiles/plugin_charges.dir/charges/fromfile.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/plugin_charges.dir/charges/fromfile.s"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/charges/fromfile.cpp -o CMakeFiles/plugin_charges.dir/charges/fromfile.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/charges/fromfile.cpp -o CMakeFiles/plugin_charges.dir/charges/fromfile.s
 
 src/CMakeFiles/plugin_charges.dir/charges/fromfile.o.requires:
 
@@ -178,17 +178,17 @@ src/CMakeFiles/plugin_charges.dir/charges/fromfile.o.provides.build: src/CMakeFi
 
 
 src/CMakeFiles/plugin_charges.dir/charges/eqeq.o: src/CMakeFiles/plugin_charges.dir/flags.make
-src/CMakeFiles/plugin_charges.dir/charges/eqeq.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/charges/eqeq.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/plugin_charges.dir/charges/eqeq.o"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/plugin_charges.dir/charges/eqeq.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/charges/eqeq.cpp
+src/CMakeFiles/plugin_charges.dir/charges/eqeq.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/charges/eqeq.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/plugin_charges.dir/charges/eqeq.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/plugin_charges.dir/charges/eqeq.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/charges/eqeq.cpp
 
 src/CMakeFiles/plugin_charges.dir/charges/eqeq.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/plugin_charges.dir/charges/eqeq.i"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/charges/eqeq.cpp > CMakeFiles/plugin_charges.dir/charges/eqeq.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/charges/eqeq.cpp > CMakeFiles/plugin_charges.dir/charges/eqeq.i
 
 src/CMakeFiles/plugin_charges.dir/charges/eqeq.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/plugin_charges.dir/charges/eqeq.s"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/charges/eqeq.cpp -o CMakeFiles/plugin_charges.dir/charges/eqeq.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/charges/eqeq.cpp -o CMakeFiles/plugin_charges.dir/charges/eqeq.s
 
 src/CMakeFiles/plugin_charges.dir/charges/eqeq.o.requires:
 
@@ -202,17 +202,17 @@ src/CMakeFiles/plugin_charges.dir/charges/eqeq.o.provides.build: src/CMakeFiles/
 
 
 src/CMakeFiles/plugin_charges.dir/charges/qeq.o: src/CMakeFiles/plugin_charges.dir/flags.make
-src/CMakeFiles/plugin_charges.dir/charges/qeq.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/charges/qeq.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/CMakeFiles/plugin_charges.dir/charges/qeq.o"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/plugin_charges.dir/charges/qeq.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/charges/qeq.cpp
+src/CMakeFiles/plugin_charges.dir/charges/qeq.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/charges/qeq.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/CMakeFiles/plugin_charges.dir/charges/qeq.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/plugin_charges.dir/charges/qeq.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/charges/qeq.cpp
 
 src/CMakeFiles/plugin_charges.dir/charges/qeq.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/plugin_charges.dir/charges/qeq.i"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/charges/qeq.cpp > CMakeFiles/plugin_charges.dir/charges/qeq.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/charges/qeq.cpp > CMakeFiles/plugin_charges.dir/charges/qeq.i
 
 src/CMakeFiles/plugin_charges.dir/charges/qeq.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/plugin_charges.dir/charges/qeq.s"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/charges/qeq.cpp -o CMakeFiles/plugin_charges.dir/charges/qeq.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/charges/qeq.cpp -o CMakeFiles/plugin_charges.dir/charges/qeq.s
 
 src/CMakeFiles/plugin_charges.dir/charges/qeq.o.requires:
 
@@ -226,17 +226,17 @@ src/CMakeFiles/plugin_charges.dir/charges/qeq.o.provides.build: src/CMakeFiles/p
 
 
 src/CMakeFiles/plugin_charges.dir/charges/qtpie.o: src/CMakeFiles/plugin_charges.dir/flags.make
-src/CMakeFiles/plugin_charges.dir/charges/qtpie.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/charges/qtpie.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/CMakeFiles/plugin_charges.dir/charges/qtpie.o"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/plugin_charges.dir/charges/qtpie.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/charges/qtpie.cpp
+src/CMakeFiles/plugin_charges.dir/charges/qtpie.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/charges/qtpie.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/CMakeFiles/plugin_charges.dir/charges/qtpie.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/plugin_charges.dir/charges/qtpie.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/charges/qtpie.cpp
 
 src/CMakeFiles/plugin_charges.dir/charges/qtpie.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/plugin_charges.dir/charges/qtpie.i"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/charges/qtpie.cpp > CMakeFiles/plugin_charges.dir/charges/qtpie.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/charges/qtpie.cpp > CMakeFiles/plugin_charges.dir/charges/qtpie.i
 
 src/CMakeFiles/plugin_charges.dir/charges/qtpie.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/plugin_charges.dir/charges/qtpie.s"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/charges/qtpie.cpp -o CMakeFiles/plugin_charges.dir/charges/qtpie.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/charges/qtpie.cpp -o CMakeFiles/plugin_charges.dir/charges/qtpie.s
 
 src/CMakeFiles/plugin_charges.dir/charges/qtpie.o.requires:
 
@@ -278,8 +278,8 @@ lib/plugin_charges.so: lib/libopenbabel.so.5.0.0
 lib/plugin_charges.so: /usr/lib/x86_64-linux-gnu/libm.so
 lib/plugin_charges.so: /usr/lib/x86_64-linux-gnu/libz.so
 lib/plugin_charges.so: src/CMakeFiles/plugin_charges.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX shared module ../lib/plugin_charges.so"
-	cd /home/fernando/Documentos/BE3AV/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/plugin_charges.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX shared module ../lib/plugin_charges.so"
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/plugin_charges.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/CMakeFiles/plugin_charges.dir/build: lib/plugin_charges.so
@@ -298,10 +298,10 @@ src/CMakeFiles/plugin_charges.dir/requires: src/CMakeFiles/plugin_charges.dir/ch
 .PHONY : src/CMakeFiles/plugin_charges.dir/requires
 
 src/CMakeFiles/plugin_charges.dir/clean:
-	cd /home/fernando/Documentos/BE3AV/build/src && $(CMAKE_COMMAND) -P CMakeFiles/plugin_charges.dir/cmake_clean.cmake
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && $(CMAKE_COMMAND) -P CMakeFiles/plugin_charges.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/plugin_charges.dir/clean
 
 src/CMakeFiles/plugin_charges.dir/depend:
-	cd /home/fernando/Documentos/BE3AV/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fernando/Documentos/BE3AV/openbabel-2.4.1 /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src /home/fernando/Documentos/BE3AV/build /home/fernando/Documentos/BE3AV/build/src /home/fernando/Documentos/BE3AV/build/src/CMakeFiles/plugin_charges.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/fernando/Documentos/BE3AV/programas/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1 /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src /home/fernando/Documentos/BE3AV/programas/build /home/fernando/Documentos/BE3AV/programas/build/src /home/fernando/Documentos/BE3AV/programas/build/src/CMakeFiles/plugin_charges.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/CMakeFiles/plugin_charges.dir/depend
 

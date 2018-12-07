@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/fernando/Documentos/BE3AV/openbabel-2.4.1
+CMAKE_SOURCE_DIR = /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/fernando/Documentos/BE3AV/build
+CMAKE_BINARY_DIR = /home/fernando/Documentos/BE3AV/programas/build
 
 # Include any dependencies generated for this target.
 include src/CMakeFiles/plugin_forcefields.dir/depend.make
@@ -58,17 +58,17 @@ include src/CMakeFiles/plugin_forcefields.dir/progress.make
 include src/CMakeFiles/plugin_forcefields.dir/flags.make
 
 src/CMakeFiles/plugin_forcefields.dir/forcefields/forcefieldgaff.o: src/CMakeFiles/plugin_forcefields.dir/flags.make
-src/CMakeFiles/plugin_forcefields.dir/forcefields/forcefieldgaff.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/forcefields/forcefieldgaff.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/plugin_forcefields.dir/forcefields/forcefieldgaff.o"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/plugin_forcefields.dir/forcefields/forcefieldgaff.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/forcefields/forcefieldgaff.cpp
+src/CMakeFiles/plugin_forcefields.dir/forcefields/forcefieldgaff.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/forcefields/forcefieldgaff.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/plugin_forcefields.dir/forcefields/forcefieldgaff.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/plugin_forcefields.dir/forcefields/forcefieldgaff.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/forcefields/forcefieldgaff.cpp
 
 src/CMakeFiles/plugin_forcefields.dir/forcefields/forcefieldgaff.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/plugin_forcefields.dir/forcefields/forcefieldgaff.i"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/forcefields/forcefieldgaff.cpp > CMakeFiles/plugin_forcefields.dir/forcefields/forcefieldgaff.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/forcefields/forcefieldgaff.cpp > CMakeFiles/plugin_forcefields.dir/forcefields/forcefieldgaff.i
 
 src/CMakeFiles/plugin_forcefields.dir/forcefields/forcefieldgaff.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/plugin_forcefields.dir/forcefields/forcefieldgaff.s"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/forcefields/forcefieldgaff.cpp -o CMakeFiles/plugin_forcefields.dir/forcefields/forcefieldgaff.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/forcefields/forcefieldgaff.cpp -o CMakeFiles/plugin_forcefields.dir/forcefields/forcefieldgaff.s
 
 src/CMakeFiles/plugin_forcefields.dir/forcefields/forcefieldgaff.o.requires:
 
@@ -82,17 +82,17 @@ src/CMakeFiles/plugin_forcefields.dir/forcefields/forcefieldgaff.o.provides.buil
 
 
 src/CMakeFiles/plugin_forcefields.dir/forcefields/forcefieldghemical.o: src/CMakeFiles/plugin_forcefields.dir/flags.make
-src/CMakeFiles/plugin_forcefields.dir/forcefields/forcefieldghemical.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/forcefields/forcefieldghemical.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/plugin_forcefields.dir/forcefields/forcefieldghemical.o"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/plugin_forcefields.dir/forcefields/forcefieldghemical.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/forcefields/forcefieldghemical.cpp
+src/CMakeFiles/plugin_forcefields.dir/forcefields/forcefieldghemical.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/forcefields/forcefieldghemical.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/plugin_forcefields.dir/forcefields/forcefieldghemical.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/plugin_forcefields.dir/forcefields/forcefieldghemical.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/forcefields/forcefieldghemical.cpp
 
 src/CMakeFiles/plugin_forcefields.dir/forcefields/forcefieldghemical.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/plugin_forcefields.dir/forcefields/forcefieldghemical.i"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/forcefields/forcefieldghemical.cpp > CMakeFiles/plugin_forcefields.dir/forcefields/forcefieldghemical.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/forcefields/forcefieldghemical.cpp > CMakeFiles/plugin_forcefields.dir/forcefields/forcefieldghemical.i
 
 src/CMakeFiles/plugin_forcefields.dir/forcefields/forcefieldghemical.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/plugin_forcefields.dir/forcefields/forcefieldghemical.s"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/forcefields/forcefieldghemical.cpp -o CMakeFiles/plugin_forcefields.dir/forcefields/forcefieldghemical.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/forcefields/forcefieldghemical.cpp -o CMakeFiles/plugin_forcefields.dir/forcefields/forcefieldghemical.s
 
 src/CMakeFiles/plugin_forcefields.dir/forcefields/forcefieldghemical.o.requires:
 
@@ -106,17 +106,17 @@ src/CMakeFiles/plugin_forcefields.dir/forcefields/forcefieldghemical.o.provides.
 
 
 src/CMakeFiles/plugin_forcefields.dir/forcefields/forcefieldmmff94.o: src/CMakeFiles/plugin_forcefields.dir/flags.make
-src/CMakeFiles/plugin_forcefields.dir/forcefields/forcefieldmmff94.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/forcefields/forcefieldmmff94.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/plugin_forcefields.dir/forcefields/forcefieldmmff94.o"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/plugin_forcefields.dir/forcefields/forcefieldmmff94.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/forcefields/forcefieldmmff94.cpp
+src/CMakeFiles/plugin_forcefields.dir/forcefields/forcefieldmmff94.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/forcefields/forcefieldmmff94.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/plugin_forcefields.dir/forcefields/forcefieldmmff94.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/plugin_forcefields.dir/forcefields/forcefieldmmff94.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/forcefields/forcefieldmmff94.cpp
 
 src/CMakeFiles/plugin_forcefields.dir/forcefields/forcefieldmmff94.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/plugin_forcefields.dir/forcefields/forcefieldmmff94.i"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/forcefields/forcefieldmmff94.cpp > CMakeFiles/plugin_forcefields.dir/forcefields/forcefieldmmff94.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/forcefields/forcefieldmmff94.cpp > CMakeFiles/plugin_forcefields.dir/forcefields/forcefieldmmff94.i
 
 src/CMakeFiles/plugin_forcefields.dir/forcefields/forcefieldmmff94.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/plugin_forcefields.dir/forcefields/forcefieldmmff94.s"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/forcefields/forcefieldmmff94.cpp -o CMakeFiles/plugin_forcefields.dir/forcefields/forcefieldmmff94.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/forcefields/forcefieldmmff94.cpp -o CMakeFiles/plugin_forcefields.dir/forcefields/forcefieldmmff94.s
 
 src/CMakeFiles/plugin_forcefields.dir/forcefields/forcefieldmmff94.o.requires:
 
@@ -130,17 +130,17 @@ src/CMakeFiles/plugin_forcefields.dir/forcefields/forcefieldmmff94.o.provides.bu
 
 
 src/CMakeFiles/plugin_forcefields.dir/forcefields/forcefielduff.o: src/CMakeFiles/plugin_forcefields.dir/flags.make
-src/CMakeFiles/plugin_forcefields.dir/forcefields/forcefielduff.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/forcefields/forcefielduff.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/plugin_forcefields.dir/forcefields/forcefielduff.o"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/plugin_forcefields.dir/forcefields/forcefielduff.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/forcefields/forcefielduff.cpp
+src/CMakeFiles/plugin_forcefields.dir/forcefields/forcefielduff.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/forcefields/forcefielduff.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/plugin_forcefields.dir/forcefields/forcefielduff.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/plugin_forcefields.dir/forcefields/forcefielduff.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/forcefields/forcefielduff.cpp
 
 src/CMakeFiles/plugin_forcefields.dir/forcefields/forcefielduff.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/plugin_forcefields.dir/forcefields/forcefielduff.i"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/forcefields/forcefielduff.cpp > CMakeFiles/plugin_forcefields.dir/forcefields/forcefielduff.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/forcefields/forcefielduff.cpp > CMakeFiles/plugin_forcefields.dir/forcefields/forcefielduff.i
 
 src/CMakeFiles/plugin_forcefields.dir/forcefields/forcefielduff.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/plugin_forcefields.dir/forcefields/forcefielduff.s"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/forcefields/forcefielduff.cpp -o CMakeFiles/plugin_forcefields.dir/forcefields/forcefielduff.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/forcefields/forcefielduff.cpp -o CMakeFiles/plugin_forcefields.dir/forcefields/forcefielduff.s
 
 src/CMakeFiles/plugin_forcefields.dir/forcefields/forcefielduff.o.requires:
 
@@ -174,8 +174,8 @@ lib/plugin_forcefields.so: lib/libopenbabel.so.5.0.0
 lib/plugin_forcefields.so: /usr/lib/x86_64-linux-gnu/libm.so
 lib/plugin_forcefields.so: /usr/lib/x86_64-linux-gnu/libz.so
 lib/plugin_forcefields.so: src/CMakeFiles/plugin_forcefields.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX shared module ../lib/plugin_forcefields.so"
-	cd /home/fernando/Documentos/BE3AV/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/plugin_forcefields.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX shared module ../lib/plugin_forcefields.so"
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/plugin_forcefields.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/CMakeFiles/plugin_forcefields.dir/build: lib/plugin_forcefields.so
@@ -190,10 +190,10 @@ src/CMakeFiles/plugin_forcefields.dir/requires: src/CMakeFiles/plugin_forcefield
 .PHONY : src/CMakeFiles/plugin_forcefields.dir/requires
 
 src/CMakeFiles/plugin_forcefields.dir/clean:
-	cd /home/fernando/Documentos/BE3AV/build/src && $(CMAKE_COMMAND) -P CMakeFiles/plugin_forcefields.dir/cmake_clean.cmake
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && $(CMAKE_COMMAND) -P CMakeFiles/plugin_forcefields.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/plugin_forcefields.dir/clean
 
 src/CMakeFiles/plugin_forcefields.dir/depend:
-	cd /home/fernando/Documentos/BE3AV/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fernando/Documentos/BE3AV/openbabel-2.4.1 /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src /home/fernando/Documentos/BE3AV/build /home/fernando/Documentos/BE3AV/build/src /home/fernando/Documentos/BE3AV/build/src/CMakeFiles/plugin_forcefields.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/fernando/Documentos/BE3AV/programas/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1 /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src /home/fernando/Documentos/BE3AV/programas/build /home/fernando/Documentos/BE3AV/programas/build/src /home/fernando/Documentos/BE3AV/programas/build/src/CMakeFiles/plugin_forcefields.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/CMakeFiles/plugin_forcefields.dir/depend
 

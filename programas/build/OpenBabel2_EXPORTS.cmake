@@ -51,7 +51,7 @@ add_library(inchi SHARED IMPORTED)
 set_property(TARGET openbabel APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(openbabel PROPERTIES
   IMPORTED_LINK_INTERFACE_LIBRARIES_RELWITHDEBINFO "/usr/lib/x86_64-linux-gnu/libm.so;dl;/usr/lib/x86_64-linux-gnu/libz.so"
-  IMPORTED_LOCATION_RELWITHDEBINFO "/home/fernando/Documentos/BE3AV/build/lib/libopenbabel.so.5.0.0"
+  IMPORTED_LOCATION_RELWITHDEBINFO "/home/fernando/Documentos/BE3AV/programas/build/lib/libopenbabel.so.5.0.0"
   IMPORTED_SONAME_RELWITHDEBINFO "libopenbabel.so.5"
   )
 
@@ -59,7 +59,7 @@ set_target_properties(openbabel PROPERTIES
 set_property(TARGET inchi APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(inchi PROPERTIES
   IMPORTED_LINK_INTERFACE_LIBRARIES_RELWITHDEBINFO "/usr/lib/x86_64-linux-gnu/libm.so;dl;/usr/lib/x86_64-linux-gnu/libz.so;/usr/lib/x86_64-linux-gnu/libcairo.so;c"
-  IMPORTED_LOCATION_RELWITHDEBINFO "/home/fernando/Documentos/BE3AV/build/lib/libinchi.so.0.4.1"
+  IMPORTED_LOCATION_RELWITHDEBINFO "/home/fernando/Documentos/BE3AV/programas/build/lib/libinchi.so.0.4.1"
   IMPORTED_SONAME_RELWITHDEBINFO "libinchi.so.0"
   )
 

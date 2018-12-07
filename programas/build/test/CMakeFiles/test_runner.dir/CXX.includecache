@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/fernando/Documentos/BE3AV/build/test/test_runner.cpp
+/home/fernando/Documentos/BE3AV/programas/build/test/test_runner.cpp
 ctype.h
 -
 stdio.h
@@ -16,7 +16,7 @@ stdlib.h
 string.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/atom.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/atom.h
 openbabel/babelconfig.h
 -
 vector
@@ -30,7 +30,7 @@ openbabel/residue.h
 openbabel/math/vector3.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/atomclass.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/atomclass.h
 openbabel/babelconfig.h
 -
 vector
@@ -40,7 +40,7 @@ sstream
 openbabel/base.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/base.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/base.h
 openbabel/babelconfig.h
 -
 vector
@@ -54,7 +54,7 @@ iostream
 openbabel/tokenst.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/bitvec.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/bitvec.h
 openbabel/babelconfig.h
 -
 vector
@@ -64,7 +64,7 @@ string
 inttypes.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/bond.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/bond.h
 openbabel/babelconfig.h
 -
 openbabel/base.h
@@ -72,7 +72,7 @@ openbabel/base.h
 openbabel/atom.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/builder.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/builder.h
 vector
 -
 string
@@ -90,17 +90,17 @@ openbabel/mol.h
 openbabel/stereo/stereo.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/canon.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/canon.h
 openbabel/bitvec.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/chains.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/chains.h
 openbabel/babelconfig.h
 -
 vector
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/chargemodel.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/chargemodel.h
 openbabel/babelconfig.h
 -
 openbabel/plugin.h
@@ -108,7 +108,7 @@ openbabel/plugin.h
 openbabel/math/vector3.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/data.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/data.h
 openbabel/babelconfig.h
 -
 stdio.h
@@ -124,7 +124,7 @@ string
 cstring
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/descriptor.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/descriptor.h
 string
 -
 sstream
@@ -136,7 +136,7 @@ openbabel/babelconfig.h
 openbabel/plugin.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/dlhandler.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/dlhandler.h
 openbabel/babelconfig.h
 -
 string
@@ -144,7 +144,7 @@ string
 vector
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/forcefield.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/forcefield.h
 vector
 -
 string
@@ -170,7 +170,7 @@ openbabel/griddata.h
 float.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/format.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/format.h
 openbabel/babelconfig.h
 -
 openbabel/plugin.h
@@ -178,7 +178,7 @@ openbabel/plugin.h
 typeinfo
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/generic.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/generic.h
 openbabel/babelconfig.h
 -
 string
@@ -194,7 +194,7 @@ openbabel/obutil.h
 openbabel/base.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/graphsym.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/graphsym.h
 openbabel/babelconfig.h
 -
 openbabel/stereo/stereo.h
@@ -202,7 +202,7 @@ openbabel/stereo/stereo.h
 vector
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/grid.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/grid.h
 openbabel/babelconfig.h
 -
 openbabel/math/vector3.h
@@ -220,7 +220,7 @@ vector
 string
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/griddata.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/griddata.h
 openbabel/babelconfig.h
 -
 openbabel/base.h
@@ -230,7 +230,7 @@ openbabel/math/vector3.h
 vector
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/groupcontrib.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/groupcontrib.h
 openbabel/mol.h
 -
 openbabel/parsmart.h
@@ -238,23 +238,23 @@ openbabel/parsmart.h
 openbabel/descriptor.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/internalcoord.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/internalcoord.h
 openbabel/babelconfig.h
 -
 stddef.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/isomorphism.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/isomorphism.h
 openbabel/mol.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/lineend.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/lineend.h
 streambuf
 -
 climits
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/math/align.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/math/align.h
 openbabel/mol.h
 -
 openbabel/math/vector3.h
@@ -266,7 +266,7 @@ openbabel/isomorphism.h
 Eigen/Core
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/math/matrix3x3.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/math/matrix3x3.h
 ostream
 -
 openbabel/math/vector3.h
@@ -274,7 +274,7 @@ openbabel/math/vector3.h
 openbabel/oberror.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/math/spacegroup.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/math/spacegroup.h
 openbabel/math/transform3d.h
 -
 string
@@ -282,7 +282,7 @@ string
 list
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/math/transform3d.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/math/transform3d.h
 openbabel/math/matrix3x3.h
 -
 list
@@ -290,7 +290,7 @@ list
 string
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/math/vector3.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/math/vector3.h
 ostream
 -
 math.h
@@ -300,7 +300,7 @@ iostream
 openbabel/rand.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/mol.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/mol.h
 openbabel/babelconfig.h
 -
 math.h
@@ -342,7 +342,7 @@ openbabel/obiter.h
 openbabel/internalcoord.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/obconversion.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/obconversion.h
 openbabel/babelconfig.h
 -
 iostream
@@ -368,7 +368,7 @@ openbabel/format.h
 openbabel/lineend.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/oberror.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/oberror.h
 openbabel/babelconfig.h
 -
 iosfwd
@@ -382,7 +382,7 @@ vector
 deque
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/obiter.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/obiter.h
 openbabel/babelconfig.h
 -
 openbabel/base.h
@@ -396,7 +396,7 @@ stack
 queue
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/obutil.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/obutil.h
 openbabel/babelconfig.h
 -
 string
@@ -416,7 +416,7 @@ math.h
 openbabel/rand.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/parsmart.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/parsmart.h
 string
 -
 vector
@@ -426,13 +426,13 @@ openbabel/babelconfig.h
 openbabel/mol.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/phmodel.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/phmodel.h
 openbabel/parsmart.h
 -
 openbabel/data.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/plugin.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/plugin.h
 openbabel/babelconfig.h
 -
 openbabel/dlhandler.h
@@ -452,17 +452,17 @@ cstring
 openbabel/plugin.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/query.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/query.h
 openbabel/mol.h
 -
 openbabel/tokenst.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/rand.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/rand.h
 openbabel/babelconfig.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/residue.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/residue.h
 openbabel/babelconfig.h
 -
 vector
@@ -472,7 +472,7 @@ string
 openbabel/base.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/ring.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/ring.h
 deque
 -
 algorithm
@@ -482,7 +482,7 @@ openbabel/bitvec.h
 openbabel/typer.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/rotor.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/rotor.h
 openbabel/parsmart.h
 -
 openbabel/typer.h
@@ -492,29 +492,29 @@ openbabel/rotor.h
 openbabel/mol.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/shared_ptr.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/shared_ptr.h
 openbabel/babelconfig.h
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/openbabel/babelconfig.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/openbabel/babelconfig.h
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/spectrophore.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/spectrophore.h
 set
 -
 openbabel/mol.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/stereo/cistrans.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/stereo/cistrans.h
 openbabel/stereo/tetraplanar.h
 -
 vector
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/stereo/squareplanar.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/stereo/squareplanar.h
 openbabel/stereo/tetraplanar.h
 -
 vector
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/stereo/stereo.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/stereo/stereo.h
 openbabel/base.h
 -
 openbabel/isomorphism.h
@@ -536,27 +536,27 @@ openbabel/obconversion.h
 openbabel/stereo/tetrahedral.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/stereo/tetrahedral.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/stereo/tetrahedral.h
 openbabel/stereo/tetranonplanar.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/stereo/tetranonplanar.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/stereo/tetranonplanar.h
 openbabel/stereo/stereo.h
 -
 openbabel/oberror.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/stereo/tetraplanar.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/stereo/tetraplanar.h
 stereo.h
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/stereo/stereo.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/stereo/stereo.h
 algorithm
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/tautomer.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/tautomer.h
 openbabel/babelconfig.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/tokenst.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/tokenst.h
 openbabel/babelconfig.h
 -
 vector
@@ -568,7 +568,7 @@ string
 fstream
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include/openbabel/typer.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include/openbabel/typer.h
 openbabel/babelconfig.h
 -
 vector
@@ -580,9 +580,9 @@ openbabel/parsmart.h
 openbabel/data.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/aligntest.cpp
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/aligntest.cpp
 obtest.h
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/obtest.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/obtest.h
 openbabel/obconversion.h
 -
 openbabel/math/align.h
@@ -592,7 +592,7 @@ openbabel/math/matrix3x3.h
 openbabel/builder.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/aromatest.cpp
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/aromatest.cpp
 openbabel/babelconfig.h
 -
 openbabel/mol.h
@@ -606,7 +606,7 @@ iostream
 fstream
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/atom.cpp
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/atom.cpp
 openbabel/babelconfig.h
 -
 openbabel/mol.h
@@ -618,9 +618,9 @@ stdio.h
 iostream
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/automorphismtest.cpp
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/automorphismtest.cpp
 obtest.h
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/obtest.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/obtest.h
 openbabel/isomorphism.h
 -
 openbabel/query.h
@@ -630,7 +630,7 @@ openbabel/mol.h
 openbabel/obconversion.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/bond.cpp
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/bond.cpp
 openbabel/babelconfig.h
 -
 openbabel/mol.h
@@ -642,9 +642,9 @@ stdio.h
 iostream
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/buildertest.cpp
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/buildertest.cpp
 obtest.h
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/obtest.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/obtest.h
 openbabel/mol.h
 -
 openbabel/obconversion.h
@@ -662,9 +662,9 @@ vector
 algorithm
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/canonconsistenttest.cpp
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/canonconsistenttest.cpp
 obtest.h
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/obtest.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/obtest.h
 openbabel/mol.h
 -
 openbabel/obconversion.h
@@ -678,9 +678,9 @@ vector
 algorithm
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/canonstabletest.cpp
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/canonstabletest.cpp
 obtest.h
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/obtest.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/obtest.h
 openbabel/mol.h
 -
 openbabel/obconversion.h
@@ -692,7 +692,7 @@ vector
 algorithm
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/cansmi.cpp
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/cansmi.cpp
 openbabel/babelconfig.h
 -
 fstream
@@ -702,9 +702,9 @@ openbabel/mol.h
 openbabel/obconversion.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/carspacegrouptest.cpp
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/carspacegrouptest.cpp
 obtest.h
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/obtest.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/obtest.h
 openbabel/babelconfig.h
 -
 openbabel/mol.h
@@ -714,7 +714,7 @@ openbabel/obconversion.h
 string
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/charge_gasteiger.cpp
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/charge_gasteiger.cpp
 openbabel/babelconfig.h
 -
 fstream
@@ -728,7 +728,7 @@ openbabel/chargemodel.h
 openbabel/obutil.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/charge_mmff94.cpp
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/charge_mmff94.cpp
 openbabel/babelconfig.h
 -
 fstream
@@ -742,9 +742,9 @@ openbabel/chargemodel.h
 openbabel/obutil.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/cifspacegrouptest.cpp
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/cifspacegrouptest.cpp
 obtest.h
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/obtest.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/obtest.h
 openbabel/babelconfig.h
 -
 openbabel/mol.h
@@ -756,9 +756,9 @@ string
 algorithm
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/cistranstest.cpp
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/cistranstest.cpp
 obtest.h
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/obtest.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/obtest.h
 iostream
 -
 openbabel/mol.h
@@ -768,7 +768,7 @@ openbabel/obconversion.h
 openbabel/stereo/cistrans.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/cmlreadfile.cpp
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/cmlreadfile.cpp
 openbabel/babelconfig.h
 -
 openbabel/mol.h
@@ -780,7 +780,7 @@ stdio.h
 iostream
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/conversion.cpp
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/conversion.cpp
 openbabel/babelconfig.h
 -
 openbabel/mol.h
@@ -792,7 +792,7 @@ stdio.h
 iostream
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/datatest.cpp
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/datatest.cpp
 openbabel/babelconfig.h
 -
 math.h
@@ -806,7 +806,7 @@ openbabel/mol.h
 openbabel/data.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/ffgaff.cpp
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/ffgaff.cpp
 openbabel/babelconfig.h
 -
 fstream
@@ -820,7 +820,7 @@ openbabel/forcefield.h
 openbabel/obutil.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/ffghemical.cpp
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/ffghemical.cpp
 openbabel/babelconfig.h
 -
 fstream
@@ -834,13 +834,13 @@ openbabel/forcefield.h
 openbabel/obutil.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/ffmmff94.cpp
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/ffmmff94.cpp
 openbabel/babelconfig.h
 -
 fstream
 -
 obtest.h
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/obtest.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/obtest.h
 openbabel/mol.h
 -
 openbabel/obconversion.h
@@ -850,7 +850,7 @@ openbabel/forcefield.h
 openbabel/obutil.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/ffuff.cpp
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/ffuff.cpp
 openbabel/babelconfig.h
 -
 fstream
@@ -864,7 +864,7 @@ openbabel/forcefield.h
 openbabel/obutil.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/formalcharge.cpp
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/formalcharge.cpp
 openbabel/babelconfig.h
 -
 fstream
@@ -876,7 +876,7 @@ openbabel/obconversion.h
 openbabel/obutil.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/format.cpp
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/format.cpp
 openbabel/babelconfig.h
 -
 openbabel/mol.h
@@ -888,7 +888,7 @@ stdio.h
 iostream
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/formula.cpp
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/formula.cpp
 openbabel/babelconfig.h
 -
 fstream
@@ -900,9 +900,9 @@ openbabel/obconversion.h
 openbabel/obutil.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/graphsymtest.cpp
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/graphsymtest.cpp
 obtest.h
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/obtest.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/obtest.h
 openbabel/mol.h
 -
 openbabel/obconversion.h
@@ -916,7 +916,7 @@ openbabel/graphsym.h
 openbabel/canon.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/gziptest.cpp
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/gziptest.cpp
 openbabel/babelconfig.h
 -
 openbabel/mol.h
@@ -930,13 +930,13 @@ iostream
 fstream
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/implicitHtest.cpp
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/implicitHtest.cpp
 obtest.h
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/obtest.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/obtest.h
 openbabel/obconversion.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/internalcoord.cpp
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/internalcoord.cpp
 openbabel/babelconfig.h
 -
 openbabel/mol.h
@@ -948,7 +948,7 @@ stdio.h
 iostream
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/invalidsmarts.cpp
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/invalidsmarts.cpp
 openbabel/babelconfig.h
 -
 fstream
@@ -958,7 +958,7 @@ openbabel/mol.h
 openbabel/obutil.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/invalidsmiles.cpp
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/invalidsmiles.cpp
 openbabel/babelconfig.h
 -
 openbabel/mol.h
@@ -970,9 +970,9 @@ fstream
 openbabel/obutil.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/isomorphismtest.cpp
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/isomorphismtest.cpp
 obtest.h
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/obtest.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/obtest.h
 openbabel/mol.h
 -
 openbabel/obconversion.h
@@ -982,7 +982,7 @@ openbabel/isomorphism.h
 openbabel/query.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/iterators.cpp
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/iterators.cpp
 openbabel/babelconfig.h
 -
 fstream
@@ -996,7 +996,7 @@ openbabel/obconversion.h
 openbabel/obutil.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/logp_psa.cpp
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/logp_psa.cpp
 openbabel/babelconfig.h
 -
 openbabel/mol.h
@@ -1010,9 +1010,9 @@ stdio.h
 iostream
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/lssrtest.cpp
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/lssrtest.cpp
 obtest.h
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/obtest.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/obtest.h
 openbabel/mol.h
 -
 openbabel/obconversion.h
@@ -1026,7 +1026,7 @@ vector
 algorithm
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/math.cpp
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/math.cpp
 openbabel/babelconfig.h
 -
 openbabel/math/matrix3x3.h
@@ -1042,7 +1042,7 @@ string.h
 cstdio
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/mol.cpp
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/mol.cpp
 openbabel/babelconfig.h
 -
 openbabel/mol.h
@@ -1054,7 +1054,7 @@ stdio.h
 iostream
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/multicmltest.cpp
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/multicmltest.cpp
 openbabel/babelconfig.h
 -
 openbabel/mol.h
@@ -1068,13 +1068,13 @@ iostream
 fstream
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/obtest.cpp
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/obtest.cpp
 iostream
 -
 cstdlib
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/obtest.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/obtest.h
 iostream
 -
 cstdlib
@@ -1086,7 +1086,7 @@ openbabel/obconversion.h
 openbabel/shared_ptr.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/phmodel.cpp
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/phmodel.cpp
 openbabel/mol.h
 -
 openbabel/obconversion.h
@@ -1096,9 +1096,9 @@ openbabel/forcefield.h
 openbabel/phmodel.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/regressionstest.cpp
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/regressionstest.cpp
 obtest.h
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/obtest.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/obtest.h
 openbabel/mol.h
 -
 openbabel/atomclass.h
@@ -1114,7 +1114,7 @@ vector
 algorithm
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/residue.cpp
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/residue.cpp
 openbabel/babelconfig.h
 -
 openbabel/mol.h
@@ -1126,7 +1126,7 @@ stdio.h
 iostream
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/ringtest.cpp
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/ringtest.cpp
 openbabel/babelconfig.h
 -
 fstream
@@ -1138,9 +1138,9 @@ openbabel/obconversion.h
 openbabel/obutil.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/rotortest.cpp
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/rotortest.cpp
 obtest.h
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/obtest.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/obtest.h
 openbabel/mol.h
 -
 openbabel/obconversion.h
@@ -1156,9 +1156,9 @@ vector
 algorithm
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/shuffletest.cpp
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/shuffletest.cpp
 obtest.h
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/obtest.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/obtest.h
 openbabel/mol.h
 -
 openbabel/obconversion.h
@@ -1176,7 +1176,7 @@ vector
 algorithm
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/smartsparse.cpp
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/smartsparse.cpp
 openbabel/babelconfig.h
 -
 fstream
@@ -1184,7 +1184,7 @@ fstream
 openbabel/parsmart.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/smartstest.cpp
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/smartstest.cpp
 openbabel/babelconfig.h
 -
 fstream
@@ -1196,7 +1196,7 @@ openbabel/obconversion.h
 openbabel/obutil.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/smilesmatch.cpp
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/smilesmatch.cpp
 openbabel/babelconfig.h
 -
 fstream
@@ -1208,9 +1208,9 @@ openbabel/obconversion.h
 openbabel/obutil.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/smilestest.cpp
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/smilestest.cpp
 obtest.h
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/obtest.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/obtest.h
 openbabel/mol.h
 -
 openbabel/obconversion.h
@@ -1226,19 +1226,19 @@ openbabel/graphsym.h
 openbabel/canon.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/spectrophoretest.cpp
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/spectrophoretest.cpp
 vector
 -
 obtest.h
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/obtest.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/obtest.h
 openbabel/mol.h
 -
 openbabel/spectrophore.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/squareplanartest.cpp
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/squareplanartest.cpp
 obtest.h
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/obtest.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/obtest.h
 iostream
 -
 openbabel/mol.h
@@ -1246,9 +1246,9 @@ openbabel/mol.h
 openbabel/stereo/squareplanar.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/stereoperceptiontest.cpp
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/stereoperceptiontest.cpp
 obtest.h
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/obtest.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/obtest.h
 openbabel/stereo/tetrahedral.h
 -
 openbabel/stereo/cistrans.h
@@ -1258,9 +1258,9 @@ openbabel/mol.h
 openbabel/obconversion.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/stereotest.cpp
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/stereotest.cpp
 obtest.h
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/obtest.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/obtest.h
 openbabel/stereo/stereo.h
 -
 openbabel/mol.h
@@ -1272,9 +1272,9 @@ openbabel/graphsym.h
 algorithm
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/tautomertest.cpp
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/tautomertest.cpp
 obtest.h
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/obtest.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/obtest.h
 openbabel/tautomer.h
 -
 openbabel/mol.h
@@ -1282,31 +1282,31 @@ openbabel/mol.h
 openbabel/obconversion.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/tetrahedraltest.cpp
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/tetrahedraltest.cpp
 obtest.h
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/obtest.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/obtest.h
 openbabel/stereo/tetrahedral.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/tetranonplanartest.cpp
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/tetranonplanartest.cpp
 obtest.h
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/obtest.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/obtest.h
 openbabel/stereo/tetrahedral.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/tetraplanartest.cpp
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/tetraplanartest.cpp
 obtest.h
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/obtest.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/obtest.h
 openbabel/stereo/cistrans.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/uniqueidtest.cpp
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/uniqueidtest.cpp
 obtest.h
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/obtest.h
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/obtest.h
 openbabel/mol.h
 -
 
-/home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/unitcell.cpp
+/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/unitcell.cpp
 openbabel/babelconfig.h
 -
 openbabel/mol.h

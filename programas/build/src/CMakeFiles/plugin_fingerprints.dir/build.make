@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/fernando/Documentos/BE3AV/openbabel-2.4.1
+CMAKE_SOURCE_DIR = /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/fernando/Documentos/BE3AV/build
+CMAKE_BINARY_DIR = /home/fernando/Documentos/BE3AV/programas/build
 
 # Include any dependencies generated for this target.
 include src/CMakeFiles/plugin_fingerprints.dir/depend.make
@@ -58,17 +58,17 @@ include src/CMakeFiles/plugin_fingerprints.dir/progress.make
 include src/CMakeFiles/plugin_fingerprints.dir/flags.make
 
 src/CMakeFiles/plugin_fingerprints.dir/fingerprints/finger2.o: src/CMakeFiles/plugin_fingerprints.dir/flags.make
-src/CMakeFiles/plugin_fingerprints.dir/fingerprints/finger2.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/fingerprints/finger2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/plugin_fingerprints.dir/fingerprints/finger2.o"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/plugin_fingerprints.dir/fingerprints/finger2.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/fingerprints/finger2.cpp
+src/CMakeFiles/plugin_fingerprints.dir/fingerprints/finger2.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/fingerprints/finger2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/plugin_fingerprints.dir/fingerprints/finger2.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/plugin_fingerprints.dir/fingerprints/finger2.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/fingerprints/finger2.cpp
 
 src/CMakeFiles/plugin_fingerprints.dir/fingerprints/finger2.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/plugin_fingerprints.dir/fingerprints/finger2.i"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/fingerprints/finger2.cpp > CMakeFiles/plugin_fingerprints.dir/fingerprints/finger2.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/fingerprints/finger2.cpp > CMakeFiles/plugin_fingerprints.dir/fingerprints/finger2.i
 
 src/CMakeFiles/plugin_fingerprints.dir/fingerprints/finger2.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/plugin_fingerprints.dir/fingerprints/finger2.s"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/fingerprints/finger2.cpp -o CMakeFiles/plugin_fingerprints.dir/fingerprints/finger2.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/fingerprints/finger2.cpp -o CMakeFiles/plugin_fingerprints.dir/fingerprints/finger2.s
 
 src/CMakeFiles/plugin_fingerprints.dir/fingerprints/finger2.o.requires:
 
@@ -82,17 +82,17 @@ src/CMakeFiles/plugin_fingerprints.dir/fingerprints/finger2.o.provides.build: sr
 
 
 src/CMakeFiles/plugin_fingerprints.dir/fingerprints/finger3.o: src/CMakeFiles/plugin_fingerprints.dir/flags.make
-src/CMakeFiles/plugin_fingerprints.dir/fingerprints/finger3.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/fingerprints/finger3.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/plugin_fingerprints.dir/fingerprints/finger3.o"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/plugin_fingerprints.dir/fingerprints/finger3.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/fingerprints/finger3.cpp
+src/CMakeFiles/plugin_fingerprints.dir/fingerprints/finger3.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/fingerprints/finger3.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/plugin_fingerprints.dir/fingerprints/finger3.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/plugin_fingerprints.dir/fingerprints/finger3.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/fingerprints/finger3.cpp
 
 src/CMakeFiles/plugin_fingerprints.dir/fingerprints/finger3.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/plugin_fingerprints.dir/fingerprints/finger3.i"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/fingerprints/finger3.cpp > CMakeFiles/plugin_fingerprints.dir/fingerprints/finger3.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/fingerprints/finger3.cpp > CMakeFiles/plugin_fingerprints.dir/fingerprints/finger3.i
 
 src/CMakeFiles/plugin_fingerprints.dir/fingerprints/finger3.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/plugin_fingerprints.dir/fingerprints/finger3.s"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/fingerprints/finger3.cpp -o CMakeFiles/plugin_fingerprints.dir/fingerprints/finger3.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/fingerprints/finger3.cpp -o CMakeFiles/plugin_fingerprints.dir/fingerprints/finger3.s
 
 src/CMakeFiles/plugin_fingerprints.dir/fingerprints/finger3.o.requires:
 
@@ -106,17 +106,17 @@ src/CMakeFiles/plugin_fingerprints.dir/fingerprints/finger3.o.provides.build: sr
 
 
 src/CMakeFiles/plugin_fingerprints.dir/fingerprints/fingerecfp.o: src/CMakeFiles/plugin_fingerprints.dir/flags.make
-src/CMakeFiles/plugin_fingerprints.dir/fingerprints/fingerecfp.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/fingerprints/fingerecfp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/plugin_fingerprints.dir/fingerprints/fingerecfp.o"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/plugin_fingerprints.dir/fingerprints/fingerecfp.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/fingerprints/fingerecfp.cpp
+src/CMakeFiles/plugin_fingerprints.dir/fingerprints/fingerecfp.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/fingerprints/fingerecfp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/plugin_fingerprints.dir/fingerprints/fingerecfp.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/plugin_fingerprints.dir/fingerprints/fingerecfp.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/fingerprints/fingerecfp.cpp
 
 src/CMakeFiles/plugin_fingerprints.dir/fingerprints/fingerecfp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/plugin_fingerprints.dir/fingerprints/fingerecfp.i"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/fingerprints/fingerecfp.cpp > CMakeFiles/plugin_fingerprints.dir/fingerprints/fingerecfp.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/fingerprints/fingerecfp.cpp > CMakeFiles/plugin_fingerprints.dir/fingerprints/fingerecfp.i
 
 src/CMakeFiles/plugin_fingerprints.dir/fingerprints/fingerecfp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/plugin_fingerprints.dir/fingerprints/fingerecfp.s"
-	cd /home/fernando/Documentos/BE3AV/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/fingerprints/fingerecfp.cpp -o CMakeFiles/plugin_fingerprints.dir/fingerprints/fingerecfp.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/fingerprints/fingerecfp.cpp -o CMakeFiles/plugin_fingerprints.dir/fingerprints/fingerecfp.s
 
 src/CMakeFiles/plugin_fingerprints.dir/fingerprints/fingerecfp.o.requires:
 
@@ -148,8 +148,8 @@ lib/plugin_fingerprints.so: lib/libopenbabel.so.5.0.0
 lib/plugin_fingerprints.so: /usr/lib/x86_64-linux-gnu/libm.so
 lib/plugin_fingerprints.so: /usr/lib/x86_64-linux-gnu/libz.so
 lib/plugin_fingerprints.so: src/CMakeFiles/plugin_fingerprints.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared module ../lib/plugin_fingerprints.so"
-	cd /home/fernando/Documentos/BE3AV/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/plugin_fingerprints.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared module ../lib/plugin_fingerprints.so"
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/plugin_fingerprints.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/CMakeFiles/plugin_fingerprints.dir/build: lib/plugin_fingerprints.so
@@ -163,10 +163,10 @@ src/CMakeFiles/plugin_fingerprints.dir/requires: src/CMakeFiles/plugin_fingerpri
 .PHONY : src/CMakeFiles/plugin_fingerprints.dir/requires
 
 src/CMakeFiles/plugin_fingerprints.dir/clean:
-	cd /home/fernando/Documentos/BE3AV/build/src && $(CMAKE_COMMAND) -P CMakeFiles/plugin_fingerprints.dir/cmake_clean.cmake
+	cd /home/fernando/Documentos/BE3AV/programas/build/src && $(CMAKE_COMMAND) -P CMakeFiles/plugin_fingerprints.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/plugin_fingerprints.dir/clean
 
 src/CMakeFiles/plugin_fingerprints.dir/depend:
-	cd /home/fernando/Documentos/BE3AV/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fernando/Documentos/BE3AV/openbabel-2.4.1 /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src /home/fernando/Documentos/BE3AV/build /home/fernando/Documentos/BE3AV/build/src /home/fernando/Documentos/BE3AV/build/src/CMakeFiles/plugin_fingerprints.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/fernando/Documentos/BE3AV/programas/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1 /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src /home/fernando/Documentos/BE3AV/programas/build /home/fernando/Documentos/BE3AV/programas/build/src /home/fernando/Documentos/BE3AV/programas/build/src/CMakeFiles/plugin_fingerprints.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/CMakeFiles/plugin_fingerprints.dir/depend
 

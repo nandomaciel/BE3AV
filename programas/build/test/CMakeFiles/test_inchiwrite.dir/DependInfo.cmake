@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/formats/getinchi.cpp" "/home/fernando/Documentos/BE3AV/build/test/CMakeFiles/test_inchiwrite.dir/__/src/formats/getinchi.o"
-  "/home/fernando/Documentos/BE3AV/openbabel-2.4.1/test/inchiwrite.cpp" "/home/fernando/Documentos/BE3AV/build/test/CMakeFiles/test_inchiwrite.dir/inchiwrite.o"
+  "/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/formats/getinchi.cpp" "/home/fernando/Documentos/BE3AV/programas/build/test/CMakeFiles/test_inchiwrite.dir/__/src/formats/getinchi.o"
+  "/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test/inchiwrite.cpp" "/home/fernando/Documentos/BE3AV/programas/build/test/CMakeFiles/test_inchiwrite.dir/inchiwrite.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -21,15 +21,15 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "include"
-  "/home/fernando/Documentos/BE3AV/openbabel-2.4.1/data"
-  "/home/fernando/Documentos/BE3AV/openbabel-2.4.1/include"
+  "/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/data"
+  "/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/include"
   "/usr/include/eigen3"
-  "/home/fernando/Documentos/BE3AV/openbabel-2.4.1/test"
+  "/home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/test"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/fernando/Documentos/BE3AV/build/src/CMakeFiles/openbabel.dir/DependInfo.cmake"
+  "/home/fernando/Documentos/BE3AV/programas/build/src/CMakeFiles/openbabel.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

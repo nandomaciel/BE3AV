@@ -1,4 +1,4 @@
-# Install script for directory: /home/fernando/Documentos/BE3AV/openbabel-2.4.1
+# Install script for directory: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,18 +38,18 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/openbabel-2.0/openbabel" TYPE FILE FILES "/home/fernando/Documentos/BE3AV/build/include/openbabel/babelconfig.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/openbabel-2.0/openbabel" TYPE FILE FILES "/home/fernando/Documentos/BE3AV/programas/build/include/openbabel/babelconfig.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/fernando/Documentos/BE3AV/build/openbabel-2.0.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/fernando/Documentos/BE3AV/programas/build/openbabel-2.0.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xDevelopmentx" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/openbabel2/OpenBabel2_EXPORTS.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/openbabel2/OpenBabel2_EXPORTS.cmake"
-         "/home/fernando/Documentos/BE3AV/build/CMakeFiles/Export/lib/cmake/openbabel2/OpenBabel2_EXPORTS.cmake")
+         "/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles/Export/lib/cmake/openbabel2/OpenBabel2_EXPORTS.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/openbabel2/OpenBabel2_EXPORTS-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -58,29 +58,29 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xDevelopmentx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/openbabel2" TYPE FILE FILES "/home/fernando/Documentos/BE3AV/build/CMakeFiles/Export/lib/cmake/openbabel2/OpenBabel2_EXPORTS.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/openbabel2" TYPE FILE FILES "/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles/Export/lib/cmake/openbabel2/OpenBabel2_EXPORTS.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/openbabel2" TYPE FILE FILES "/home/fernando/Documentos/BE3AV/build/CMakeFiles/Export/lib/cmake/openbabel2/OpenBabel2_EXPORTS-relwithdebinfo.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/openbabel2" TYPE FILE FILES "/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles/Export/lib/cmake/openbabel2/OpenBabel2_EXPORTS-relwithdebinfo.cmake")
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xDevelopmentx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/openbabel2" TYPE FILE RENAME "OpenBabel2Config.cmake" FILES "/home/fernando/Documentos/BE3AV/build/OpenBabel2ConfigInstall.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/openbabel2" TYPE FILE RENAME "OpenBabel2Config.cmake" FILES "/home/fernando/Documentos/BE3AV/programas/build/OpenBabel2ConfigInstall.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xDevelopmentx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/openbabel2" TYPE FILE FILES "/home/fernando/Documentos/BE3AV/build/OpenBabel2ConfigVersion.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/openbabel2" TYPE FILE FILES "/home/fernando/Documentos/BE3AV/programas/build/OpenBabel2ConfigVersion.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/fernando/Documentos/BE3AV/build/include/cmake_install.cmake")
-  include("/home/fernando/Documentos/BE3AV/build/data/cmake_install.cmake")
-  include("/home/fernando/Documentos/BE3AV/build/doc/cmake_install.cmake")
-  include("/home/fernando/Documentos/BE3AV/build/src/cmake_install.cmake")
-  include("/home/fernando/Documentos/BE3AV/build/tools/cmake_install.cmake")
-  include("/home/fernando/Documentos/BE3AV/build/test/cmake_install.cmake")
-  include("/home/fernando/Documentos/BE3AV/build/scripts/cmake_install.cmake")
+  include("/home/fernando/Documentos/BE3AV/programas/build/include/cmake_install.cmake")
+  include("/home/fernando/Documentos/BE3AV/programas/build/data/cmake_install.cmake")
+  include("/home/fernando/Documentos/BE3AV/programas/build/doc/cmake_install.cmake")
+  include("/home/fernando/Documentos/BE3AV/programas/build/src/cmake_install.cmake")
+  include("/home/fernando/Documentos/BE3AV/programas/build/tools/cmake_install.cmake")
+  include("/home/fernando/Documentos/BE3AV/programas/build/test/cmake_install.cmake")
+  include("/home/fernando/Documentos/BE3AV/programas/build/scripts/cmake_install.cmake")
 
 endif()
 
@@ -92,5 +92,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/fernando/Documentos/BE3AV/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/fernando/Documentos/BE3AV/programas/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

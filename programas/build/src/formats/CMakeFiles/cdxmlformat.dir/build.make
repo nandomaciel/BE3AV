@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/fernando/Documentos/BE3AV/openbabel-2.4.1
+CMAKE_SOURCE_DIR = /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/fernando/Documentos/BE3AV/build
+CMAKE_BINARY_DIR = /home/fernando/Documentos/BE3AV/programas/build
 
 # Include any dependencies generated for this target.
 include src/formats/CMakeFiles/cdxmlformat.dir/depend.make
@@ -58,17 +58,17 @@ include src/formats/CMakeFiles/cdxmlformat.dir/progress.make
 include src/formats/CMakeFiles/cdxmlformat.dir/flags.make
 
 src/formats/CMakeFiles/cdxmlformat.dir/xml/cdxmlformat.o: src/formats/CMakeFiles/cdxmlformat.dir/flags.make
-src/formats/CMakeFiles/cdxmlformat.dir/xml/cdxmlformat.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/formats/xml/cdxmlformat.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/formats/CMakeFiles/cdxmlformat.dir/xml/cdxmlformat.o"
-	cd /home/fernando/Documentos/BE3AV/build/src/formats && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cdxmlformat.dir/xml/cdxmlformat.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/formats/xml/cdxmlformat.cpp
+src/formats/CMakeFiles/cdxmlformat.dir/xml/cdxmlformat.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/formats/xml/cdxmlformat.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/formats/CMakeFiles/cdxmlformat.dir/xml/cdxmlformat.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/src/formats && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cdxmlformat.dir/xml/cdxmlformat.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/formats/xml/cdxmlformat.cpp
 
 src/formats/CMakeFiles/cdxmlformat.dir/xml/cdxmlformat.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cdxmlformat.dir/xml/cdxmlformat.i"
-	cd /home/fernando/Documentos/BE3AV/build/src/formats && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/formats/xml/cdxmlformat.cpp > CMakeFiles/cdxmlformat.dir/xml/cdxmlformat.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/src/formats && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/formats/xml/cdxmlformat.cpp > CMakeFiles/cdxmlformat.dir/xml/cdxmlformat.i
 
 src/formats/CMakeFiles/cdxmlformat.dir/xml/cdxmlformat.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cdxmlformat.dir/xml/cdxmlformat.s"
-	cd /home/fernando/Documentos/BE3AV/build/src/formats && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/formats/xml/cdxmlformat.cpp -o CMakeFiles/cdxmlformat.dir/xml/cdxmlformat.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/src/formats && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/formats/xml/cdxmlformat.cpp -o CMakeFiles/cdxmlformat.dir/xml/cdxmlformat.s
 
 src/formats/CMakeFiles/cdxmlformat.dir/xml/cdxmlformat.o.requires:
 
@@ -82,17 +82,17 @@ src/formats/CMakeFiles/cdxmlformat.dir/xml/cdxmlformat.o.provides.build: src/for
 
 
 src/formats/CMakeFiles/cdxmlformat.dir/xml/xml.o: src/formats/CMakeFiles/cdxmlformat.dir/flags.make
-src/formats/CMakeFiles/cdxmlformat.dir/xml/xml.o: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/formats/xml/xml.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/formats/CMakeFiles/cdxmlformat.dir/xml/xml.o"
-	cd /home/fernando/Documentos/BE3AV/build/src/formats && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cdxmlformat.dir/xml/xml.o -c /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/formats/xml/xml.cpp
+src/formats/CMakeFiles/cdxmlformat.dir/xml/xml.o: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/formats/xml/xml.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/formats/CMakeFiles/cdxmlformat.dir/xml/xml.o"
+	cd /home/fernando/Documentos/BE3AV/programas/build/src/formats && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cdxmlformat.dir/xml/xml.o -c /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/formats/xml/xml.cpp
 
 src/formats/CMakeFiles/cdxmlformat.dir/xml/xml.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cdxmlformat.dir/xml/xml.i"
-	cd /home/fernando/Documentos/BE3AV/build/src/formats && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/formats/xml/xml.cpp > CMakeFiles/cdxmlformat.dir/xml/xml.i
+	cd /home/fernando/Documentos/BE3AV/programas/build/src/formats && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/formats/xml/xml.cpp > CMakeFiles/cdxmlformat.dir/xml/xml.i
 
 src/formats/CMakeFiles/cdxmlformat.dir/xml/xml.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cdxmlformat.dir/xml/xml.s"
-	cd /home/fernando/Documentos/BE3AV/build/src/formats && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/formats/xml/xml.cpp -o CMakeFiles/cdxmlformat.dir/xml/xml.s
+	cd /home/fernando/Documentos/BE3AV/programas/build/src/formats && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/formats/xml/xml.cpp -o CMakeFiles/cdxmlformat.dir/xml/xml.s
 
 src/formats/CMakeFiles/cdxmlformat.dir/xml/xml.o.requires:
 
@@ -126,8 +126,8 @@ lib/cdxmlformat.so: /usr/lib/x86_64-linux-gnu/libcairo.so
 lib/cdxmlformat.so: /usr/lib/x86_64-linux-gnu/libm.so
 lib/cdxmlformat.so: /usr/lib/x86_64-linux-gnu/libz.so
 lib/cdxmlformat.so: src/formats/CMakeFiles/cdxmlformat.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/fernando/Documentos/BE3AV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared module ../../lib/cdxmlformat.so"
-	cd /home/fernando/Documentos/BE3AV/build/src/formats && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cdxmlformat.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/fernando/Documentos/BE3AV/programas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared module ../../lib/cdxmlformat.so"
+	cd /home/fernando/Documentos/BE3AV/programas/build/src/formats && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cdxmlformat.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/formats/CMakeFiles/cdxmlformat.dir/build: lib/cdxmlformat.so
@@ -140,10 +140,10 @@ src/formats/CMakeFiles/cdxmlformat.dir/requires: src/formats/CMakeFiles/cdxmlfor
 .PHONY : src/formats/CMakeFiles/cdxmlformat.dir/requires
 
 src/formats/CMakeFiles/cdxmlformat.dir/clean:
-	cd /home/fernando/Documentos/BE3AV/build/src/formats && $(CMAKE_COMMAND) -P CMakeFiles/cdxmlformat.dir/cmake_clean.cmake
+	cd /home/fernando/Documentos/BE3AV/programas/build/src/formats && $(CMAKE_COMMAND) -P CMakeFiles/cdxmlformat.dir/cmake_clean.cmake
 .PHONY : src/formats/CMakeFiles/cdxmlformat.dir/clean
 
 src/formats/CMakeFiles/cdxmlformat.dir/depend:
-	cd /home/fernando/Documentos/BE3AV/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fernando/Documentos/BE3AV/openbabel-2.4.1 /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/formats /home/fernando/Documentos/BE3AV/build /home/fernando/Documentos/BE3AV/build/src/formats /home/fernando/Documentos/BE3AV/build/src/formats/CMakeFiles/cdxmlformat.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/fernando/Documentos/BE3AV/programas/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1 /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/formats /home/fernando/Documentos/BE3AV/programas/build /home/fernando/Documentos/BE3AV/programas/build/src/formats /home/fernando/Documentos/BE3AV/programas/build/src/formats/CMakeFiles/cdxmlformat.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/formats/CMakeFiles/cdxmlformat.dir/depend
 

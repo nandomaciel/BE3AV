@@ -1,4 +1,4 @@
-# Install script for directory: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/scripts
+# Install script for directory: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/scripts
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

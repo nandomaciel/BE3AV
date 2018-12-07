@@ -34,7 +34,13 @@ class Application:
         self.quinto_conteiner = Frame(master)
         self.quinto_conteiner["pady"] = 20
         self.quinto_conteiner.pack()
-        
+
+        # Campo para sair
+        self.sexto_conteiner = Frame(master)
+        self.sexto_conteiner["pady"] = 20
+        self.sexto_conteiner.pack()
+
+
         # Titulo da aplicação
         self.titulo = Label(self.primeiro_container, text="ObaVina")
         self.titulo["font"] = ("Arial", "10", "bold")
@@ -61,26 +67,39 @@ class Application:
         self.name_file_vina.pack(side=LEFT)
         
         # Nome do arquivo de saida
-        self.name_out = Label(self.quinto_conteiner, text="File output", font=self.fontePadrao)
+        self.name_out = Label(self.quarto_container, text="File output", font=self.fontePadrao)
         self.name_out.pack(side=TOP)
 
         # Entrada para o arquivo de saida
-        self.name_file_out = Entry(self.quinto_conteiner)
+        self.name_file_out = Entry(self.quarto_container)
         self.name_file_out["width"] = 30
         self.name_file_out["font"] = self.fontePadrao
         self.name_file_out.pack(side=LEFT)
 
-        # Botão
-        self.autenticar = Button(self.quarto_container)
-        self.autenticar["text"] = "Run"
+        # botão exit
+        self.autenticar = Button(self.sexto_conteiner)
+        self.autenticar["text"] = "Exit"
         self.autenticar["font"] = ("Calibri", "8")
-        self.autenticar["width"] = 12
-        self.autenticar["command"] = self.open_files
-        self.autenticar.pack(side=BOTTOM)
+        self.autenticar["width"] = 8
+        self.autenticar["command"] = self.exit
+        self.autenticar.pack(side=RIGHT)
   
-        self.mensagem = Label(self.quarto_container, text="", font=self.fontePadrao)
+        self.mensagem = Label(self.sexto_conteiner, text="", font=self.fontePadrao)
         self.mensagem.pack()
   
+        # Botão run
+        self.autenticar = Button(self.quinto_conteiner)
+        self.autenticar["text"] = "Run"
+        self.autenticar["font"] = ("Calibri", "8")
+        self.autenticar["width"] = 8
+        self.autenticar["command"] = self.open_files
+        self.autenticar.pack(side=LEFT)
+  
+        self.mensagem = Label(self.quinto_conteiner, text="", font=self.fontePadrao)
+        self.mensagem.pack()
+    
+    def exit(self):
+        exit()
 
     def open_files(self):
         name_file = self.name_file_smi.get()
@@ -100,9 +119,9 @@ class Application:
         print("------------")
         for i in range(n):
             molecula = str(i)
-            print("babel -isml afront.smi -omol2 " + molecula + ".mol2 --gen3D -f " + molecula + " -l " + molecula)
-            print("obabel " + molecula + ".mol2 -O " + molecula + ".pdbqt")
-            print("vina --config " + vina_file + " --receptor dock2.receptor.pdbqt --ligant " + molecula + ".pdbqt " + " --out " + molecula + "_docked.pdbqt")
+            os.system("./programas/babel -isml " + name_file + " -omol2 " + molecula + ".mol2 --gen3D -f " + molecula + " -l " + molecula)
+            os.system("./programas/obabel " + molecula + ".mol2 -O " + molecula + ".pdbqt")
+            os.system("./programas/vina --config " + vina_file + " --receptor dock2.receptor.pdbqt --ligant " + molecula + ".pdbqt " + " --out " + molecula + "_docked.pdbqt")
 
             # Ver saida do arquivo do vina para pegar a segunda coluna e armazenar na variavel energia
             energia = 10#vina_col(molecula + "_docked.pdbqt")
@@ -110,10 +129,13 @@ class Application:
         
         output_file.close()
         input_file.close()
-        exit()
+        
 
 root = Tk()
 root.title("ObaVina")
-root.geometry("300x300+100+100")
+screen_width = root.winfo_screenwidth()
+screen_height = root.winfo_screenheight()
+center = "300x300+"+str(screen_width/2-150)+"+"+str(screen_height/2-150)
+root.geometry(center)
 Application(root)
 root.mainloop()

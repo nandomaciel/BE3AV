@@ -1,4 +1,4 @@
-# Install script for directory: /home/fernando/Documentos/BE3AV/openbabel-2.4.1/src/formats/libinchi
+# Install script for directory: /home/fernando/Documentos/BE3AV/programas/openbabel-2.4.1/src/formats/libinchi
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -51,9 +51,9 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     endif()
   endforeach()
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES
-    "/home/fernando/Documentos/BE3AV/build/lib/libinchi.so.0.4.1"
-    "/home/fernando/Documentos/BE3AV/build/lib/libinchi.so.0"
-    "/home/fernando/Documentos/BE3AV/build/lib/libinchi.so"
+    "/home/fernando/Documentos/BE3AV/programas/build/lib/libinchi.so.0.4.1"
+    "/home/fernando/Documentos/BE3AV/programas/build/lib/libinchi.so.0"
+    "/home/fernando/Documentos/BE3AV/programas/build/lib/libinchi.so"
     )
   foreach(file
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libinchi.so.0.4.1"
