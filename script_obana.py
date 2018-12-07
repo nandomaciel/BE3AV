@@ -5,8 +5,7 @@
 
 import os, sys
 
-def vina_col(molecula):
-	
+def vina_col(molecula):	
 	return molecula
 
 
@@ -29,7 +28,6 @@ Pegar arquivo de saida
 
 def main():
 
-
 	# Input do arquivo .smi
 	input_file = open(sys.argv[1])
 	# Input arquivo de saida
@@ -42,9 +40,9 @@ def main():
 
 	for i in range(n):
 		molecula = str(i)
-		print("babel -isml afront.smi -omol2 " + molecula + ".mol2 --gen3D -f " + molecula + " -l " + molecula)
-		print("obabel " + molecula + ".mol2 -O " + molecula + ".pdbqt")
-		print("vina --config dock2.conf --receptor dock2.receptor.pdbqt --ligant " + molecula + ".pdbqt " + " --out " + molecula + "_docked.pdbqt")
+		os.system("./babel -isml afront.smi -omol2 " + molecula + ".mol2 --gen3D -f " + molecula + " -l " + molecula)
+		os.system("./obabel " + molecula + ".mol2 -O " + molecula + ".pdbqt")
+		os.system("./vina --config dock2.conf --receptor dock2.receptor.pdbqt --ligant " + molecula + ".pdbqt " + " --out " + molecula + "_docked.pdbqt")
 
 		# Ver saida do arquivo do vina para pegar a segunda coluna e armazenar na variavel energia
 		energia = vina_col(molecula + "_docked.pdbqt")

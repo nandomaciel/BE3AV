@@ -1,0 +1,147 @@
+Determining if the include file conio.h exists failed with the following output:
+Change Dir: /home/fernando/Documentos/BE3AV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_51c83/fast"
+/usr/bin/make -f CMakeFiles/cmTC_51c83.dir/build.make CMakeFiles/cmTC_51c83.dir/build
+make[1]: Entering directory '/home/fernando/Documentos/BE3AV/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_51c83.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_51c83.dir/CheckIncludeFile.c.o   -c /home/fernando/Documentos/BE3AV/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/fernando/Documentos/BE3AV/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: conio.h: Arquivo ou diretório inexistente
+ #include <conio.h>
+          ^~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_51c83.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_51c83.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_51c83.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/fernando/Documentos/BE3AV/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_51c83/fast' failed
+make: *** [cmTC_51c83/fast] Error 2
+
+
+Determining if the rint exist failed with the following output:
+Change Dir: /home/fernando/Documentos/BE3AV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_420e5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_420e5.dir/build.make CMakeFiles/cmTC_420e5.dir/build
+make[1]: Entering directory '/home/fernando/Documentos/BE3AV/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_420e5.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_420e5.dir/CheckSymbolExists.c.o   -c /home/fernando/Documentos/BE3AV/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_420e5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_420e5.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_420e5.dir/CheckSymbolExists.c.o  -o cmTC_420e5 
+CMakeFiles/cmTC_420e5.dir/CheckSymbolExists.c.o: Na função "main":
+CheckSymbolExists.c:(.text+0x1b): referência não definida para "rint"
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_420e5.dir/build.make:97: recipe for target 'cmTC_420e5' failed
+make[1]: *** [cmTC_420e5] Error 1
+make[1]: Leaving directory '/home/fernando/Documentos/BE3AV/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_420e5/fast' failed
+make: *** [cmTC_420e5/fast] Error 2
+
+File /home/fernando/Documentos/BE3AV/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef rint
+  return ((int*)(&rint))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the sranddev exist failed with the following output:
+Change Dir: /home/fernando/Documentos/BE3AV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ee11b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ee11b.dir/build.make CMakeFiles/cmTC_ee11b.dir/build
+make[1]: Entering directory '/home/fernando/Documentos/BE3AV/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ee11b.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_ee11b.dir/CheckSymbolExists.c.o   -c /home/fernando/Documentos/BE3AV/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/fernando/Documentos/BE3AV/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/fernando/Documentos/BE3AV/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘sranddev’ undeclared (first use in this function); did you mean ‘srand48’?
+   return ((int*)(&sranddev))[argc];
+                   ^~~~~~~~
+                   srand48
+/home/fernando/Documentos/BE3AV/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+CMakeFiles/cmTC_ee11b.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_ee11b.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_ee11b.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/fernando/Documentos/BE3AV/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_ee11b/fast' failed
+make: *** [cmTC_ee11b/fast] Error 2
+
+File /home/fernando/Documentos/BE3AV/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sranddev
+  return ((int*)(&sranddev))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C SOURCE FILE Test SCANDIR_NEEDS_CONST failed with the following output:
+Change Dir: /home/fernando/Documentos/BE3AV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7950c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7950c.dir/build.make CMakeFiles/cmTC_7950c.dir/build
+make[1]: Entering directory '/home/fernando/Documentos/BE3AV/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7950c.dir/src.c.o
+/usr/bin/cc   -DSCANDIR_NEEDS_CONST -Werror   -o CMakeFiles/cmTC_7950c.dir/src.c.o   -c /home/fernando/Documentos/BE3AV/build/CMakeFiles/CMakeTmp/src.c
+/home/fernando/Documentos/BE3AV/build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/fernando/Documentos/BE3AV/build/CMakeFiles/CMakeTmp/src.c:7:46: error: passing argument 3 of ‘scandir’ from incompatible pointer type [-Werror=incompatible-pointer-types]
+      int count = scandir ("./", &entries_pp, matchFiles, 0);
+                                              ^~~~~~~~~~
+In file included from /home/fernando/Documentos/BE3AV/build/CMakeFiles/CMakeTmp/src.c:3:0:
+/usr/include/dirent.h:255:12: note: expected ‘int (*)(const struct dirent *)’ but argument is of type ‘int (*)(struct dirent *)’
+ extern int scandir (const char *__restrict __dir,
+            ^~~~~~~
+cc1: all warnings being treated as errors
+CMakeFiles/cmTC_7950c.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_7950c.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_7950c.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/fernando/Documentos/BE3AV/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_7950c/fast' failed
+make: *** [cmTC_7950c/fast] Error 2
+
+Source file was:
+
+   #include <sys/types.h>
+   #include <dirent.h>
+    int main(){
+     extern int matchFiles (struct dirent *entry_p);
+     struct dirent **entries_pp;
+     int count = scandir ("./", &entries_pp, matchFiles, 0);
+     return count;
+    }
+   
+Performing C++ SOURCE FILE Test HAVE_STD_TR1_SHARED_PTR failed with the following output:
+Change Dir: /home/fernando/Documentos/BE3AV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c71b0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c71b0.dir/build.make CMakeFiles/cmTC_c71b0.dir/build
+make[1]: Entering directory '/home/fernando/Documentos/BE3AV/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c71b0.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_STD_TR1_SHARED_PTR -Werror   -o CMakeFiles/cmTC_c71b0.dir/src.cxx.o -c /home/fernando/Documentos/BE3AV/build/CMakeFiles/CMakeTmp/src.cxx
+/home/fernando/Documentos/BE3AV/build/CMakeFiles/CMakeTmp/src.cxx: In function ‘int main()’:
+/home/fernando/Documentos/BE3AV/build/CMakeFiles/CMakeTmp/src.cxx:2:45: error: ‘std::tr1’ has not been declared
+                            int main(){ std::tr1::shared_ptr<int> p; return 0; }
+                                             ^~~
+/home/fernando/Documentos/BE3AV/build/CMakeFiles/CMakeTmp/src.cxx:2:61: error: expected primary-expression before ‘int’
+                            int main(){ std::tr1::shared_ptr<int> p; return 0; }
+                                                             ^~~
+CMakeFiles/cmTC_c71b0.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_c71b0.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_c71b0.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/fernando/Documentos/BE3AV/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_c71b0/fast' failed
+make: *** [cmTC_c71b0/fast] Error 2
+
+Source file was:
+#include <memory>
+                           int main(){ std::tr1::shared_ptr<int> p; return 0; }

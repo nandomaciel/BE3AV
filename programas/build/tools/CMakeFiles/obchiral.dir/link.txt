@@ -1,0 +1,1 @@
+/usr/bin/c++  -O2 -g -DNDEBUG -O2 -g  -Wl,--enable-new-dtags -Wl,--fatal-warnings -Wl,--no-undefined -lc -Wl,--enable-new-dtags -Wl,--fatal-warnings -Wl,--no-undefined -lc  -rdynamic CMakeFiles/obchiral.dir/obchiral.o  -o ../bin/obchiral -Wl,-rpath,/home/fernando/Documentos/BE3AV/build/lib: ../lib/libopenbabel.so.5.0.0 -lm -ldl -lz 
