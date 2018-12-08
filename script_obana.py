@@ -1,7 +1,7 @@
 #/bin/env/python
 #-*-encoding: utf-8 -*-
 
-# Script responsalve por executar os comando basicos
+# Script responsavel por executar os comando basicos
 
 import os, sys
 

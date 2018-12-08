@@ -1,6 +1,8 @@
 # ObaVina *(Beta)*
 
-## Depois de obter os arquivos de configuração do Chimera o programa pode ser executado
+*O programa ainda esta sendo desenvolvido, por isso contamos com a colaboração do usuário*
+
+# Dependencias
 
 ## Pacotes necessarios para execução
 
@@ -9,11 +11,19 @@
 sudo apt-get install python3-tk
 ```
 
-## É necessario ter os seguintes programas instalados
+**É necessario ter os seguintes programas instalados (recomendamos a instalação via o apt)**
 
 * [Obabel e Babel](http://openbabel.org)
 	* [Download](https://sourceforge.net/projects/openbabel/files/openbabel/2.4.1/openbabel-2.4.1.tar.gz/download)
+
 Para instalar o openBabel execute:
+
+```
+sudo apt install openbabel
+```
+
+ou
+
 ```
 tar zxf openbabel-2.4.1.tar.gz
 mkdir build
@@ -23,19 +33,39 @@ make
 make -j4
 make install
 ```
-or
+Para instalar o vina execute:
 
-```
-sudo apt install openbabel
-```
 * [Vina](http://vina.scripps.edu/)
 	* [Download](http://vina.scripps.edu/download/autodock_vina_1_1_2_linux_x86.tgz)
+
 Para instalar o vina execute:
+
+```
+sudo apt install autodock-vina
+```
+ou
+
 ```
 tar -xzvf autodock_vina_1_1_2_linux_x86.tgz
 ```
 
+## Arquivos necessarios para execução:
 
-## O programa apresenta um interface simples por esta em fase de testes
+**Depois de obter os arquivos de saida Chimera o programa pode ser executado**
+* afronp.smi
+* dock2.conf
+* dock2.receptor.pdbqt
 
-![Obavina](obana_captura.png)
+# Execução
+
+Para executar o programa abra o terminal e execute o script [graphic_obavina.py](graphic_obavina.py)
+Exemplo:
+```shell
+user$ python graphic_obavina.py
+```
+
+
+## O programa apresenta um interface simples e pratica para a utilização
+
+![Obavina](img/obavina1_captura.png)
+![Obavina](img/obavina2_captura.png)
