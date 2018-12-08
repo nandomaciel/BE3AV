@@ -2,6 +2,14 @@
 
 *O programa ainda esta sendo desenvolvido, por isso contamos com a colaboração do usuário*
 
+## Autores:
+ * Eulle Silva Araújo
+ 	* **E-mail:** eulle100@gmail.com
+	* **GitHub:** https://github.com/EulleSA
+* Fernando Rodrigues Maciel
+	* **E-mail:** nandormaciel@gmail.com
+	* **GitHub:** https://github.com/nandomaciel
+
 ## Importante
 O programa até o momento para funcionar corretamente, deve esta no mesmo diretorio que os arquivos de chimera.
 
