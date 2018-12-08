@@ -30,6 +30,11 @@ class Application:
         self.receptor_conteiner["padx"] = 20
         self.receptor_conteiner.pack()
 
+        # Conteiner para pasta dos arquivos gerados
+        self.output_conteiner = Frame(master)
+        self.output_conteiner["padx"] = 20
+        self.output_conteiner.pack()
+
         # Nome do campo do arquivo de saida
         self.quarto_container = Frame(master)
         self.quarto_container["padx"] = 20
@@ -77,6 +82,16 @@ class Application:
         self.name_file_receptor["font"] = self.fonte_padrao
         self.name_file_receptor.pack(side=LEFT)
 
+        # Nome da pasta de output
+        self.name_dir = Label(self.output_conteiner, text="Dir output:", font=self.fonte_padrao)
+        self.name_dir.pack(side=TOP)
+        # Entrada do arquivo receptor
+        self.name_dir_output = Entry(self.output_conteiner)
+        self.name_dir_output["width"] = 30
+        self.name_dir_output["font"] = self.fonte_padrao
+        self.name_dir_output.pack(side=LEFT)
+
+
         # Nome do arquivo de saida
         self.name_out = Label(self.quarto_container, text="File output", font=self.fonte_padrao)
         self.name_out.pack(side=TOP)
@@ -113,49 +128,60 @@ class Application:
 
     def run(self):
 
-
         def vina_col(file_vina):
             arquivo = open(file_vina)
             for line in arquivo:
                 if line.startswith('REMARK VINA RESULT:'):
                     vina = line.split()
-                    print(vina)
                     return vina[3]
+
+        def file_lines(file_n_lines):
+            n = 1
+            for linha in input_file:
+                n+=1
+            return n
+
+        def check_output_dir(dir_name):
+            if dir_name is None:
+                dir_name = "output"
+            os.mkdir(dir_name)
+            return dir_name + "/"
 
 
         name_file = self.name_file_smi.get()
         vina_file = self.name_file_vina.get()
         receptor_file = self.name_file_receptor.get()
         out_file = self.name_file_out.get()
+        dir_output = self.name_dir_output.get()
 
         input_file = open(name_file, "r")
         output_file = open(out_file, "w")
 
         os.system("rm " + str(output_file))
-        #n = obter_n_linhas(input_file)
-        n = 1
-        for linha in input_file:
-            n+=1
-            
+        
+        n = file_lines(input_file)
+        output = check_output_dir(dir_output)
+
+
         for i in range(1, n):
             molecula = str(i)
-            os.system("babel -ismi " + name_file + " -omol2 " + molecula + ".mol2 --gen3D -f " + molecula + " -l " + molecula)
-            os.system("obabel " + molecula + ".mol2 -O " + molecula + ".pdbqt")
-            os.system("vina --config " + vina_file + " --receptor " + receptor_file + " --ligand " + molecula + ".pdbqt " + " --out " + molecula + "_docked.pdbqt")
+            os.system("babel -ismi " + name_file + " -omol2 " + output + molecula + ".mol2 --gen3D -f " + output + molecula + " -l " + output + molecula)
+            os.system("obabel " + output + molecula + ".mol2 -O " + output + molecula + ".pdbqt")
+            os.system("vina --config " + vina_file + " --receptor " + receptor_file + " --ligand " + output + molecula + ".pdbqt " + " --out " + output + molecula + "_docked.pdbqt")
 
             # Ver saida do arquivo do vina para pegar a segunda coluna e armazenar na variavel energia
-            energia = vina_col(molecula + "_docked.pdbqt")
+            energia = vina_col(output + molecula + "_docked.pdbqt")
             output_file.write("O score de energia da molécula {} foi de {}\n".format(molecula, energia))
         
-        # output_file.close()
-        # input_file.close()
+        output_file.close()
+        input_file.close()
         
 
 root = Tk()
 root.title("ObaVina")
 screen_width = root.winfo_screenwidth()
 screen_height = root.winfo_screenheight()
-center = "300x350+"+str(screen_width/2-175)+"+"+str(screen_height/2-150)
+center = "300x400+"+str(screen_width/2-150)+"+"+str(screen_height/2-150)
 root.geometry(center)
 Application(root)
 root.mainloop()

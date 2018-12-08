@@ -2,6 +2,10 @@
 
 *O programa ainda esta sendo desenvolvido, por isso contamos com a colaboração do usuário*
 
+## Importante
+O programa até o momento para funcionar corretamente, deve esta no mesmo diretorio que os arquivos de chimera.
+
+
 # Dependencias
 
 ## Pacotes necessarios para execução
@@ -33,12 +37,11 @@ make
 make -j4
 make install
 ```
-*Para instalar o vina execute:*
 
 * [Vina](http://vina.scripps.edu/)
 	* [Download](http://vina.scripps.edu/download/autodock_vina_1_1_2_linux_x86.tgz)
 
-Para instalar o vina execute:
+*Para instalar o vina execute:*
 
 ```
 sudo apt install autodock-vina
@@ -66,6 +69,8 @@ Exemplo:
 user$ python graphic_obavina.py
 ```
 
+Após informar todos os arquivos clique no botão run e aguarde o processamento, quando todos os dados forem
+processados o botão _exit_ ficara disponivel.
 
 ## O programa apresenta um interface simples e pratica para a utilização
 
