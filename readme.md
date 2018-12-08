@@ -16,7 +16,7 @@ sudo apt-get install python3-tk
 * [Obabel e Babel](http://openbabel.org)
 	* [Download](https://sourceforge.net/projects/openbabel/files/openbabel/2.4.1/openbabel-2.4.1.tar.gz/download)
 
-Para instalar o openBabel execute:
+*Para instalar o openBabel execute:*
 
 ```
 sudo apt install openbabel
@@ -33,7 +33,7 @@ make
 make -j4
 make install
 ```
-Para instalar o vina execute:
+*Para instalar o vina execute:*
 
 * [Vina](http://vina.scripps.edu/)
 	* [Download](http://vina.scripps.edu/download/autodock_vina_1_1_2_linux_x86.tgz)
@@ -47,11 +47,13 @@ ou
 
 ```
 tar -xzvf autodock_vina_1_1_2_linux_x86.tgz
+cd autodock_vina_1_1_2_linux_x86/bin
+./vina
 ```
 
 ## Arquivos necessarios para execução:
 
-**Depois de obter os arquivos de saida Chimera o programa pode ser executado**
+**Depois de obter os arquivos de saida do Chimera o programa pode ser executado**
 * afronp.smi
 * dock2.conf
 * dock2.receptor.pdbqt
